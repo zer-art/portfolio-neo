@@ -1,0 +1,279 @@
+[
+    {
+        "id": "personal",
+        "name": "Pawan Parida",
+        "role": "AI Engineer & Data Scientist",
+        "email": "13zero7two005@gmail.com",
+        "phone": "8700579954",
+        "location": "New Delhi, India",
+        "about": "Passionate AI Engineer and Data Scientist with hands-on experience in building intelligent systems. Proficient in machine learning, deep learning, NLP, and computer vision. Dedicated to leveraging AI for solving real-world problems."
+    },
+    {
+        "id": "skills",
+        "categories": [
+            {
+                "name": "Languages",
+                "skills": [
+                    "Python",
+                    "JavaScript",
+                    "HTML",
+                    "CSS",
+                    "SQL"
+                ]
+            },
+            {
+                "name": "AI/ML",
+                "skills": [
+                    "TensorFlow",
+                    "PyTorch",
+                    "Scikit-learn",
+                    "Pandas",
+                    "NumPy",
+                    "OpenCV",
+                    "LangChain",
+                    "LLMs (Gemini, Hugging Face)",
+                    "RAG",
+                    "Computer Vision",
+                    "NLP"
+                ]
+            },
+            {
+                "name": "Web & Tools",
+                "skills": [
+                    "React",
+                    "Tailwind CSS",
+                    "Streamlit",
+                    "FastAPI",
+                    "Django",
+                    "MySQL",
+                    "Git",
+                    "n8n"
+                ]
+            }
+        ]
+    },
+    {
+        "id": "experience",
+        "items": [
+            {
+                "role": "Project Intern",
+                "company": "Edunet Foundation",
+                "location": "New Delhi, India",
+                "duration": "Apr 2025 - Present",
+                "description": "Developed a Crop and Fertilizer Recommendation System using machine learning. Gained hands-on experience in data preprocessing, model training, and evaluation with real-world agricultural datasets."
+            }
+        ]
+    },
+    {
+        "id": "projects",
+        "items": [
+            {
+                "title": "AIVOX - AI Interview Coach",
+                "description": "An AI-powered interview coach featuring real-time speech recognition, emotion analysis, and dynamic questioning.",
+                "tech": [
+                    "Groq Whisper",
+                    "MediaPipe",
+                    "Gemini API",
+                    "Tailwind CSS"
+                ],
+                "link": "https://github.com/zer-art/Academics",
+                "date": "Sep 2025"
+            },
+            {
+                "title": "News Article Research Chatbot",
+                "description": "Smart chatbot that answers questions based on news URLs using RAG and LangChain.",
+                "tech": [
+                    "LangChain",
+                    "Gemini API",
+                    "Streamlit",
+                    "Hugging Face"
+                ],
+                "link": "https://github.com/zer-art/News-Research-Analysis",
+                "date": "Jun 2025"
+            },
+            {
+                "title": "Resume Classification System",
+                "description": "Automated classification pipeline categorize resumes into 25+ domains with 98% accuracy.",
+                "tech": [
+                    "TF-IDF",
+                    "NLP",
+                    "Python",
+                    "Sklearn"
+                ],
+                "link": "https://github.com/zer-art/RESUME_SCREENER",
+                "date": "Aug 2025"
+            },
+            {
+                "title": "Crop & Fertilizer Prediction",
+                "description": "Predictive modeling system using Decision Trees to analyze soil parameters for optimal crop selection.",
+                "tech": [
+                    "Decision Trees",
+                    "Streamlit",
+                    "Pandas",
+                    "Scikit-learn"
+                ],
+                "link": "https://github.com/zer-art/ML_PROJECTS/tree/main/Crop%20and%20fertilizer%20Recomendation",
+                "date": "May 2025"
+            },
+            {
+                "title": "AI Grammar Tutor",
+                "description": "Grammar tutor using Gemini API and FastAPI for frontend interaction.",
+                "tech": [
+                    "FastAPI",
+                    "Gemini API",
+                    "React",
+                    "Python"
+                ],
+                "link": "https://github.com/zer-art/grammer",
+                "date": "Jul 2025"
+            },
+            {
+                "title": "MySQL Database Chatbot",
+                "description": "AI chatbot to query e-commerce databases using natural language.",
+                "tech": [
+                    "LangChain",
+                    "MySQL",
+                    "Streamlit",
+                    "Gemini"
+                ],
+                "link": "https://github.com/zer-art/Mysql-database-chatbot",
+                "date": "Jun 2025"
+            },
+            {
+                "title": "Handwritten Digit Classifier",
+                "description": "Deep learning model to classify handwritten digits (MNIST) using MLP in Keras.",
+                "tech": [
+                    "Keras",
+                    "Deep Learning",
+                    "Python"
+                ],
+                "link": "https://github.com/zer-art/Deep-Learning/tree/main/Handwritten%20Digit%20Classification%20with%20Multi-Layer%20Perceptron",
+                "date": "Apr 2025"
+            },
+            {
+                "title": "Pneumonia Detection System",
+                "description": "CNN-based system for detecting pneumonia from chest X-rays.",
+                "tech": [
+                    "TensorFlow",
+                    "CNN",
+                    "FastAPI"
+                ],
+                "link": "https://github.com/zer-art/pneumonia-detection",
+                "date": "Jul 2025"
+            },
+            {
+                "title": "Healthcare Chatbot",
+                "description": "Medical chatbot using semantic search and Gemini API.",
+                "tech": [
+                    "LangChain",
+                    "Pinecone",
+                    "Gemini",
+                    "Streamlit"
+                ],
+                "link": "https://github.com/zer-art/ML_PROJECTS/tree/main/Helthcare-app",
+                "date": "May 2025"
+            },
+            {
+                "title": "Spam Detection System",
+                "description": "NLP system using BERT to classify messages as spam or not.",
+                "tech": [
+                    "BERT",
+                    "TensorFlow",
+                    "NLP"
+                ],
+                "link": "https://github.com/zer-art/NLP_PROJECTS/tree/main/SPAM_DETECTION_USING_BERT",
+                "date": "Apr 2025"
+            }
+        ]
+    },
+    {
+        "id": "education",
+        "items": [
+            {
+                "degree": "B.Sc Data Analytics",
+                "institution": "DSEU Rajokri Campus",
+                "location": "Delhi, India",
+                "duration": "Jun 2023 - Present",
+                "description": "Focused on data analysis, statistics, machine learning, predictive modeling, and data visualization."
+            }
+        ]
+    },
+    {
+        "id": "certificates",
+        "items": [
+            {
+                "name": "Data Science",
+                "issuer": "Testdome",
+                "date": "Oct 2025",
+                "link": "https://www.testdome.com/certificates/101ae98a2f6b41a3803c3fd207913a3c"
+            },
+            {
+                "name": "Quantium Job Simulation",
+                "issuer": "Forage",
+                "date": "Sep 2025",
+                "link": "https://www.theforage.com/completion-certificates/32A6DqtsbF7LbKdcq/jhiG2W9K8KLZK8nXP_32A6DqtsbF7LbKdcq_qG2PYdg7f9LZyT2Lo_1758948211888_completion_certificate.pdf"
+            },
+            {
+                "name": "Big Data Foundations",
+                "issuer": "IBM",
+                "date": "Aug 2025",
+                "link": "https://www.credly.com/badges/eef48180-b39a-43ec-a5c2-118d2692b78b/linked_in_profile"
+            },
+            {
+                "name": "GenAI Job Simulation",
+                "issuer": "BCG",
+                "date": "Aug 2025",
+                "link": "https://forage-uploads-prod.s3.amazonaws.com/completion-certificates/SKZxezskWgmFjRvj9/gabev3vXhuACr48eb_SKZxezskWgmFjRvj9_qG2PYdg7f9LZyT2Lo_1756273019492_completion_certificate.pdf"
+            },
+            {
+                "name": "Linear Regression with Python",
+                "issuer": "Coursera",
+                "date": "Apr 2025",
+                "link": ""
+            },
+            {
+                "name": "Computer Vision 101",
+                "issuer": "Infosys Springboard",
+                "date": "May 2025",
+                "link": ""
+            }
+        ]
+    },
+    {
+        "id": "volunteer",
+        "items": [
+            {
+                "role": "Event Staff",
+                "organization": "Gillette India Pvt. Ltd",
+                "description": "Volunteered at the Safalta Professional Development Program. Assisted attendees, addressed queries, and contributed to the seamless execution of the event at DSEU Rajokri.",
+                "link": "https://www.linkedin.com/in/pawan-parida-60134b276/details/volunteering-experiences/1744955946971/single-media-viewer/?profileId=ACoAAENTlaEB49ZUCvBQwO0amZN6fR6q7QFHvTI"
+            }
+        ]
+    },
+    {
+        "id": "opensource",
+        "items": [
+            {
+                "title": "Optax Documentation Fix",
+                "repo": "google-deepmind/optax",
+                "description": "Clarified documentation for kl_divergence and convex_kl_divergence #1513.",
+                "link": "https://github.com/google-deepmind/optax",
+                "status": "+52 -17 lines"
+            },
+            {
+                "title": "Formalize Erdős Problem",
+                "repo": "google-deepmind/formal-conjectures",
+                "description": "Added formalization for Erdős Problem 1107 regarding r-powerful numbers. Closes #1304.",
+                "link": "https://github.com/google-deepmind/formal-conjectures",
+                "status": "Merged"
+            },
+            {
+                "title": "Fix Broken Link",
+                "repo": "JdeRobot/RoboticsAcademy",
+                "description": "Fixed broken link for digit classifier exercise.",
+                "link": "https://github.com/JdeRobot/RoboticsAcademy",
+                "status": "Merged"
+            }
+        ]
+    }
+]

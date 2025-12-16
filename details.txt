@@ -1,0 +1,3135 @@
+Pawan  Parida
+Email 13zero7two005@gmail.com
+Phone 8700579954
+Address WZ-114B Naraina village
+Location New Delhi Delhi India
+Work Experience
+Edunet Foundation  | New Delhi, India
+Project Intern
+Apr 2025
+* Conducted exploratory data analysis (EDA) on 2,000+ soil samples to identify optimal fertilizer ratios, reducing potential chemical waste by ~15%.
+* Designed and deployed an interactive Streamlit dashboard to visualize crop viability trends, cutting data interpretation time by 40% for non-technical stakeholders.
+* Processed and cleaned raw agricultural datasets using Pandas to ensure data integrity for predictive modeling.
+Analytically driven Data Analytics student with expertise in **Python** (Pandas, NumPy), **SQL**, and **Data Visualization**. Proven track record of leveraging data to drive decision-making, including optimizing agricultural yields through predictive modeling and reducing data retrieval times by 95% via automated SQL pipelining. Passionate about translating complex datasets into clear, actionable business insights.
+DSEU Rajokri Campus  | Delhi India
+Information Technology, B.Sc Data Analytics
+Jun.2023 - Present
+Relevant Coursework: Data Analysis, Statistical Modeling, Machine Learning, Database Management (SQL), Data Visualization using Python. 
+Skills
+Data Analysis (Excel, Pandas, NumPy)
+Basic Coding (Python, SQL)
+Data Visualization (Streamlit, Matplotlib)
+Database Management (MySQL)
+Statistical Analysis
+Data Cleaning & Preprocessing
+Machine Learning
+HTML/CSS/JavaScript
+
+
+Projects
+
+Major Project (Behavioral Data Analysis Platform)
+* Analyzed high-frequency time-series data (video frames) using MediaPipe to quantify user engagement metrics.
+* Optimized data processing pipelines to handle real-time streams, improving system responsiveness by 1800% (450ms to 25ms).
+* Visualized feedback metrics in real-time using Tailwind CSS, providing users with instant performance analytics.
+
+september 2025 
+
+Associated with DSEU delhi skill entrepreneurship university 
+
+
+News Article Research & Synthesis Agent
+* Built a data synthesis pipeline capable of aggregating and analyzing insights from 50+ concurrent unstructured data sources (URLs).
+* Achieved 88.3% Retrieval Accuracy (NDCG@5) by implementing rigorous context-grounding and source citation protocols.
+* Engineered a scalable workflow to automate content extraction and summarization, analyzing complex textual data <2.1s.
+
+Resume Classification & Analytics System
+* Developed an automated classification pipeline to categorize unstructured text data (resumes) into 25+ domain categories.
+* Achieved 98.45% automated categorization accuracy, potentially reducing manual data entry efforts by 12+ hours/week.
+* Utilized TF-IDF vectorization to identify key skill keywords and trends across diverse job descriptions.
+
+
+AI Grammar Tutor
+* Deployed a GenAI-powered Grammar Assistant with 92.3% detection accuracy for syntax and tense errors.
+* Fine-tuned prompt engineering strategies (Temp 0.2), reducing model hallucinations and ensuring consistent pedagogical feedback.
+* Engineered a high-concurrency FastAPI backend handling multiple requests with <1.8s average response time.
+
+github link : https://github.com/zer-art/grammer
+
+Automated SQL Query & Reporting System (MySQL)
+* Engineered an automated data retrieval system capable of generating complex SQL queries (Joins, Aggregations) from natural language inputs.
+* Reduced report generation time from ~10 minutes to <1 second for non-technical teams, improving data accessibility.
+* Performed validation on 500+ query permutations ensuring 91.2% accuracy in data extraction.
+
+github link : https://github.com/zer-art/Mysql-database-chatbot
+
+
+Pneumonia Detection
+* Trained a Convolutional Neural Network (CNN) on pediatric chest X-rays, achieving 91.3% Validation Accuracy.
+* Optimized model methodology to minimize false negatives, critical for early-stage medical diagnosis.
+* Deployed the model via FastAPI to a web interface for accessible, real-time diagnostic support.
+github link : https://github.com/zer-art/pneumonia-detection
+
+Healthcare Chatbot
+* Developed a context-aware medical assistant using Pinecone for vector search and Gemini for generation.
+* Achieved semantic search latency of <100ms, providing instant access to verified medical knowledge.
+git-repo-link : https://github.com/zer-art/ML_PROJECTS/tree/main/Helthcare-app
+Crop and Fertilizer Predictive Analytics | May 2025
+* Developed a predictive modeling system using Decision Trees to analyze soil parameters (NPK, pH) for optimal crop selection.
+* Achieved 99.7% accuracy in crop recommendation, providing data-driven insights to improve agricultural sustainability.
+* Built an interactive Streamlit application to visualize environmental data/fertilizer impact for end-users.
+git-repo-link : https://github.com/zer-
+art/ML_PROJECTS/tree/main/Crop%20and%20fertilizer%20Recomendation
+
+Spam and not Spam detection | Apr 2025
+* Built a robust Spam Classifier using BERT (Bidirectional Encoder Representations from Transformers).
+* Achieved 97.7% Accuracy and 0% False Positive Rate, ensuring critical messages are never blocked.
+* Deployed via Streamlit for real-time text analysis.
+git-repo-link : https://github.com/zer-art/NLP_PROJECTS/tree/main/SPAM_DETECTION_USING_BERT
+
+Handwritten Digit Classiﬁcation with Multi-Layer Perceptron | Apr 2025
+Developed a deep learning model to classify handwritten digits using the MNIST dataset. This project 
+focused on implementing a Multi-Layer Perceptron (MLP) network in Keras, demonstrating proﬁciency in 
+fundamental neural network architectures. 
+git-repo-link : 
+Certiﬁcate
+
+data science
+
+Issuing organization 
+Testdome
+
+Issue date
+Month of Issue date
+˘Year of Issue date
+october 2025
+Credential ID
+www.testdome.com/certificates/101ae98a2f6b41a3803c3fd207913a3c
+Credential URL
+https://www.testdome.com/certificates/101ae98a2f6b41a3803c3fd207913a3c
+Skills
+
+Python (Programming Language)
+Pandas (Software)
+NumPy
+
+Quantium - Software Engineering Job Simulation
+Forage
+september 2025
+credential id 6pQfzDQFki5myWwXs
+credential url 
+https://www.theforage.com/completion-certificates/32A6DqtsbF7LbKdcq/jhiG2W9K8KLZK8nXP_32A6DqtsbF7LbKdcq_qG2PYdg7f9LZyT2Lo_1758948211888_completion_certificate.pdf
+
+AI and Data Scientist
+OneRoadmap
+aughust 2025
+credential url 
+https://oneroadmap.io/skills/ai-ds/certificate/CERT-5C43F4CB
+
+
+BCG - GenAI Job Simulation
+Forage
+august 2025 
+credential id b2SWDyuKiouDPnxrJ
+credential url 
+https://forage-uploads-prod.s3.amazonaws.com/completion-certificates/SKZxezskWgmFjRvj9/gabev3vXhuACr48eb_SKZxezskWgmFjRvj9_qG2PYdg7f9LZyT2Lo_1756273019492_completion_certificate.pdf
+
+
+Big Data Foundations - Level 1
+IBM
+august 2025
+credential url 
+https://www.credly.com/badges/eef48180-b39a-43ec-a5c2-118d2692b78b/linked_in_profile
+
+Focus Your Direction with Workplace Research (Job Application Essentials )
+IBM
+Issued Aug 2025
+Credential ID ILB-EKRXMDVQYGYM7V4E
+Skills: LinkedIn · Research Skills · Organization Skills
+
+Lloyds Banking Group - Data Science Job Simulation
+ForageForage
+Issued Jul 2025
+Credential ID Wh5xsW6Zze4GotDfd
+Skills: Python (Programming Language) · Statistical Data Analysis · Exploratory Data Analysis
+
+Tata - Data Visualisation: Empowering Business with Effective Insights Job Simulation
+ForageForage
+Issued Jul 2025
+Credential ID 62XbZwHTvfvxDegsS
+
+Skills: Microsoft Power BI · Data Processing · Data Visualization
+
+Object oriented programming in python by Infosys Springboard issued on Apr 2025  
+Mastering Data Analysis with pandas by Coursera issued on Apr 2025 : 
+https://www.coursera.org/account/accomplishments/records/W3Z71AYER30H
+
+Introduction to deep learning by Infosys Springboard issued on May 2025
+
+Introduction to Artiﬁcial intelligence by Infosys Springboard issued on May 2025 
+
+Computer Vision 101  by Infosys Springboard issued on May 2025 
+
+
+Linear Regression with Python
+Linear Regression with Python
+Coursera Project NetworkCoursera Project Network
+Issued Apr 2025Issued Apr 2025
+Credential ID JBZ36Y900I1H
+Show credential
+Skills: Pandas (Software) · NumPy · Matplotlib · Python (Programming Language) · Object-Oriented Programming (OOP)
+
+
+volunteer
+
+Event Staff
+Event Staff
+Gillette India Pvt. LtdGillette India Pvt. Ltd
+Jul 2024
+EducationEducation
+* Orchestrated end-to-end event operations for 400+ attendees, ensuring 100% on-time schedule adherence.
+* Streamlined registration workflows, significantly improving participant engagement and satisfaction scores.
+
+letter of recommendation :https://www.linkedin.com/in/pawan-parida-60134b276/details/volunteering-experiences/1744955946971/single-media-viewer/?profileId=ACoAAENTlaEB49ZUCvBQwO0amZN6fR6q7QFHvTI
+
+open-source contributions 
+
+Clarify difference between kl_divergence and convex_kl_divergence
+google-deepmind/optax
+Nov 2025 | 18 comments
+Pull Request addressing issue #1513 by clarifying the documentation for kl_divergence and convex_kl_divergence functions. Enhanced documentation clarity and helped maintainers with implementation details.
++52 -17 lines changed
+
+fix: correct broken link for digit classifier exercise
+JdeRobot/RoboticsAcademy
+Nov 2025 | Merged
+Fixed broken link for digit classifier exercise in RoboticsAcademy repository.
+
+Formalize Erdős Problem 1107
+google-deepmind/formal-conjectures
+Dec 2025 | 11 comments
+Pull Request that adds the formalization for Erdős Problem 1107 involving r-powerful numbers. Closes issue #1304.
++52 -0 lines changed
+
+Awards & Achievements
+
+* Won 1st position in Hackathon at DSEU (13-11-2025)
+* Won 2nd position in Badminton Doubles at DSEU (13-11-2025)
+
+
+Languages
+Hindi native
+English fluent 
+Odiya native
+
+
+
+================================================================================
+EXISTING RESUME DATA (PRESERVED ABOVE)
+================================================================================
+
+================================================================================
+COMPREHENSIVE PROJECT DATABASE
+Auto-generated from README files
+================================================================================
+
+
+================================================================================
+ACADEMIC PROJECTS
+================================================================================
+
+
+## Academics / Readme
+Source: Readme/Academics__Readme.md
+
+Key Features:
+  - **Differentiation and Integration**: PDF notes.
+  - **DBMS**: Practical files, SQL commands, and Python integration.
+  - **EVS**: Activities and reference materials.
+  - **Excel**: Advanced Excel practicals, notes, and worksheets.
+  - **FTW-sel**: Inclusive culture document.
+
+--------------------------------------------------------------------------------
+
+## Academics / Minor-Project / README
+Source: Readme/Academics__Minor-Project__README.md
+
+Technologies:
+  - requirements.txt
+  - MediaPipe, and classifies gestures using an LSTM neural network.
+  - a **Predictive Text Engine**, verified via a **Django Web Interface**.
+
+Key Features:
+  - Anaconda or Miniconda installed.
+  - `hand-detection/`: Model training and real-time inference logic.
+  - `word-suggest/`: Probabilistic spell-checking algorithm.
+  - `dev/`: Django web application source code.
+  - `requirements.txt`: Unified project dependencies.
+
+Metrics/Results:
+  - 1 Accuracy
+  - 160 ms
+  - 1.16 ms
+  - 5 Accuracy
+
+--------------------------------------------------------------------------------
+
+## Academics / Major-project / TECHNICAL DETAILS
+Source: Readme/Academics__Major-project__TECHNICAL_DETAILS.md
+
+Technologies:
+  - scipy)
+
+Key Features:
+  - ❌ 200-500ms latency (2-3 FPS max)
+  - ❌ 2.5GB model files
+  - ❌ 90%+ CPU usage
+  - ❌ Black-box predictions
+  - ❌ Not actionable ("you look sad" - now what?)
+
+Metrics/Results:
+  - 45ms
+  - 420ms
+  - 250ms
+  - 30 FPS
+  - 2.3 FPS
+
+--------------------------------------------------------------------------------
+
+## Academics / Minor-Project / word-suggest / README
+Source: Readme/Academics__Minor-Project__word-suggest__README.md
+
+Technologies:
+  - a test set of 15 common misspellings on a local machine (M1/M2/Intel Mac).
+  - -150458)
+  - suggest.py
+  - requirements.txt
+  - benchmark.py
+
+Key Features:
+  - **Probabilistic Correction**: Uses a dataset-driven probability model to suggest the most likely words.
+  - **Top-N Suggestions**: Returns a ranked list of potential corrections, not just one.
+  - **Customizable Dataset**: Easily swap the source text to train the model on different domains.
+  - `suggest.py`: Core logic for probability calculation and word suggestion.
+  - `autocorrect book.txt`: Source text used to build the vocabulary and frequency model.
+
+Metrics/Results:
+  - 1 Accuracy
+  - 594 ms
+  - 5 Accuracy
+
+--------------------------------------------------------------------------------
+
+## Academics / 5TH SEM / AI / practicals / 04 / B tic-tac-toe / README
+Source: Readme/Academics__5TH_SEM__AI__practicals__04__B_tic-tac-toe__README.md
+
+Technologies:
+  - Pygame
+  - requirements.txt
+  - R
+  - play.py
+  - an AI opponent using the Minimax algorithm, built with Python and Pygame.
+
+Key Features:
+  - Play against an AI that never loses
+  - Visual board using Pygame
+  - Shows result (Win/Lose/Tie) in terminal and on board
+  - Press `R` to restart the game
+  - Click on a square to make your move.
+
+--------------------------------------------------------------------------------
+
+## Academics / Major-project / README
+Source: Readme/Academics__Major-project__README.md
+
+Links:
+  - https://github.com/zer-art/Academics.git
+  - https://github.com/zer-art/Academics.git
+
+Technologies:
+  - : python -c "import secrets; print(secrets.token_hex(32))")
+  - audio devices
+  - real-time speech recognition, emotion analysis, and intelligent feedback.
+  - Major-project
+  - GEMINI
+  - the included `benchmark_cnn_vs_mediapipe.py` script.
+  - `python3 --version`)
+  - sparse support (only downloads required files)
+  - Silero VAD
+  - :
+
+Key Features:
+  - **🎤 Real-time Speech Recognition** - Groq Whisper API with Silero VAD
+  - **😊 Emotion Analysis** - MediaPipe face tracking and expression detection
+  - **🤖 AI Interviewer** - Dynamic questions via Google Gemini
+  - **📊 Performance Reports** - Comprehensive analytics and feedback
+  - **🌐 Modern UI** - Responsive Tailwind CSS interface
+
+Metrics/Results:
+  - 31.0ms
+  - 32 FPS
+  - 1.6ms
+  - 616 FPS
+
+--------------------------------------------------------------------------------
+
+================================================================================
+COMPUTER VISION PROJECTS
+================================================================================
+
+
+## Computer-Vision-Projects / Readme
+Source: Readme/Computer-Vision-Projects__Readme.md
+
+Links:
+  - https://github.com/zer-art/Computer-Vision-Projects.git
+
+Technologies:
+  - deep learning.
+  - ❤️ by the Computer Vision Community**
+  - live video feed
+  - ** Python, OpenCV, FastAPI, HTML5, JavaScript
+  - camera access (for face detection)
+  - and detection
+  - OpenCV and FastAPI.
+  - Haar cascade classifiers
+  - async support
+  - minimal false positives
+
+Key Features:
+  - Real-time face detection using Haar cascade classifiers
+  - Modern web interface with live video feed
+  - Video recording capabilities
+  - Cross-platform compatibility
+  - CNN-based pneumonia classification
+
+Metrics/Results:
+  - 2 seconds
+
+--------------------------------------------------------------------------------
+
+## Computer-Vision-Projects / Face-Detection / Readme
+Source: Readme/Computer-Vision-Projects__Face-Detection__Readme.md
+
+Links:
+  - https://github.com/zer-art/FACE-DETECTION.git
+
+Technologies:
+  - ### Backend
+  - OpenCV's face detection algorithms
+  - flexbox and grid layouts
+  - live video feed
+  - minNeighbors
+  - bounding boxes and labels
+  - tab
+  - scaleFactor
+  - minSize
+  - OpenCV, FastAPI, and modern web technologies.
+
+Key Features:
+  - **Real-time Face Detection**: Uses OpenCV's Haar cascade classifiers for accurate face detection
+  - **Web Interface**: Modern, responsive web interface with live video feed
+  - **Video Recording**: Record detected face sessions directly in the browser
+  - **FastAPI Backend**: Robust API backend for processing computer vision tasks
+  - **Responsive Design**: Works seamlessly across desktop and mobile devices
+
+--------------------------------------------------------------------------------
+
+## Computer-Vision-Projects / pneumonia-detection / Readme
+Source: Readme/Computer-Vision-Projects__pneumonia-detection__Readme.md
+
+Links:
+  - https://github.com/zer-art/pneumonia-detection
+
+Technologies:
+  - requirements.txt
+  - main.py
+  - CORS enabled for easy frontend integration
+  - index.html
+  - Readme.md
+
+Key Features:
+  - **Architecture**: Sequential Convolutional Neural Network (CNN)
+  - **Parameters**: 11,169,218 (~42.6 MB)
+  - **Input Shape**: (224, 224, 3)
+  - **Source**: [Pediatric Pneumonia Chest X-ray (Kaggle)](https://www.kaggle.com/datasets/andrewmvd/pediatric-pneumonia-chest-xray)
+  - **Split Strategy**:
+
+--------------------------------------------------------------------------------
+
+================================================================================
+FINANCIAL PROJECTS
+================================================================================
+
+
+## Financial-repo / Finance app / web app / readme
+Source: Readme/Financial-repo__Finance_app__web_app__readme.md
+
+Links:
+  - https://github.com/yourusername/Finance_app.git
+
+Key Features:
+  - Git
+  - Python 3.x
+  - Virtualenv
+  - On Windows:
+  - On macOS/Linux:
+
+--------------------------------------------------------------------------------
+
+## Financial-repo / README
+Source: Readme/Financial-repo__README.md
+
+Links:
+  - https://github.com/zer-art/Financial-repo.git
+
+Technologies:
+  - Signals-tele-miniapp
+  - Options-programming
+  - a detailed description of your changes.
+
+Key Features:
+  - **Finance App**: A web application for managing personal finances, including loans, investments, and security preferences.
+  - **Options Programming**: Tools and models for options trading, including machine learning models for predictions.
+  - **Signals Tele Miniapp**: A mini application for processing and analyzing financial signals.
+  - Access the web applications via the browser at `http://127.0.0.1:8000/`.
+  - Explore features like financial dashboards, options trading strategies, and signal analysis tools.
+
+--------------------------------------------------------------------------------
+
+================================================================================
+INTERNSHIPS
+================================================================================
+
+
+## INTERNSHIPS / forage-lloyds / readme
+Source: Readme/INTERNSHIPS__forage-lloyds__readme.md
+
+Technologies:
+  - utils.py
+  - model.py
+  - requirements.txt
+
+Key Features:
+  - `notebook/eda.ipynb`: Data exploration and visualization.
+  - `notebook/model.ipynb`: Model building and evaluation.
+  - The dataset `Customer_Churn_Data_Large.xlsx` is located in the `data/` folder.
+  - All core logic is in the `src/` directory:
+  - `model.py`: Model training and prediction functions.
+
+--------------------------------------------------------------------------------
+
+## INTERNSHIPS / forage-BCGx / README
+Source: Readme/INTERNSHIPS__forage-BCGx__README.md
+
+--------------------------------------------------------------------------------
+
+## INTERNSHIPS / Readme
+Source: Readme/INTERNSHIPS__Readme.md
+
+Technologies:
+  - in each folder.
+  - requirements.txt
+  - code, data, and documentation organized for easy access.
+
+Key Features:
+  - Contains assignments, lecture notes, and machine learning models for crop and fertilizer prediction.
+  - Notebooks and data files are provided for hands-on learning and experimentation.
+  - Focused on customer churn analysis and predictive modeling.
+  - Includes Python scripts, Jupyter notebooks, and a large dataset for analysis.
+  - Each project may have its own dependencies and setup instructions. Refer to the respective `requirements.txt` or documentation within each folder.
+
+--------------------------------------------------------------------------------
+
+## INTERNSHIPS / forage-quantium software engineer / Readme
+Source: Readme/INTERNSHIPS__forage-quantium_software_engineer__Readme.md
+
+--------------------------------------------------------------------------------
+
+================================================================================
+LLM PROJECTS
+================================================================================
+
+
+## LLM-Projects / Readme
+Source: Readme/LLM-Projects__Readme.md
+
+Technologies:
+  - the provided SQL script.
+  - requirements.txt
+  - main.py
+  - its own codebase, dependencies, and documentation. Below is an overview of each project:
+  - LLMs, based on cuisine and style inputs.
+  - app.py
+  - `pip install -r requirements.txt` or `pip install .` as needed.
+  - pyproject.toml
+  - LLMs and retrieval-augmented generation (RAG) techniques.
+
+Key Features:
+  - **Backend:** Python (main.py, src/)
+  - **Frontend:** HTML, CSS, JavaScript (frontend/)
+  - **Usage:** Run `main.py` to start the backend server. Open `frontend/index.html` in a browser for the UI.
+  - **Backend:** Python (app.py, src/)
+  - **Database:** SQL scripts for setup (database/)
+
+--------------------------------------------------------------------------------
+
+## LLM-Projects / CHANGES SUMMARY
+Source: Readme/LLM-Projects__CHANGES_SUMMARY.md
+
+Technologies:
+  - difficulty/category breakdown
+  - overview
+  - section with Gemini 2.0 Flash
+  - endpoint details
+  - Gemini 2.0 Flash
+  - :**
+  - all projects
+  - benchmarks, evaluation scripts |
+  - test results
+  - category breakdown
+
+Key Features:
+  - `/Users/pawan/Developer/LLM-Projects/Ai-Grammer-Tutor/src/utils.py`
+  - `/Users/pawan/Developer/LLM-Projects/Mysql-database-chatbot/src/utils.py`
+  - `/Users/pawan/Developer/LLM-Projects/News-Research-Analysis/src/rag.py`
+  - File: `evaluate_metrics.py`
+  - Tests: 15 test cases across 10 grammar categories
+
+Metrics/Results:
+  - 92.3% accuracy
+
+--------------------------------------------------------------------------------
+
+## LLM-Projects / README UPDATED
+Source: Readme/LLM-Projects__README_UPDATED.md
+
+Links:
+  - https://github.com/zer-art
+
+Technologies:
+  - ** Streamlit + LangChain + HuggingFace Embeddings + Gemini 2.0 Flash
+  - Gemini 2.0 Flash and LangChain
+  - structured templates
+  - 91.2% accuracy and 0.74s response time
+  - **87.6% retrieval accuracy** and **<2% hallucination rate**.
+  - ** FastAPI + LangChain + Gemini 2.0 Flash
+  - :
+  - 87.6% retrieval accuracy (NDCG@5) and <2% hallucination rate
+  - latest Gemini 2.0 Flash (Dec 2024)
+  - ** Streamlit + LangChain + HuggingFace Embeddings + Chroma + Gemini 2.0 Flash
+
+Key Features:
+  - **Metrics:** 92.3% accuracy | 1.8s response | 100% precision on correct sentences
+  - **Stack:** FastAPI + LangChain + Gemini 2.0 Flash
+  - **Features:** Real-time error detection, educational explanations, category-specific accuracy
+  - **Key Achievement:** 15-category test suite with structured evaluation
+  - **Metrics:** 91.2% SQL accuracy | 89.5% semantic F1-score | 98.7% execution success
+
+Metrics/Results:
+  - 100% precision
+  - 100% 
+   precision
+  - 91.2% accuracy
+  - 92.3% accuracy
+
+--------------------------------------------------------------------------------
+
+## LLM-Projects / Ai-Grammer-Tutor / README
+Source: Readme/LLM-Projects__Ai-Grammer-Tutor__README.md
+
+Links:
+  - https://github.com/your-username/grammer.git
+  - https://github.com/zer-art
+
+Technologies:
+  - proper error handling and CORS configuration
+  - CORS-enabled endpoints
+  - configurable temperature (0.2) for consistent outputs
+  - Google Gemini 2.0 Flash
+  - balanced error/correct samples
+  - structured templates
+  - in ~1.8s
+  - explicit instructions improved accuracy by ~15%
+  - a simple HTTP server for local development.)*
+  - **Backend:**
+
+Key Features:
+  - **Grammar Correction**: Detects and explains basic grammar errors.
+  - **Sub-2s Response Time:** Average 1.8s latency for real-time feedback
+  - **Educational Feedback:** Provides rule explanations, corrections, and examples in each response
+  - **RESTful API Architecture:** FastAPI backend with CORS-enabled endpoints
+  - **Scalable LLM Integration:** LangChain framework with configurable temperature (0.2) for consistent outputs
+
+Metrics/Results:
+  - 92.3% accuracy
+
+--------------------------------------------------------------------------------
+
+## LLM-Projects / Restautant-Name-And-Menu-Gen / Readme
+Source: Readme/LLM-Projects__Restautant-Name-And-Menu-Gen__Readme.md
+
+Links:
+  - https://github.com/zer-art/Restaurant-Name-And-Menu-Item-Generator>
+
+Technologies:
+  - cuisines.txt
+  - Google's Generative AI models (Gemini).
+  - your actual API key.
+  - styles.txt
+  - data
+  - `cuisines.txt` and `styles.txt` in the root of your project.
+  - the Gemini API.
+  - *   **Python:** Core programming language.
+
+Key Features:
+  - **Restaurant Name Generation:**
+  - Select a cuisine type (e.g., Italian, Mexican, Indian).
+  - Select a restaurant style (e.g., Modern, Rustic, Casual).
+  - Generates unique and appealing restaurant names based on your selections.
+  - **Menu Idea Generation:**
+
+--------------------------------------------------------------------------------
+
+## LLM-Projects / News-Research-Analysis / README
+Source: Readme/LLM-Projects__News-Research-Analysis__README.md
+
+Links:
+  - https://github.com/zer-art/News-Research-Analysis
+  - https://github.com/zer-art
+
+Technologies:
+  - streaming support
+  - tools like `RAGAS` or `TruLens` for automated evaluation, or human annotators for ground truth.
+  - RAGAS
+  - Gemini 2.0 Flash
+  - **Backend:**
+  - clear HTML structure works best
+  - top-k retrieval (k=2)
+  - accessible text content
+  - out excessive length
+  - TruLens
+
+Key Features:
+  - **Advanced RAG Pipeline**: Retrieval-Augmented Generation for factually grounded answers
+  - **Response Time**: Tuned for speed with streaming support
+  - **Multi-Source Integration**: Process and synthesize multiple news URLs simultaneously
+  - **Semantic Search**: HuggingFace embeddings for accurate document ranking
+  - **Low Hallucination**: Grounding in source material to minimize errors
+
+Metrics/Results:
+  - 288ms
+
+--------------------------------------------------------------------------------
+
+## LLM-Projects / Mysql-database-chatbot / README
+Source: Readme/LLM-Projects__Mysql-database-chatbot__README.md
+
+Links:
+  - https://github.com/yourusername/Ecom-chatbot.git
+  - https://github.com/zer-art
+
+Technologies:
+  - Gemini 2.0 Flash
+  - few-shot semantic prompting for enterprise e-commerce databases.
+  - **Backend:**
+  - app.py
+  - connection pooling
+  - PyMySQL driver
+  - :
+  - SemanticSimilarityExampleSelector
+
+Key Features:
+  - **SELECT / WHERE**: Basic data retrieval
+  - **JOIN operations**: Multi-table data merging
+  - **Aggregations**: SUM, COUNT, AVG
+  - **GROUP BY**: Categorical analysis
+  - **Natural Language to SQL**: Converts questions to executable SQL.
+
+Metrics/Results:
+  - 91.2% accuracy
+
+--------------------------------------------------------------------------------
+
+## LLM-Projects / PORTFOLIO ANALYSIS
+Source: Readme/LLM-Projects__PORTFOLIO_ANALYSIS.md
+
+Technologies:
+  - 87.6% retrieval accuracy
+  - 1.8s response latency" | Quantified performance |
+  - Gemini 2.0 Flash"
+  - structured format (JSON logs)
+  - temperature tuning (0.2)" | Technical depth |
+  - real-time response (<1.8s latency) and
+  - GitHub Actions"
+  - Gemini 2.0 Flash and LangChain
+  - [tool]"
+  - 94% citation coverage ensuring factual grounding
+
+Key Features:
+  - 92.3% accuracy in error detection
+  - 1.8s response time (fastest)
+  - 100% accuracy on correct sentence recognition (no false positives)
+  - Category-specific accuracy breakdown (95% subject-verb, 93% homophones)
+  - **Recruiter Value:** Shows deep NLP understanding & prompt engineering expertise
+
+Metrics/Results:
+  - 100% 
+   precision
+  - 92.3% accuracy
+  - 15% accuracy
+  - 100% accuracy
+  - 91.2% accuracy
+
+--------------------------------------------------------------------------------
+
+================================================================================
+MACHINE LEARNING PROJECTS
+================================================================================
+
+
+## MACHINE-LEARNING-PROJECTS / LINEAR REGRESSION FROM SCRATCH / Readme
+Source: Readme/MACHINE-LEARNING-PROJECTS__LINEAR_REGRESSION_FROM_SCRATCH__Readme.md
+
+Technologies:
+  - Learning Rate = 0.01 |
+  - Used
+  - main.ipynb
+  - np.dot
+
+Key Features:
+  - **Pure NumPy Implementation**: Understand the math behind the magic.
+  - **Gradient Descent**: Custom implementation of the optimization algorithm.
+  - **Visualization**: Matplotlib plots to visualize the regression line and data points.
+  - **Interactive Notebook**: Step-by-step derivation and code.
+  - **Python**
+
+--------------------------------------------------------------------------------
+
+## MACHINE-LEARNING-PROJECTS / ML real state prediction / README
+Source: Readme/MACHINE-LEARNING-PROJECTS__ML_real_state_prediction__README.md
+
+--------------------------------------------------------------------------------
+
+## MACHINE-LEARNING-PROJECTS / Readme
+Source: Readme/MACHINE-LEARNING-PROJECTS__Readme.md
+
+Links:
+  - https://github.com/zer-art
+
+Technologies:
+  - machine learning models.
+  - pyproject.toml
+  - model.py
+  - .data`, `housing.names`
+  - a hybrid of content-based and collaborative filtering.
+  - out libraries.
+  - housing.names
+  - housing.data
+  - Used
+  - data.csv
+
+Key Features:
+  - **Purpose:** Recommends optimal crops and fertilizers based on soil and environmental data.
+  - **Features:** Pre-trained models, interactive notebooks, web app interface.
+  - **Main files:** `app.py`, `Crop_Prediction.ipynb`, `Fertilizer_recommendation.ipynb`
+  - **Data:** `data/Crop_recommendation.csv`, `data/Fertilizer Prediction.csv`
+  - **Models:** `model/crop_model.sav`, `model/fertilizer_model.sav`
+
+--------------------------------------------------------------------------------
+
+## MACHINE-LEARNING-PROJECTS / Helthcare-app / Readme
+Source: Readme/MACHINE-LEARNING-PROJECTS__Helthcare-app__Readme.md
+
+Technologies:
+  - a curated knowledge base.
+  - benchmark.py
+  - Used
+
+Key Features:
+  - **Question-Answering System**: Answers health-related questions using a curated knowledge base.
+  - **Extensible Functions**: Add custom logic for advanced queries.
+  - **Modular Design**: Organized codebase for maintainability.
+  - **CLI and API Ready**: Easily adaptable for web or command-line interfaces.
+  - **Python 3.8+**
+
+--------------------------------------------------------------------------------
+
+## MACHINE-LEARNING-PROJECTS / Crop and fertilizer Recomendation / Readme
+Source: Readme/MACHINE-LEARNING-PROJECTS__Crop and fertilizer Recomendation__Readme.md
+
+Technologies:
+  - the provided `metrics_evaluation.py`.
+  - Used
+
+Key Features:
+  - **Crop Recommendation**: Suggests best crops for given conditions.
+  - **Fertilizer Recommendation**: Recommends suitable fertilizers.
+  - **Pre-trained Models**: Uses saved models for fast predictions.
+  - **Interactive Notebooks**: Explore and analyze data.
+  - **Web App**: User-friendly interface for recommendations.
+
+--------------------------------------------------------------------------------
+
+## MACHINE-LEARNING-PROJECTS / Recommendation-app / README
+Source: Readme/MACHINE-LEARNING-PROJECTS__Recommendation-app__README.md
+
+Links:
+  - https://github.com/zer-art
+
+Technologies:
+  - the Recommendation Engine Programmatically
+  - coverage
+  - synthetic benchmark data.*
+  - Streamlit for easy user interaction
+  - sklearn.neighbors.NearestNeighbors
+  - Used
+  - streamlit
+  - Python and Streamlit for an interactive web interface.
+  - benchmark.py
+  - app.py
+
+Key Features:
+  - **Hybrid Recommendation Engine**: Combines content-based and collaborative filtering for better accuracy
+  - **Interactive Web Interface**: Built with Streamlit for easy user interaction
+  - **Multiple Recommendation Types**:
+  - Content-Based: Recommendations based on movie genres and features
+  - Collaborative Filtering: Recommendations based on user behavior patterns
+
+Metrics/Results:
+  - 3ms
+
+--------------------------------------------------------------------------------
+
+================================================================================
+NLP PROJECTS
+================================================================================
+
+
+## NLP-PROJECTS / SPAM DETECTION USING BERT / readme
+Source: Readme/NLP-PROJECTS__SPAM_DETECTION_USING_BERT__readme.md
+
+Technologies:
+  - BERT
+  - app.py
+  - spam.csv
+  - the spam detector.*
+
+Key Features:
+  - **Advanced NLP**: Uses a pre-trained BERT model from TensorFlow Hub for deep semantic understanding.
+  - **Real-Time Inference**: Streamlit-based web interface for instant feedback.
+  - **Robustness**: Handles long sequences and complex sentence structures better than traditional ML models.
+  - **High Performance**: Achieving **~98% Accuracy** on the evaluation dataset.
+  - **Accuracy**: **97.7%**
+
+Metrics/Results:
+  - 98% Accuracy
+
+--------------------------------------------------------------------------------
+
+## NLP-PROJECTS / KEYWORD EXTRACTOR / readme
+Source: Readme/NLP-PROJECTS__KEYWORD_EXTRACTOR__readme.md
+
+Technologies:
+  - pip install -r requirements.txt
+  - out manual tagging.
+  - tfidf transformer to get the weight of the words
+  - numpy and pandas
+  - countvectorizer
+  - pickle to save the model and load the model
+  - nltk library
+
+Key Features:
+  - **Automated Keyword Extraction**: Identifies high-value keywords without manual tagging.
+  - **TF-IDF Vectorization**: Uses statistical scoring to determine word importance.
+  - **Customizable N-Grams**: Extracts unigrams and bigrams for better context.
+  - **Efficient Preprocessing**: Includes stop-word removal, stemming, and tokenization.
+  - **Execution Speed**: ~0.02s per batch (optimized for speed).
+
+--------------------------------------------------------------------------------
+
+## NLP-PROJECTS / WORD SUGGESTION / readme
+Source: Readme/NLP-PROJECTS__WORD_SUGGESTION__readme.md
+
+Technologies:
+  - textdistance
+  - pandas
+  - **Word Probability** ranking to deliver intelligent suggestions.
+  - `textdistance` and `pandas`.
+
+Key Features:
+  - **Probabilistic Model**: Ranks suggestions based on their frequency in the training corpus (Moby Dick).
+  - **Edit Distance Algorithm**: Uses Levenshtein distance to find words similar to the input.
+  - **Top-N Suggestions**: Returns the top 5 most likely candidates for any given word.
+  - **Lightweight**: Pure Python implementation using `textdistance` and `pandas`.
+  - **Top-3 Accuracy**: **60.00%**
+
+Metrics/Results:
+  - 1 Accuracy
+  - 350 ms
+  - 3 Accuracy
+
+--------------------------------------------------------------------------------
+
+## NLP-PROJECTS / README
+Source: Readme/NLP-PROJECTS__README.md
+
+Links:
+  - https://github.com/your-username/NLP_PROJECTS.git
+
+Technologies:
+  - web-based suggestion features.
+  - techniques like TF-IDF or TextRank. Includes scripts for updating keyword cache.
+  - NLP techniques to match skills, experience, and other parameters.
+  - _BERT/**
+  - Used
+  - n-gram models and user input history.
+  - a BERT-based model trained on labeled SMS/email data.
+
+Key Features:
+  - **AUTOCOMPLETE/dev/**
+  - **KEYWORD_EXTRACTOR/**
+  - **RESUME_SCREENER/**
+  - **SPAM_DETECTION_USING_BERT/**
+  - **WORD_SUGGESTION/**
+
+--------------------------------------------------------------------------------
+
+## NLP-PROJECTS / RESUME SCREENER / readme
+Source: Readme/NLP-PROJECTS__RESUME_SCREENER__readme.md
+
+Technologies:
+  - labelencoder
+  - pip install -r requirements.txt
+  - tfidf
+  - numpy and pandas
+  - SCREENER.ipynb
+  - matplotlib
+
+Key Features:
+  - **Multi-Class Classification**: Categorizes resumes into 25+ distinct job roles (e.g., Data Science, Java Developer, DevOps).
+  - **Text Preprocessing**: specialized cleaning pipeline for resume text (URL removal, special character handling).
+  - **High Accuracy**: Optimized model configuration yielding 98% classification accuracy.
+  - **Java Developer** (15)
+  - **DevOps Engineer** (14)
+
+--------------------------------------------------------------------------------
+
+================================================================================
+OTHER PROJECTS
+================================================================================
+
+
+## SELF-STUDY / Readme
+Source: Readme/SELF-STUDY__Readme.md
+
+Links:
+  - https://github.com/zer-art/SELF-STUDY.git
+
+Technologies:
+  - on word embeddings and word2vec models.
+
+Key Features:
+  - **DEEP-LEARNING/**
+  - **ANN/**: Artificial Neural Networks notebooks covering digit classification, customer churn, dropout layers, gradient descent, loss functions, quantization, and more.
+  - **BERT/**: Notebooks on BERT (Bidirectional Encoder Representations from Transformers) for NLP tasks.
+  - **CNN/**: Convolutional Neural Networks notebooks including animal classification and data augmentation techniques.
+  - **pipeline/**: Notebooks demonstrating data pipeline creation and dataset caching.
+
+--------------------------------------------------------------------------------
+
+## IssueDesk bot / README
+Source: Readme/IssueDesk_bot__README.md
+
+Technologies:
+  - custom labels (e.g., 🔥 URGENT, 🌱 EASY)
+  - your actual Telegram Topic IDs
+  - out linked PRs
+  - tracker.py
+  - emoji labels
+  - Topics enabled)
+  - Cron
+  - RULES
+
+Key Features:
+  - **Multi-Organization Monitoring**: Track issues across multiple GitHub organizations
+  - **Rule-Based Filtering**: Define custom rules to filter and categorize issues
+  - **Telegram Notifications**: Send issue alerts to Telegram topics with emoji labels
+  - **Scheduled Checks**: Run periodic checks to detect newly created issues
+  - **Label Customization**: Organize notifications with custom labels (e.g., 🔥 URGENT, 🌱 EASY)
+
+--------------------------------------------------------------------------------
+
+## SELF-STUDY / learning / README
+Source: Readme/SELF-STUDY__learning__README.md
+
+Technologies:
+  - Used
+
+Key Features:
+  - Variables, data types
+  - Control flow (if-else, loops)
+  - Functions and modules
+  - File handling
+  - Classes and objects
+
+--------------------------------------------------------------------------------
+
+## zer-art / README
+Source: Readme/zer-art__README.md
+
+Links:
+  - https://github.com/zer-art
+  - https://github.com/zer-art/grammer
+  - https://github.com/zer-art/pneumonia-detection
+
+Technologies:
+  - Pandas** | Coursera | Apr 2025 |
+  - **Languages:** Python, JavaScript, HTML, CSS, SQL
+
+--------------------------------------------------------------------------------
+
+## Application-Projects / Junior Data Scientist – Trader Behavior Insights  / readme
+Source: Readme/Application-Projects__Junior Data Scientist – Trader Behavior Insights __readme.md
+
+Technologies:
+  - :
+  - all code for data loading, cleaning, visualization, and statistical analysis.
+  - market sentiment.
+
+Key Features:
+  - **data/**: Contains the raw datasets used for analysis.
+  - **notebook/EDA.ipynb**: Jupyter notebook with all code for data loading, cleaning, visualization, and statistical analysis.
+  - **readme.md**: Project documentation.
+  - **fear_greed_index.csv**: Contains daily market sentiment classifications (e.g., Fear, Greed, Extreme Fear, Extreme Greed).
+  - **historical_data.csv**: Contains trade-level data, including timestamps, account, coin, closed PnL, and trade size.
+
+--------------------------------------------------------------------------------
+
+## SELF-STUDY / javascript / Readme
+Source: Readme/SELF-STUDY__javascript__Readme.md
+
+Technologies:
+  - a graphical desktop environment.
+  - both `for` and `while` loops.
+  - for...of
+  - `for...in`.
+  - script.js
+  - DOM
+  - do...while
+  - for...in
+  - innerHTML
+  - JavaScript (`getElementById` and `innerHTML`).
+
+Key Features:
+  - **index.html**: Basic HTML file with a heading and a paragraph. Links to `style.css` and `script.js`.
+  - **script.js**: Changes the content of the heading using JavaScript (`getElementById` and `innerHTML`).
+  - **style.css**: (Add your styles here if needed.)
+  - **for_loop.js**: Demonstrates the use of a `for` loop to calculate the sum of the first 10 natural numbers.
+  - **while_loop.js**: Uses a `while` loop for the same sum calculation.
+
+--------------------------------------------------------------------------------
+
+## SELF-STUDY / DEEP-LEARNING / README
+Source: Readme/SELF-STUDY__DEEP-LEARNING__README.md
+
+Links:
+  - https://github.com/your-username/DEEP-LEARNING.git
+
+Technologies:
+  - RNN variants including LSTM and GRU.
+  - CNNs along with data augmentation techniques. Includes a project on animal image classification.
+  - quantization techniques implemented for model size and performance improvements.
+
+Key Features:
+  - `.vscode/`
+  - `ANN/`
+  - `BERT/`
+  - `CNN/`
+  - `RNN/`
+
+--------------------------------------------------------------------------------
+
+## Application-Projects / Readme
+Source: Readme/Application-Projects__Readme.md
+
+Technologies:
+  - in their respective assignment folders.
+
+Key Features:
+  - Each assignment is organized in its own directory.
+  - Supporting files such as data, notebooks, and reports are included within their respective assignment folders.
+
+--------------------------------------------------------------------------------
+
+================================================================================
+PORTFOLIO
+================================================================================
+
+
+## portfolio / README
+Source: Readme/portfolio__README.md
+
+Links:
+  - https://github.com/zer-art
+
+Technologies:
+  - DaisyUI
+  - ❤️ by Pawan Parida
+  - index.html
+  - descriptions and GitHub links
+  - Python
+  - Live Server (VS Code extension)
+  - Used
+  - Node.js
+  - animated profile image
+  - validation
+
+Key Features:
+  - **Responsive Design**: Fully responsive across all devices
+  - **Dark/Light Mode**: Toggle between CMYK (light) and Dark themes using DaisyUI
+  - **Interactive Animations**: Smooth animations using AOS library
+  - **Modern UI**: Built with Tailwind CSS and DaisyUI components
+  - **Contact Form**: Functional contact form with validation
+
+--------------------------------------------------------------------------------
+
+================================================================================
+EXISTING RESUME DATA (PRESERVED ABOVE)
+================================================================================
+
+================================================================================
+COMPREHENSIVE PROJECT DATABASE
+Auto-generated from README files
+================================================================================
+
+
+================================================================================
+ACADEMIC PROJECTS
+================================================================================
+
+
+## Academics / Readme
+Source: data/Readme/Academics__Readme.md
+
+Key Features:
+  - **Differentiation and Integration**: PDF notes.
+  - **DBMS**: Practical files, SQL commands, and Python integration.
+  - **EVS**: Activities and reference materials.
+  - **Excel**: Advanced Excel practicals, notes, and worksheets.
+  - **FTW-sel**: Inclusive culture document.
+
+--------------------------------------------------------------------------------
+
+## Academics / Minor-Project / README
+Source: data/Readme/Academics__Minor-Project__README.md
+
+Technologies:
+  - a **Predictive Text Engine**, verified via a **Django Web Interface**.
+  - MediaPipe, and classifies gestures using an LSTM neural network.
+  - requirements.txt
+
+Key Features:
+  - Anaconda or Miniconda installed.
+  - `hand-detection/`: Model training and real-time inference logic.
+  - `word-suggest/`: Probabilistic spell-checking algorithm.
+  - `dev/`: Django web application source code.
+  - `requirements.txt`: Unified project dependencies.
+
+Metrics/Results:
+  - 1 Accuracy
+  - 1.16 ms
+  - 5 Accuracy
+  - 160 ms
+
+--------------------------------------------------------------------------------
+
+## Academics / Major-project / TECHNICAL DETAILS
+Source: data/Readme/Academics__Major-project__TECHNICAL_DETAILS.md
+
+Technologies:
+  - scipy)
+
+Key Features:
+  - ❌ 200-500ms latency (2-3 FPS max)
+  - ❌ 2.5GB model files
+  - ❌ 90%+ CPU usage
+  - ❌ Black-box predictions
+  - ❌ Not actionable ("you look sad" - now what?)
+
+Metrics/Results:
+  - 18ms
+  - 2ms
+  - 420ms
+  - 500ms
+  - 450ms
+
+--------------------------------------------------------------------------------
+
+## Academics / Minor-Project / word-suggest / README
+Source: data/Readme/Academics__Minor-Project__word-suggest__README.md
+
+Technologies:
+  - -150458)
+  - requirements.txt
+  - benchmark.py
+  - a test set of 15 common misspellings on a local machine (M1/M2/Intel Mac).
+  - suggest.py
+
+Key Features:
+  - **Probabilistic Correction**: Uses a dataset-driven probability model to suggest the most likely words.
+  - **Top-N Suggestions**: Returns a ranked list of potential corrections, not just one.
+  - **Customizable Dataset**: Easily swap the source text to train the model on different domains.
+  - `suggest.py`: Core logic for probability calculation and word suggestion.
+  - `autocorrect book.txt`: Source text used to build the vocabulary and frequency model.
+
+Metrics/Results:
+  - 1 Accuracy
+  - 5 Accuracy
+  - 594 ms
+
+--------------------------------------------------------------------------------
+
+## Academics / 5TH SEM / AI / practicals / 04 / B tic-tac-toe / README
+Source: data/Readme/Academics__5TH_SEM__AI__practicals__04__B_tic-tac-toe__README.md
+
+Technologies:
+  - play.py
+  - an AI opponent using the Minimax algorithm, built with Python and Pygame.
+  - Pygame
+  - R
+  - requirements.txt
+
+Key Features:
+  - Play against an AI that never loses
+  - Visual board using Pygame
+  - Shows result (Win/Lose/Tie) in terminal and on board
+  - Press `R` to restart the game
+  - Click on a square to make your move.
+
+--------------------------------------------------------------------------------
+
+## Academics / Major-project / README
+Source: data/Readme/Academics__Major-project__README.md
+
+Links:
+  - https://github.com/zer-art/Academics.git
+  - https://github.com/zer-art/Academics.git
+
+Technologies:
+  - the included `benchmark_cnn_vs_mediapipe.py` script.
+  - Google account
+  - GEMINI
+  - Major-project
+  - real-time speech recognition, emotion analysis, and intelligent feedback.
+  - :
+  - `python3 --version`)
+  - Silero VAD
+  - audio devices
+  - sparse support (only downloads required files)
+
+Key Features:
+  - **🎤 Real-time Speech Recognition** - Groq Whisper API with Silero VAD
+  - **😊 Emotion Analysis** - MediaPipe face tracking and expression detection
+  - **🤖 AI Interviewer** - Dynamic questions via Google Gemini
+  - **📊 Performance Reports** - Comprehensive analytics and feedback
+  - **🌐 Modern UI** - Responsive Tailwind CSS interface
+
+Metrics/Results:
+  - 31.0ms
+  - 1.6ms
+  - 32 FPS
+  - 616 FPS
+
+--------------------------------------------------------------------------------
+
+================================================================================
+COMPUTER VISION PROJECTS
+================================================================================
+
+
+## Computer-Vision-Projects / Readme
+Source: data/Readme/Computer-Vision-Projects__Readme.md
+
+Links:
+  - https://github.com/zer-art/Computer-Vision-Projects.git
+
+Technologies:
+  - deep learning.
+  - larger medical imaging datasets
+  - async support
+  - ❤️ by the Computer Vision Community**
+  - index.html
+  - OpenCV and FastAPI.
+  - CORS support
+  - ** Python, TensorFlow, Keras, FastAPI, HTML5
+  - camera access (for face detection)
+  - Haar cascade classifiers
+
+Key Features:
+  - Real-time face detection using Haar cascade classifiers
+  - Modern web interface with live video feed
+  - Video recording capabilities
+  - Cross-platform compatibility
+  - CNN-based pneumonia classification
+
+Metrics/Results:
+  - 2 seconds
+
+--------------------------------------------------------------------------------
+
+## Computer-Vision-Projects / Face-Detection / Readme
+Source: data/Readme/Computer-Vision-Projects__Face-Detection__Readme.md
+
+Links:
+  - https://github.com/zer-art/FACE-DETECTION.git
+
+Technologies:
+  - WebRTC
+  - OpenCV's face detection algorithms
+  - tab
+  - scaleFactor
+  - bounding boxes and labels
+  - minNeighbors
+  - OpenCV, FastAPI, and modern web technologies.
+  - the camera
+  - index.html
+  - flexbox and grid layouts
+
+Key Features:
+  - **Real-time Face Detection**: Uses OpenCV's Haar cascade classifiers for accurate face detection
+  - **Web Interface**: Modern, responsive web interface with live video feed
+  - **Video Recording**: Record detected face sessions directly in the browser
+  - **FastAPI Backend**: Robust API backend for processing computer vision tasks
+  - **Responsive Design**: Works seamlessly across desktop and mobile devices
+
+--------------------------------------------------------------------------------
+
+## Computer-Vision-Projects / pneumonia-detection / Readme
+Source: data/Readme/Computer-Vision-Projects__pneumonia-detection__Readme.md
+
+Links:
+  - https://github.com/zer-art/pneumonia-detection
+
+Technologies:
+  - CORS enabled for easy frontend integration
+  - Readme.md
+  - main.py
+  - index.html
+  - requirements.txt
+
+Key Features:
+  - **Architecture**: Sequential Convolutional Neural Network (CNN)
+  - **Parameters**: 11,169,218 (~42.6 MB)
+  - **Input Shape**: (224, 224, 3)
+  - **Source**: [Pediatric Pneumonia Chest X-ray (Kaggle)](https://www.kaggle.com/datasets/andrewmvd/pediatric-pneumonia-chest-xray)
+  - **Split Strategy**:
+
+--------------------------------------------------------------------------------
+
+================================================================================
+FINANCIAL PROJECTS
+================================================================================
+
+
+## Financial-repo / Finance app / web app / readme
+Source: data/Readme/Financial-repo__Finance_app__web_app__readme.md
+
+Links:
+  - https://github.com/yourusername/Finance_app.git
+
+Key Features:
+  - Git
+  - Python 3.x
+  - Virtualenv
+  - On Windows:
+  - On macOS/Linux:
+
+--------------------------------------------------------------------------------
+
+## Financial-repo / README
+Source: data/Readme/Financial-repo__README.md
+
+Links:
+  - https://github.com/zer-art/Financial-repo.git
+
+Technologies:
+  - Options-programming
+  - a detailed description of your changes.
+  - Signals-tele-miniapp
+
+Key Features:
+  - **Finance App**: A web application for managing personal finances, including loans, investments, and security preferences.
+  - **Options Programming**: Tools and models for options trading, including machine learning models for predictions.
+  - **Signals Tele Miniapp**: A mini application for processing and analyzing financial signals.
+  - Access the web applications via the browser at `http://127.0.0.1:8000/`.
+  - Explore features like financial dashboards, options trading strategies, and signal analysis tools.
+
+--------------------------------------------------------------------------------
+
+================================================================================
+INTERNSHIPS
+================================================================================
+
+
+## INTERNSHIPS / forage-lloyds / readme
+Source: data/Readme/INTERNSHIPS__forage-lloyds__readme.md
+
+Technologies:
+  - requirements.txt
+  - model.py
+  - utils.py
+
+Key Features:
+  - `notebook/eda.ipynb`: Data exploration and visualization.
+  - `notebook/model.ipynb`: Model building and evaluation.
+  - The dataset `Customer_Churn_Data_Large.xlsx` is located in the `data/` folder.
+  - All core logic is in the `src/` directory:
+  - `model.py`: Model training and prediction functions.
+
+--------------------------------------------------------------------------------
+
+## INTERNSHIPS / forage-BCGx / README
+Source: data/Readme/INTERNSHIPS__forage-BCGx__README.md
+
+--------------------------------------------------------------------------------
+
+## INTERNSHIPS / Readme
+Source: data/Readme/INTERNSHIPS__Readme.md
+
+Technologies:
+  - in each folder.
+  - code, data, and documentation organized for easy access.
+  - requirements.txt
+
+Key Features:
+  - Contains assignments, lecture notes, and machine learning models for crop and fertilizer prediction.
+  - Notebooks and data files are provided for hands-on learning and experimentation.
+  - Focused on customer churn analysis and predictive modeling.
+  - Includes Python scripts, Jupyter notebooks, and a large dataset for analysis.
+  - Each project may have its own dependencies and setup instructions. Refer to the respective `requirements.txt` or documentation within each folder.
+
+--------------------------------------------------------------------------------
+
+## INTERNSHIPS / forage-quantium software engineer / Readme
+Source: data/Readme/INTERNSHIPS__forage-quantium_software_engineer__Readme.md
+
+--------------------------------------------------------------------------------
+
+================================================================================
+LLM PROJECTS
+================================================================================
+
+
+## LLM-Projects / Readme
+Source: data/Readme/LLM-Projects__Readme.md
+
+Technologies:
+  - the provided SQL script.
+  - LLMs and retrieval-augmented generation (RAG) techniques.
+  - main.py
+  - app.py
+  - `pip install -r requirements.txt` or `pip install .` as needed.
+  - its own codebase, dependencies, and documentation. Below is an overview of each project:
+  - LLMs, based on cuisine and style inputs.
+  - requirements.txt
+  - pyproject.toml
+
+Key Features:
+  - **Backend:** Python (main.py, src/)
+  - **Frontend:** HTML, CSS, JavaScript (frontend/)
+  - **Usage:** Run `main.py` to start the backend server. Open `frontend/index.html` in a browser for the UI.
+  - **Backend:** Python (app.py, src/)
+  - **Database:** SQL scripts for setup (database/)
+
+--------------------------------------------------------------------------------
+
+## LLM-Projects / CHANGES SUMMARY
+Source: data/Readme/LLM-Projects__CHANGES_SUMMARY.md
+
+Technologies:
+  - overview
+  - section with Gemini 2.0 Flash
+  - difficulty/category breakdown
+  - metrics
+  - benchmarks, evaluation scripts |
+  - detailed performance breakdown
+  - test results
+  - quantified metrics
+  - endpoint details
+  - category breakdown
+
+Key Features:
+  - `/Users/pawan/Developer/LLM-Projects/Ai-Grammer-Tutor/src/utils.py`
+  - `/Users/pawan/Developer/LLM-Projects/Mysql-database-chatbot/src/utils.py`
+  - `/Users/pawan/Developer/LLM-Projects/News-Research-Analysis/src/rag.py`
+  - File: `evaluate_metrics.py`
+  - Tests: 15 test cases across 10 grammar categories
+
+Metrics/Results:
+  - 92.3% accuracy
+
+--------------------------------------------------------------------------------
+
+## LLM-Projects / README UPDATED
+Source: data/Readme/LLM-Projects__README_UPDATED.md
+
+Links:
+  - https://github.com/zer-art
+
+Technologies:
+  - **
+  - 91.2% accuracy and 0.74s response time
+  - 98.7% execution success rate
+  - latest Gemini 2.0 Flash (Dec 2024)
+  - **Core Technologies:**
+  - ** Streamlit + LangChain + HuggingFace Embeddings + Gemini 2.0 Flash
+  - 87.6% retrieval accuracy (NDCG@5) and <2% hallucination rate
+  - structured templates
+  - **91.2% accuracy** and **0.74s execution time**.
+  - real-time response (<1.8s latency) and
+
+Key Features:
+  - **Metrics:** 92.3% accuracy | 1.8s response | 100% precision on correct sentences
+  - **Stack:** FastAPI + LangChain + Gemini 2.0 Flash
+  - **Features:** Real-time error detection, educational explanations, category-specific accuracy
+  - **Key Achievement:** 15-category test suite with structured evaluation
+  - **Metrics:** 91.2% SQL accuracy | 89.5% semantic F1-score | 98.7% execution success
+
+Metrics/Results:
+  - 91.2% accuracy
+  - 100% 
+   precision
+  - 92.3% accuracy
+  - 100% precision
+
+--------------------------------------------------------------------------------
+
+## LLM-Projects / Ai-Grammer-Tutor / README
+Source: data/Readme/LLM-Projects__Ai-Grammer-Tutor__README.md
+
+Links:
+  - https://github.com/your-username/grammer.git
+  - https://github.com/zer-art
+
+Technologies:
+  - a simple HTTP server for local development.)*
+  - configurable temperature (0.2) for consistent outputs
+  - in ~1.8s
+  - temperature=0.2 for consistency
+  - Google Gemini 2.0 Flash
+  - error detection instructions
+  - CORS-enabled endpoints
+  - proper error handling and CORS configuration
+  - **Backend:**
+  - your screenshot if available -->
+
+Key Features:
+  - **Grammar Correction**: Detects and explains basic grammar errors.
+  - **Sub-2s Response Time:** Average 1.8s latency for real-time feedback
+  - **Educational Feedback:** Provides rule explanations, corrections, and examples in each response
+  - **RESTful API Architecture:** FastAPI backend with CORS-enabled endpoints
+  - **Scalable LLM Integration:** LangChain framework with configurable temperature (0.2) for consistent outputs
+
+Metrics/Results:
+  - 92.3% accuracy
+
+--------------------------------------------------------------------------------
+
+## LLM-Projects / Restautant-Name-And-Menu-Gen / Readme
+Source: data/Readme/LLM-Projects__Restautant-Name-And-Menu-Gen__Readme.md
+
+Links:
+  - https://github.com/zer-art/Restaurant-Name-And-Menu-Item-Generator>
+
+Technologies:
+  - Google's Generative AI models (Gemini).
+  - *   **Python:** Core programming language.
+  - data
+  - the Gemini API.
+  - cuisines.txt
+  - `cuisines.txt` and `styles.txt` in the root of your project.
+  - styles.txt
+  - your actual API key.
+
+Key Features:
+  - **Restaurant Name Generation:**
+  - Select a cuisine type (e.g., Italian, Mexican, Indian).
+  - Select a restaurant style (e.g., Modern, Rustic, Casual).
+  - Generates unique and appealing restaurant names based on your selections.
+  - **Menu Idea Generation:**
+
+--------------------------------------------------------------------------------
+
+## LLM-Projects / News-Research-Analysis / README
+Source: data/Readme/LLM-Projects__News-Research-Analysis__README.md
+
+Links:
+  - https://github.com/zer-art/News-Research-Analysis
+  - https://github.com/zer-art
+
+Technologies:
+  - clear HTML structure works best
+  - streaming support
+  - out excessive length
+  - TruLens
+  - top-k retrieval (k=2)
+  - **Backend:**
+  - accessible text content
+  - tools like `RAGAS` or `TruLens` for automated evaluation, or human annotators for ground truth.
+  - RAGAS
+  - Gemini 2.0 Flash
+
+Key Features:
+  - **Advanced RAG Pipeline**: Retrieval-Augmented Generation for factually grounded answers
+  - **Response Time**: Tuned for speed with streaming support
+  - **Multi-Source Integration**: Process and synthesize multiple news URLs simultaneously
+  - **Semantic Search**: HuggingFace embeddings for accurate document ranking
+  - **Low Hallucination**: Grounding in source material to minimize errors
+
+Metrics/Results:
+  - 288ms
+
+--------------------------------------------------------------------------------
+
+## LLM-Projects / Mysql-database-chatbot / README
+Source: data/Readme/LLM-Projects__Mysql-database-chatbot__README.md
+
+Links:
+  - https://github.com/yourusername/Ecom-chatbot.git
+  - https://github.com/zer-art
+
+Technologies:
+  - PyMySQL driver
+  - Gemini 2.0 Flash
+  - connection pooling
+  - :
+  - **Backend:**
+  - app.py
+  - few-shot semantic prompting for enterprise e-commerce databases.
+  - SemanticSimilarityExampleSelector
+
+Key Features:
+  - **SELECT / WHERE**: Basic data retrieval
+  - **JOIN operations**: Multi-table data merging
+  - **Aggregations**: SUM, COUNT, AVG
+  - **GROUP BY**: Categorical analysis
+  - **Natural Language to SQL**: Converts questions to executable SQL.
+
+Metrics/Results:
+  - 91.2% accuracy
+
+--------------------------------------------------------------------------------
+
+## LLM-Projects / PORTFOLIO ANALYSIS
+Source: data/Readme/LLM-Projects__PORTFOLIO_ANALYSIS.md
+
+Technologies:
+  - GitHub Actions"
+  - Gemini 2.0 Flash and LangChain
+  - 91.2% accuracy and 0.74s response time
+  - Gemini 2.0 Flash"
+  - 98.7% execution success rate
+  - structured format (JSON logs)
+  - temperature tuning (0.2)" | Technical depth |
+  - [uptime]%"
+  - 94% citation coverage ensuring factual grounding
+  - proper architecture
+
+Key Features:
+  - 92.3% accuracy in error detection
+  - 1.8s response time (fastest)
+  - 100% accuracy on correct sentence recognition (no false positives)
+  - Category-specific accuracy breakdown (95% subject-verb, 93% homophones)
+  - **Recruiter Value:** Shows deep NLP understanding & prompt engineering expertise
+
+Metrics/Results:
+  - 15% accuracy
+  - 91.2% accuracy
+  - 100% accuracy
+  - 92.3% accuracy
+  - 100% 
+   precision
+
+--------------------------------------------------------------------------------
+
+================================================================================
+MACHINE LEARNING PROJECTS
+================================================================================
+
+
+## MACHINE-LEARNING-PROJECTS / LINEAR REGRESSION FROM SCRATCH / Readme
+Source: data/Readme/MACHINE-LEARNING-PROJECTS__LINEAR_REGRESSION_FROM_SCRATCH__Readme.md
+
+Technologies:
+  - main.ipynb
+  - Learning Rate = 0.01 |
+  - Used
+  - np.dot
+
+Key Features:
+  - **Pure NumPy Implementation**: Understand the math behind the magic.
+  - **Gradient Descent**: Custom implementation of the optimization algorithm.
+  - **Visualization**: Matplotlib plots to visualize the regression line and data points.
+  - **Interactive Notebook**: Step-by-step derivation and code.
+  - **Python**
+
+--------------------------------------------------------------------------------
+
+## MACHINE-LEARNING-PROJECTS / ML real state prediction / README
+Source: data/Readme/MACHINE-LEARNING-PROJECTS__ML_real_state_prediction__README.md
+
+--------------------------------------------------------------------------------
+
+## MACHINE-LEARNING-PROJECTS / Readme
+Source: data/Readme/MACHINE-LEARNING-PROJECTS__Readme.md
+
+Links:
+  - https://github.com/zer-art
+
+Technologies:
+  - requirements.txt
+  - .data`, `housing.names`
+  - main.ipynb
+  - Used
+  - out libraries.
+  - a hybrid of content-based and collaborative filtering.
+  - data.csv
+  - housing.names
+  - a curated knowledge base and custom functions.
+  - README.md
+
+Key Features:
+  - **Purpose:** Recommends optimal crops and fertilizers based on soil and environmental data.
+  - **Features:** Pre-trained models, interactive notebooks, web app interface.
+  - **Main files:** `app.py`, `Crop_Prediction.ipynb`, `Fertilizer_recommendation.ipynb`
+  - **Data:** `data/Crop_recommendation.csv`, `data/Fertilizer Prediction.csv`
+  - **Models:** `model/crop_model.sav`, `model/fertilizer_model.sav`
+
+--------------------------------------------------------------------------------
+
+## MACHINE-LEARNING-PROJECTS / Helthcare-app / Readme
+Source: data/Readme/MACHINE-LEARNING-PROJECTS__Helthcare-app__Readme.md
+
+Technologies:
+  - a curated knowledge base.
+  - Used
+  - benchmark.py
+
+Key Features:
+  - **Question-Answering System**: Answers health-related questions using a curated knowledge base.
+  - **Extensible Functions**: Add custom logic for advanced queries.
+  - **Modular Design**: Organized codebase for maintainability.
+  - **CLI and API Ready**: Easily adaptable for web or command-line interfaces.
+  - **Python 3.8+**
+
+--------------------------------------------------------------------------------
+
+## MACHINE-LEARNING-PROJECTS / Crop and fertilizer Recomendation / Readme
+Source: data/Readme/MACHINE-LEARNING-PROJECTS__Crop and fertilizer Recomendation__Readme.md
+
+Technologies:
+  - Used
+  - the provided `metrics_evaluation.py`.
+
+Key Features:
+  - **Crop Recommendation**: Suggests best crops for given conditions.
+  - **Fertilizer Recommendation**: Recommends suitable fertilizers.
+  - **Pre-trained Models**: Uses saved models for fast predictions.
+  - **Interactive Notebooks**: Explore and analyze data.
+  - **Web App**: User-friendly interface for recommendations.
+
+--------------------------------------------------------------------------------
+
+## MACHINE-LEARNING-PROJECTS / Recommendation-app / README
+Source: data/Readme/MACHINE-LEARNING-PROJECTS__Recommendation-app__README.md
+
+Links:
+  - https://github.com/zer-art
+
+Technologies:
+  - Used
+  - `benchmark.py`.
+  - sklearn.neighbors.NearestNeighbors
+  - coverage
+  - recommender.py
+  - the Recommendation Engine Programmatically
+  - synthetic benchmark data.*
+  - app.py
+  - Streamlit for easy user interaction
+  - Python and Streamlit for an interactive web interface.
+
+Key Features:
+  - **Hybrid Recommendation Engine**: Combines content-based and collaborative filtering for better accuracy
+  - **Interactive Web Interface**: Built with Streamlit for easy user interaction
+  - **Multiple Recommendation Types**:
+  - Content-Based: Recommendations based on movie genres and features
+  - Collaborative Filtering: Recommendations based on user behavior patterns
+
+Metrics/Results:
+  - 3ms
+
+--------------------------------------------------------------------------------
+
+================================================================================
+NLP PROJECTS
+================================================================================
+
+
+## NLP-PROJECTS / SPAM DETECTION USING BERT / readme
+Source: data/Readme/NLP-PROJECTS__SPAM_DETECTION_USING_BERT__readme.md
+
+Technologies:
+  - spam.csv
+  - the spam detector.*
+  - app.py
+  - BERT
+
+Key Features:
+  - **Advanced NLP**: Uses a pre-trained BERT model from TensorFlow Hub for deep semantic understanding.
+  - **Real-Time Inference**: Streamlit-based web interface for instant feedback.
+  - **Robustness**: Handles long sequences and complex sentence structures better than traditional ML models.
+  - **High Performance**: Achieving **~98% Accuracy** on the evaluation dataset.
+  - **Accuracy**: **97.7%**
+
+Metrics/Results:
+  - 98% Accuracy
+
+--------------------------------------------------------------------------------
+
+## NLP-PROJECTS / KEYWORD EXTRACTOR / readme
+Source: data/Readme/NLP-PROJECTS__KEYWORD_EXTRACTOR__readme.md
+
+Technologies:
+  - out manual tagging.
+  - pickle to save the model and load the model
+  - nltk library
+  - tfidf transformer to get the weight of the words
+  - countvectorizer
+  - pip install -r requirements.txt
+  - numpy and pandas
+
+Key Features:
+  - **Automated Keyword Extraction**: Identifies high-value keywords without manual tagging.
+  - **TF-IDF Vectorization**: Uses statistical scoring to determine word importance.
+  - **Customizable N-Grams**: Extracts unigrams and bigrams for better context.
+  - **Efficient Preprocessing**: Includes stop-word removal, stemming, and tokenization.
+  - **Execution Speed**: ~0.02s per batch (optimized for speed).
+
+--------------------------------------------------------------------------------
+
+## NLP-PROJECTS / WORD SUGGESTION / readme
+Source: data/Readme/NLP-PROJECTS__WORD_SUGGESTION__readme.md
+
+Technologies:
+  - `textdistance` and `pandas`.
+  - textdistance
+  - pandas
+  - **Word Probability** ranking to deliver intelligent suggestions.
+
+Key Features:
+  - **Probabilistic Model**: Ranks suggestions based on their frequency in the training corpus (Moby Dick).
+  - **Edit Distance Algorithm**: Uses Levenshtein distance to find words similar to the input.
+  - **Top-N Suggestions**: Returns the top 5 most likely candidates for any given word.
+  - **Lightweight**: Pure Python implementation using `textdistance` and `pandas`.
+  - **Top-3 Accuracy**: **60.00%**
+
+Metrics/Results:
+  - 1 Accuracy
+  - 350 ms
+  - 3 Accuracy
+
+--------------------------------------------------------------------------------
+
+## NLP-PROJECTS / README
+Source: data/Readme/NLP-PROJECTS__README.md
+
+Links:
+  - https://github.com/your-username/NLP_PROJECTS.git
+
+Technologies:
+  - techniques like TF-IDF or TextRank. Includes scripts for updating keyword cache.
+  - Used
+  - _BERT/**
+  - a BERT-based model trained on labeled SMS/email data.
+  - NLP techniques to match skills, experience, and other parameters.
+  - n-gram models and user input history.
+  - web-based suggestion features.
+
+Key Features:
+  - **AUTOCOMPLETE/dev/**
+  - **KEYWORD_EXTRACTOR/**
+  - **RESUME_SCREENER/**
+  - **SPAM_DETECTION_USING_BERT/**
+  - **WORD_SUGGESTION/**
+
+--------------------------------------------------------------------------------
+
+## NLP-PROJECTS / RESUME SCREENER / readme
+Source: data/Readme/NLP-PROJECTS__RESUME_SCREENER__readme.md
+
+Technologies:
+  - labelencoder
+  - matplotlib
+  - tfidf
+  - SCREENER.ipynb
+  - pip install -r requirements.txt
+  - numpy and pandas
+
+Key Features:
+  - **Multi-Class Classification**: Categorizes resumes into 25+ distinct job roles (e.g., Data Science, Java Developer, DevOps).
+  - **Text Preprocessing**: specialized cleaning pipeline for resume text (URL removal, special character handling).
+  - **High Accuracy**: Optimized model configuration yielding 98% classification accuracy.
+  - **Java Developer** (15)
+  - **DevOps Engineer** (14)
+
+--------------------------------------------------------------------------------
+
+================================================================================
+OTHER PROJECTS
+================================================================================
+
+
+## SELF-STUDY / Readme
+Source: data/Readme/SELF-STUDY__Readme.md
+
+Links:
+  - https://github.com/zer-art/SELF-STUDY.git
+
+Technologies:
+  - on word embeddings and word2vec models.
+
+Key Features:
+  - **DEEP-LEARNING/**
+  - **ANN/**: Artificial Neural Networks notebooks covering digit classification, customer churn, dropout layers, gradient descent, loss functions, quantization, and more.
+  - **BERT/**: Notebooks on BERT (Bidirectional Encoder Representations from Transformers) for NLP tasks.
+  - **CNN/**: Convolutional Neural Networks notebooks including animal classification and data augmentation techniques.
+  - **pipeline/**: Notebooks demonstrating data pipeline creation and dataset caching.
+
+--------------------------------------------------------------------------------
+
+## IssueDesk bot / README
+Source: data/Readme/IssueDesk_bot__README.md
+
+Technologies:
+  - Topics enabled)
+  - tracker.py
+  - Cron
+  - custom labels (e.g., 🔥 URGENT, 🌱 EASY)
+  - out linked PRs
+  - RULES
+  - emoji labels
+  - your actual Telegram Topic IDs
+
+Key Features:
+  - **Multi-Organization Monitoring**: Track issues across multiple GitHub organizations
+  - **Rule-Based Filtering**: Define custom rules to filter and categorize issues
+  - **Telegram Notifications**: Send issue alerts to Telegram topics with emoji labels
+  - **Scheduled Checks**: Run periodic checks to detect newly created issues
+  - **Label Customization**: Organize notifications with custom labels (e.g., 🔥 URGENT, 🌱 EASY)
+
+--------------------------------------------------------------------------------
+
+## SELF-STUDY / learning / README
+Source: data/Readme/SELF-STUDY__learning__README.md
+
+Technologies:
+  - Used
+
+Key Features:
+  - Variables, data types
+  - Control flow (if-else, loops)
+  - Functions and modules
+  - File handling
+  - Classes and objects
+
+--------------------------------------------------------------------------------
+
+## zer-art / README
+Source: data/Readme/zer-art__README.md
+
+Links:
+  - https://github.com/zer-art
+  - https://github.com/zer-art/grammer
+  - https://github.com/zer-art/pneumonia-detection
+
+Technologies:
+  - **Languages:** Python, JavaScript, HTML, CSS, SQL
+  - Pandas** | Coursera | Apr 2025 |
+
+--------------------------------------------------------------------------------
+
+## Application-Projects / Junior Data Scientist – Trader Behavior Insights  / readme
+Source: data/Readme/Application-Projects__Junior Data Scientist – Trader Behavior Insights __readme.md
+
+Technologies:
+  - all code for data loading, cleaning, visualization, and statistical analysis.
+  - :
+  - market sentiment.
+
+Key Features:
+  - **data/**: Contains the raw datasets used for analysis.
+  - **notebook/EDA.ipynb**: Jupyter notebook with all code for data loading, cleaning, visualization, and statistical analysis.
+  - **readme.md**: Project documentation.
+  - **fear_greed_index.csv**: Contains daily market sentiment classifications (e.g., Fear, Greed, Extreme Fear, Extreme Greed).
+  - **historical_data.csv**: Contains trade-level data, including timestamps, account, coin, closed PnL, and trade size.
+
+--------------------------------------------------------------------------------
+
+## SELF-STUDY / javascript / Readme
+Source: data/Readme/SELF-STUDY__javascript__Readme.md
+
+Technologies:
+  - style.css
+  - do...while
+  - JavaScript (`getElementById` and `innerHTML`).
+  - for
+  - JavaScript:
+  - a heading and a paragraph. Links to `style.css` and `script.js`.
+  - innerHTML
+  - Ques2.js
+  - `for...in`.
+  - for...in
+
+Key Features:
+  - **index.html**: Basic HTML file with a heading and a paragraph. Links to `style.css` and `script.js`.
+  - **script.js**: Changes the content of the heading using JavaScript (`getElementById` and `innerHTML`).
+  - **style.css**: (Add your styles here if needed.)
+  - **for_loop.js**: Demonstrates the use of a `for` loop to calculate the sum of the first 10 natural numbers.
+  - **while_loop.js**: Uses a `while` loop for the same sum calculation.
+
+--------------------------------------------------------------------------------
+
+## SELF-STUDY / DEEP-LEARNING / README
+Source: data/Readme/SELF-STUDY__DEEP-LEARNING__README.md
+
+Links:
+  - https://github.com/your-username/DEEP-LEARNING.git
+
+Technologies:
+  - RNN variants including LSTM and GRU.
+  - CNNs along with data augmentation techniques. Includes a project on animal image classification.
+  - quantization techniques implemented for model size and performance improvements.
+
+Key Features:
+  - `.vscode/`
+  - `ANN/`
+  - `BERT/`
+  - `CNN/`
+  - `RNN/`
+
+--------------------------------------------------------------------------------
+
+## Application-Projects / Readme
+Source: data/Readme/Application-Projects__Readme.md
+
+Technologies:
+  - in their respective assignment folders.
+
+Key Features:
+  - Each assignment is organized in its own directory.
+  - Supporting files such as data, notebooks, and reports are included within their respective assignment folders.
+
+--------------------------------------------------------------------------------
+
+================================================================================
+PORTFOLIO
+================================================================================
+
+
+## portfolio / README
+Source: data/Readme/portfolio__README.md
+
+Links:
+  - https://github.com/zer-art
+
+Technologies:
+  - AOS library
+  - animated profile image
+  - Live Server (VS Code extension)
+  - Used
+  - a local server:
+  - Python
+  - Tailwind CSS and DaisyUI components
+  - and expertise areas
+  - index.html
+  - DaisyUI
+
+Key Features:
+  - **Responsive Design**: Fully responsive across all devices
+  - **Dark/Light Mode**: Toggle between CMYK (light) and Dark themes using DaisyUI
+  - **Interactive Animations**: Smooth animations using AOS library
+  - **Modern UI**: Built with Tailwind CSS and DaisyUI components
+  - **Contact Form**: Functional contact form with validation
+
+--------------------------------------------------------------------------------
+
+================================================================================
+EXISTING RESUME DATA (PRESERVED ABOVE)
+================================================================================
+
+================================================================================
+COMPREHENSIVE PROJECT DATABASE
+Auto-generated from README files
+================================================================================
+
+
+================================================================================
+ACADEMIC PROJECTS
+================================================================================
+
+
+## Academics / Readme
+Source: data/Readme/Academics__Readme.md
+
+Key Features:
+  - **Differentiation and Integration**: PDF notes.
+  - **DBMS**: Practical files, SQL commands, and Python integration.
+  - **EVS**: Activities and reference materials.
+  - **Excel**: Advanced Excel practicals, notes, and worksheets.
+  - **FTW-sel**: Inclusive culture document.
+
+--------------------------------------------------------------------------------
+
+## Academics / Minor-Project / README
+Source: data/Readme/Academics__Minor-Project__README.md
+
+Technologies:
+  - MediaPipe, and classifies gestures using an LSTM neural network.
+  - a **Predictive Text Engine**, verified via a **Django Web Interface**.
+  - requirements.txt
+
+Key Features:
+  - Anaconda or Miniconda installed.
+  - `hand-detection/`: Model training and real-time inference logic.
+  - `word-suggest/`: Probabilistic spell-checking algorithm.
+  - `dev/`: Django web application source code.
+  - `requirements.txt`: Unified project dependencies.
+
+Metrics/Results:
+  - 5 Accuracy
+  - 1.16 ms
+  - 160 ms
+  - 1 Accuracy
+
+--------------------------------------------------------------------------------
+
+## Academics / Major-project / TECHNICAL DETAILS
+Source: data/Readme/Academics__Major-project__TECHNICAL_DETAILS.md
+
+Technologies:
+  - scipy)
+
+Key Features:
+  - ❌ 200-500ms latency (2-3 FPS max)
+  - ❌ 2.5GB model files
+  - ❌ 90%+ CPU usage
+  - ❌ Black-box predictions
+  - ❌ Not actionable ("you look sad" - now what?)
+
+Metrics/Results:
+  - 43 FPS
+  - 18ms
+  - 2.3 FPS
+  - 25ms
+  - 250ms
+
+--------------------------------------------------------------------------------
+
+## Academics / Minor-Project / word-suggest / README
+Source: data/Readme/Academics__Minor-Project__word-suggest__README.md
+
+Technologies:
+  - -150458)
+  - benchmark.py
+  - suggest.py
+  - a test set of 15 common misspellings on a local machine (M1/M2/Intel Mac).
+  - requirements.txt
+
+Key Features:
+  - **Probabilistic Correction**: Uses a dataset-driven probability model to suggest the most likely words.
+  - **Top-N Suggestions**: Returns a ranked list of potential corrections, not just one.
+  - **Customizable Dataset**: Easily swap the source text to train the model on different domains.
+  - `suggest.py`: Core logic for probability calculation and word suggestion.
+  - `autocorrect book.txt`: Source text used to build the vocabulary and frequency model.
+
+Metrics/Results:
+  - 5 Accuracy
+  - 594 ms
+  - 1 Accuracy
+
+--------------------------------------------------------------------------------
+
+## Academics / 5TH SEM / AI / practicals / 04 / B tic-tac-toe / README
+Source: data/Readme/Academics__5TH_SEM__AI__practicals__04__B_tic-tac-toe__README.md
+
+Technologies:
+  - play.py
+  - an AI opponent using the Minimax algorithm, built with Python and Pygame.
+  - Pygame
+  - R
+  - requirements.txt
+
+Key Features:
+  - Play against an AI that never loses
+  - Visual board using Pygame
+  - Shows result (Win/Lose/Tie) in terminal and on board
+  - Press `R` to restart the game
+  - Click on a square to make your move.
+
+--------------------------------------------------------------------------------
+
+## Academics / Major-project / README
+Source: data/Readme/Academics__Major-project__README.md
+
+Links:
+  - https://github.com/zer-art/Academics.git
+  - https://github.com/zer-art/Academics.git
+
+Technologies:
+  - audio devices
+  - : python -c "import secrets; print(secrets.token_hex(32))")
+  - `python3 --version`)
+  - GEMINI
+  - :
+  - Google account
+  - Major-project
+  - Silero VAD
+  - **Backend:** FastAPI, Python 3.10
+  - sparse support (only downloads required files)
+
+Key Features:
+  - **🎤 Real-time Speech Recognition** - Groq Whisper API with Silero VAD
+  - **😊 Emotion Analysis** - MediaPipe face tracking and expression detection
+  - **🤖 AI Interviewer** - Dynamic questions via Google Gemini
+  - **📊 Performance Reports** - Comprehensive analytics and feedback
+  - **🌐 Modern UI** - Responsive Tailwind CSS interface
+
+Metrics/Results:
+  - 31.0ms
+  - 1.6ms
+  - 32 FPS
+  - 616 FPS
+
+--------------------------------------------------------------------------------
+
+================================================================================
+COMPUTER VISION PROJECTS
+================================================================================
+
+
+## Computer-Vision-Projects / Readme
+Source: data/Readme/Computer-Vision-Projects__Readme.md
+
+Links:
+  - https://github.com/zer-art/Computer-Vision-Projects.git
+
+Technologies:
+  - ❤️ by the Computer Vision Community**
+  - Haar cascade classifiers
+  - async support
+  - camera access (for face detection)
+  - ** Python, TensorFlow, Keras, FastAPI, HTML5
+  - modern web APIs
+  - larger medical imaging datasets
+  - index.html
+  - ** Python, OpenCV, FastAPI, HTML5, JavaScript
+  - and detection
+
+Key Features:
+  - Real-time face detection using Haar cascade classifiers
+  - Modern web interface with live video feed
+  - Video recording capabilities
+  - Cross-platform compatibility
+  - CNN-based pneumonia classification
+
+Metrics/Results:
+  - 2 seconds
+
+--------------------------------------------------------------------------------
+
+## Computer-Vision-Projects / Face-Detection / Readme
+Source: data/Readme/Computer-Vision-Projects__Face-Detection__Readme.md
+
+Links:
+  - https://github.com/zer-art/FACE-DETECTION.git
+
+Technologies:
+  - minNeighbors
+  - scaleFactor
+  - OpenCV, FastAPI, and modern web technologies.
+  - bounding boxes and labels
+  - index.html
+  - tab
+  - WebRTC
+  - ### Backend
+  - OpenCV's face detection algorithms
+  - flexbox and grid layouts
+
+Key Features:
+  - **Real-time Face Detection**: Uses OpenCV's Haar cascade classifiers for accurate face detection
+  - **Web Interface**: Modern, responsive web interface with live video feed
+  - **Video Recording**: Record detected face sessions directly in the browser
+  - **FastAPI Backend**: Robust API backend for processing computer vision tasks
+  - **Responsive Design**: Works seamlessly across desktop and mobile devices
+
+--------------------------------------------------------------------------------
+
+## Computer-Vision-Projects / pneumonia-detection / Readme
+Source: data/Readme/Computer-Vision-Projects__pneumonia-detection__Readme.md
+
+Links:
+  - https://github.com/zer-art/pneumonia-detection
+
+Technologies:
+  - requirements.txt
+  - Readme.md
+  - CORS enabled for easy frontend integration
+  - index.html
+  - main.py
+
+Key Features:
+  - **Architecture**: Sequential Convolutional Neural Network (CNN)
+  - **Parameters**: 11,169,218 (~42.6 MB)
+  - **Input Shape**: (224, 224, 3)
+  - **Source**: [Pediatric Pneumonia Chest X-ray (Kaggle)](https://www.kaggle.com/datasets/andrewmvd/pediatric-pneumonia-chest-xray)
+  - **Split Strategy**:
+
+--------------------------------------------------------------------------------
+
+================================================================================
+FINANCIAL PROJECTS
+================================================================================
+
+
+## Financial-repo / Finance app / web app / readme
+Source: data/Readme/Financial-repo__Finance_app__web_app__readme.md
+
+Links:
+  - https://github.com/yourusername/Finance_app.git
+
+Key Features:
+  - Git
+  - Python 3.x
+  - Virtualenv
+  - On Windows:
+  - On macOS/Linux:
+
+--------------------------------------------------------------------------------
+
+## Financial-repo / README
+Source: data/Readme/Financial-repo__README.md
+
+Links:
+  - https://github.com/zer-art/Financial-repo.git
+
+Technologies:
+  - Options-programming
+  - Signals-tele-miniapp
+  - a detailed description of your changes.
+
+Key Features:
+  - **Finance App**: A web application for managing personal finances, including loans, investments, and security preferences.
+  - **Options Programming**: Tools and models for options trading, including machine learning models for predictions.
+  - **Signals Tele Miniapp**: A mini application for processing and analyzing financial signals.
+  - Access the web applications via the browser at `http://127.0.0.1:8000/`.
+  - Explore features like financial dashboards, options trading strategies, and signal analysis tools.
+
+--------------------------------------------------------------------------------
+
+================================================================================
+INTERNSHIPS
+================================================================================
+
+
+## INTERNSHIPS / forage-lloyds / readme
+Source: data/Readme/INTERNSHIPS__forage-lloyds__readme.md
+
+Technologies:
+  - requirements.txt
+  - model.py
+  - utils.py
+
+Key Features:
+  - `notebook/eda.ipynb`: Data exploration and visualization.
+  - `notebook/model.ipynb`: Model building and evaluation.
+  - The dataset `Customer_Churn_Data_Large.xlsx` is located in the `data/` folder.
+  - All core logic is in the `src/` directory:
+  - `model.py`: Model training and prediction functions.
+
+--------------------------------------------------------------------------------
+
+## INTERNSHIPS / forage-BCGx / README
+Source: data/Readme/INTERNSHIPS__forage-BCGx__README.md
+
+--------------------------------------------------------------------------------
+
+## INTERNSHIPS / Readme
+Source: data/Readme/INTERNSHIPS__Readme.md
+
+Technologies:
+  - in each folder.
+  - requirements.txt
+  - code, data, and documentation organized for easy access.
+
+Key Features:
+  - Contains assignments, lecture notes, and machine learning models for crop and fertilizer prediction.
+  - Notebooks and data files are provided for hands-on learning and experimentation.
+  - Focused on customer churn analysis and predictive modeling.
+  - Includes Python scripts, Jupyter notebooks, and a large dataset for analysis.
+  - Each project may have its own dependencies and setup instructions. Refer to the respective `requirements.txt` or documentation within each folder.
+
+--------------------------------------------------------------------------------
+
+## INTERNSHIPS / forage-quantium software engineer / Readme
+Source: data/Readme/INTERNSHIPS__forage-quantium_software_engineer__Readme.md
+
+--------------------------------------------------------------------------------
+
+================================================================================
+LLM PROJECTS
+================================================================================
+
+
+## LLM-Projects / Readme
+Source: data/Readme/LLM-Projects__Readme.md
+
+Technologies:
+  - its own codebase, dependencies, and documentation. Below is an overview of each project:
+  - requirements.txt
+  - pyproject.toml
+  - `pip install -r requirements.txt` or `pip install .` as needed.
+  - the provided SQL script.
+  - LLMs, based on cuisine and style inputs.
+  - main.py
+  - LLMs and retrieval-augmented generation (RAG) techniques.
+  - app.py
+
+Key Features:
+  - **Backend:** Python (main.py, src/)
+  - **Frontend:** HTML, CSS, JavaScript (frontend/)
+  - **Usage:** Run `main.py` to start the backend server. Open `frontend/index.html` in a browser for the UI.
+  - **Backend:** Python (app.py, src/)
+  - **Database:** SQL scripts for setup (database/)
+
+--------------------------------------------------------------------------------
+
+## LLM-Projects / CHANGES SUMMARY
+Source: data/Readme/LLM-Projects__CHANGES_SUMMARY.md
+
+Technologies:
+  - metrics
+  - test results
+  - difficulty/category breakdown
+  - section with Gemini 2.0 Flash
+  - all projects
+  - benchmarks, evaluation scripts |
+  - overview
+  - quantified metrics
+  - detailed performance breakdown
+  - Gemini 2.0 Flash
+
+Key Features:
+  - `/Users/pawan/Developer/LLM-Projects/Ai-Grammer-Tutor/src/utils.py`
+  - `/Users/pawan/Developer/LLM-Projects/Mysql-database-chatbot/src/utils.py`
+  - `/Users/pawan/Developer/LLM-Projects/News-Research-Analysis/src/rag.py`
+  - File: `evaluate_metrics.py`
+  - Tests: 15 test cases across 10 grammar categories
+
+Metrics/Results:
+  - 92.3% accuracy
+
+--------------------------------------------------------------------------------
+
+## LLM-Projects / README UPDATED
+Source: data/Readme/LLM-Projects__README_UPDATED.md
+
+Links:
+  - https://github.com/zer-art
+
+Technologies:
+  - ** Streamlit + LangChain + HuggingFace Embeddings + Chroma + Gemini 2.0 Flash
+  - structured templates
+  - ** Streamlit + LangChain + HuggingFace Embeddings + Gemini 2.0 Flash
+  - structured evaluation
+  - 91.2% accuracy and 0.74s response time
+  - 98.7% execution success rate
+  - :
+  - Gemini 2.0 Flash and LangChain
+  - latest Gemini 2.0 Flash (Dec 2024)
+  - **92.3% accuracy** across 10+ error categories.
+
+Key Features:
+  - **Metrics:** 92.3% accuracy | 1.8s response | 100% precision on correct sentences
+  - **Stack:** FastAPI + LangChain + Gemini 2.0 Flash
+  - **Features:** Real-time error detection, educational explanations, category-specific accuracy
+  - **Key Achievement:** 15-category test suite with structured evaluation
+  - **Metrics:** 91.2% SQL accuracy | 89.5% semantic F1-score | 98.7% execution success
+
+Metrics/Results:
+  - 92.3% accuracy
+  - 100% 
+   precision
+  - 91.2% accuracy
+  - 100% precision
+
+--------------------------------------------------------------------------------
+
+## LLM-Projects / Ai-Grammer-Tutor / README
+Source: data/Readme/LLM-Projects__Ai-Grammer-Tutor__README.md
+
+Links:
+  - https://github.com/your-username/grammer.git
+  - https://github.com/zer-art
+
+Technologies:
+  - CORS-enabled endpoints
+  - configurable temperature (0.2) for consistent outputs
+  - temperature=0.2 for consistency
+  - error detection instructions
+  - structured templates
+  - **Backend:**
+  - proper error handling and CORS configuration
+  - your screenshot if available -->
+  - Google Gemini 2.0 Flash
+  - a simple HTTP server for local development.)*
+
+Key Features:
+  - **Grammar Correction**: Detects and explains basic grammar errors.
+  - **Sub-2s Response Time:** Average 1.8s latency for real-time feedback
+  - **Educational Feedback:** Provides rule explanations, corrections, and examples in each response
+  - **RESTful API Architecture:** FastAPI backend with CORS-enabled endpoints
+  - **Scalable LLM Integration:** LangChain framework with configurable temperature (0.2) for consistent outputs
+
+Metrics/Results:
+  - 92.3% accuracy
+
+--------------------------------------------------------------------------------
+
+## LLM-Projects / Restautant-Name-And-Menu-Gen / Readme
+Source: data/Readme/LLM-Projects__Restautant-Name-And-Menu-Gen__Readme.md
+
+Links:
+  - https://github.com/zer-art/Restaurant-Name-And-Menu-Item-Generator>
+
+Technologies:
+  - `cuisines.txt` and `styles.txt` in the root of your project.
+  - your actual API key.
+  - the Gemini API.
+  - *   **Python:** Core programming language.
+  - data
+  - cuisines.txt
+  - Google's Generative AI models (Gemini).
+  - styles.txt
+
+Key Features:
+  - **Restaurant Name Generation:**
+  - Select a cuisine type (e.g., Italian, Mexican, Indian).
+  - Select a restaurant style (e.g., Modern, Rustic, Casual).
+  - Generates unique and appealing restaurant names based on your selections.
+  - **Menu Idea Generation:**
+
+--------------------------------------------------------------------------------
+
+## LLM-Projects / News-Research-Analysis / README
+Source: data/Readme/LLM-Projects__News-Research-Analysis__README.md
+
+Links:
+  - https://github.com/zer-art/News-Research-Analysis
+  - https://github.com/zer-art
+
+Technologies:
+  - clear HTML structure works best
+  - tools like `RAGAS` or `TruLens` for automated evaluation, or human annotators for ground truth.
+  - RAGAS
+  - **Backend:**
+  - streaming support
+  - top-k retrieval (k=2)
+  - Gemini 2.0 Flash
+  - out excessive length
+  - TruLens
+  - accessible text content
+
+Key Features:
+  - **Advanced RAG Pipeline**: Retrieval-Augmented Generation for factually grounded answers
+  - **Response Time**: Tuned for speed with streaming support
+  - **Multi-Source Integration**: Process and synthesize multiple news URLs simultaneously
+  - **Semantic Search**: HuggingFace embeddings for accurate document ranking
+  - **Low Hallucination**: Grounding in source material to minimize errors
+
+Metrics/Results:
+  - 288ms
+
+--------------------------------------------------------------------------------
+
+## LLM-Projects / Mysql-database-chatbot / README
+Source: data/Readme/LLM-Projects__Mysql-database-chatbot__README.md
+
+Links:
+  - https://github.com/yourusername/Ecom-chatbot.git
+  - https://github.com/zer-art
+
+Technologies:
+  - :
+  - **Backend:**
+  - PyMySQL driver
+  - SemanticSimilarityExampleSelector
+  - few-shot semantic prompting for enterprise e-commerce databases.
+  - Gemini 2.0 Flash
+  - connection pooling
+  - app.py
+
+Key Features:
+  - **SELECT / WHERE**: Basic data retrieval
+  - **JOIN operations**: Multi-table data merging
+  - **Aggregations**: SUM, COUNT, AVG
+  - **GROUP BY**: Categorical analysis
+  - **Natural Language to SQL**: Converts questions to executable SQL.
+
+Metrics/Results:
+  - 91.2% accuracy
+
+--------------------------------------------------------------------------------
+
+## LLM-Projects / PORTFOLIO ANALYSIS
+Source: data/Readme/LLM-Projects__PORTFOLIO_ANALYSIS.md
+
+Technologies:
+  - [tool]"
+  - GitHub Actions"
+  - 91.2% accuracy and 0.74s response time
+  - 98.7% execution success rate
+  - 1.8s response latency" | Quantified performance |
+  - Gemini 2.0 Flash and LangChain
+  - proper architecture
+  - additions above:** Senior AI Engineer (4-6 years)
+  - [uptime]%"
+  - temperature tuning (0.2)" | Technical depth |
+
+Key Features:
+  - 92.3% accuracy in error detection
+  - 1.8s response time (fastest)
+  - 100% accuracy on correct sentence recognition (no false positives)
+  - Category-specific accuracy breakdown (95% subject-verb, 93% homophones)
+  - **Recruiter Value:** Shows deep NLP understanding & prompt engineering expertise
+
+Metrics/Results:
+  - 91.2% accuracy
+  - 100% accuracy
+  - 92.3% accuracy
+  - 15% accuracy
+  - 100% 
+   precision
+
+--------------------------------------------------------------------------------
+
+================================================================================
+MACHINE LEARNING PROJECTS
+================================================================================
+
+
+## MACHINE-LEARNING-PROJECTS / LINEAR REGRESSION FROM SCRATCH / Readme
+Source: data/Readme/MACHINE-LEARNING-PROJECTS__LINEAR_REGRESSION_FROM_SCRATCH__Readme.md
+
+Technologies:
+  - np.dot
+  - Used
+  - Learning Rate = 0.01 |
+  - main.ipynb
+
+Key Features:
+  - **Pure NumPy Implementation**: Understand the math behind the magic.
+  - **Gradient Descent**: Custom implementation of the optimization algorithm.
+  - **Visualization**: Matplotlib plots to visualize the regression line and data points.
+  - **Interactive Notebook**: Step-by-step derivation and code.
+  - **Python**
+
+--------------------------------------------------------------------------------
+
+## MACHINE-LEARNING-PROJECTS / ML real state prediction / README
+Source: data/Readme/MACHINE-LEARNING-PROJECTS__ML_real_state_prediction__README.md
+
+--------------------------------------------------------------------------------
+
+## MACHINE-LEARNING-PROJECTS / Readme
+Source: data/Readme/MACHINE-LEARNING-PROJECTS__Readme.md
+
+Links:
+  - https://github.com/zer-art
+
+Technologies:
+  - a curated knowledge base and custom functions.
+  - model.py
+  - data.csv
+  - main.ipynb
+  - out libraries.
+  - pyproject.toml
+  - Used
+  - a hybrid of content-based and collaborative filtering.
+  - housing.names
+  - an API.
+
+Key Features:
+  - **Purpose:** Recommends optimal crops and fertilizers based on soil and environmental data.
+  - **Features:** Pre-trained models, interactive notebooks, web app interface.
+  - **Main files:** `app.py`, `Crop_Prediction.ipynb`, `Fertilizer_recommendation.ipynb`
+  - **Data:** `data/Crop_recommendation.csv`, `data/Fertilizer Prediction.csv`
+  - **Models:** `model/crop_model.sav`, `model/fertilizer_model.sav`
+
+--------------------------------------------------------------------------------
+
+## MACHINE-LEARNING-PROJECTS / Helthcare-app / Readme
+Source: data/Readme/MACHINE-LEARNING-PROJECTS__Helthcare-app__Readme.md
+
+Technologies:
+  - a curated knowledge base.
+  - benchmark.py
+  - Used
+
+Key Features:
+  - **Question-Answering System**: Answers health-related questions using a curated knowledge base.
+  - **Extensible Functions**: Add custom logic for advanced queries.
+  - **Modular Design**: Organized codebase for maintainability.
+  - **CLI and API Ready**: Easily adaptable for web or command-line interfaces.
+  - **Python 3.8+**
+
+--------------------------------------------------------------------------------
+
+## MACHINE-LEARNING-PROJECTS / Crop and fertilizer Recomendation / Readme
+Source: data/Readme/MACHINE-LEARNING-PROJECTS__Crop and fertilizer Recomendation__Readme.md
+
+Technologies:
+  - Used
+  - the provided `metrics_evaluation.py`.
+
+Key Features:
+  - **Crop Recommendation**: Suggests best crops for given conditions.
+  - **Fertilizer Recommendation**: Recommends suitable fertilizers.
+  - **Pre-trained Models**: Uses saved models for fast predictions.
+  - **Interactive Notebooks**: Explore and analyze data.
+  - **Web App**: User-friendly interface for recommendations.
+
+--------------------------------------------------------------------------------
+
+## MACHINE-LEARNING-PROJECTS / Recommendation-app / README
+Source: data/Readme/MACHINE-LEARNING-PROJECTS__Recommendation-app__README.md
+
+Links:
+  - https://github.com/zer-art
+
+Technologies:
+  - benchmark.py
+  - streamlit
+  - recommender.py
+  - Streamlit for easy user interaction
+  - the Recommendation Engine Programmatically
+  - Used
+  - Python and Streamlit for an interactive web interface.
+  - `benchmark.py`.
+  - sklearn.neighbors.NearestNeighbors
+  - synthetic benchmark data.*
+
+Key Features:
+  - **Hybrid Recommendation Engine**: Combines content-based and collaborative filtering for better accuracy
+  - **Interactive Web Interface**: Built with Streamlit for easy user interaction
+  - **Multiple Recommendation Types**:
+  - Content-Based: Recommendations based on movie genres and features
+  - Collaborative Filtering: Recommendations based on user behavior patterns
+
+Metrics/Results:
+  - 3ms
+
+--------------------------------------------------------------------------------
+
+================================================================================
+NLP PROJECTS
+================================================================================
+
+
+## NLP-PROJECTS / SPAM DETECTION USING BERT / readme
+Source: data/Readme/NLP-PROJECTS__SPAM_DETECTION_USING_BERT__readme.md
+
+Technologies:
+  - spam.csv
+  - the spam detector.*
+  - BERT
+  - app.py
+
+Key Features:
+  - **Advanced NLP**: Uses a pre-trained BERT model from TensorFlow Hub for deep semantic understanding.
+  - **Real-Time Inference**: Streamlit-based web interface for instant feedback.
+  - **Robustness**: Handles long sequences and complex sentence structures better than traditional ML models.
+  - **High Performance**: Achieving **~98% Accuracy** on the evaluation dataset.
+  - **Accuracy**: **97.7%**
+
+Metrics/Results:
+  - 98% Accuracy
+
+--------------------------------------------------------------------------------
+
+## NLP-PROJECTS / KEYWORD EXTRACTOR / readme
+Source: data/Readme/NLP-PROJECTS__KEYWORD_EXTRACTOR__readme.md
+
+Technologies:
+  - nltk library
+  - countvectorizer
+  - pickle to save the model and load the model
+  - numpy and pandas
+  - tfidf transformer to get the weight of the words
+  - pip install -r requirements.txt
+  - out manual tagging.
+
+Key Features:
+  - **Automated Keyword Extraction**: Identifies high-value keywords without manual tagging.
+  - **TF-IDF Vectorization**: Uses statistical scoring to determine word importance.
+  - **Customizable N-Grams**: Extracts unigrams and bigrams for better context.
+  - **Efficient Preprocessing**: Includes stop-word removal, stemming, and tokenization.
+  - **Execution Speed**: ~0.02s per batch (optimized for speed).
+
+--------------------------------------------------------------------------------
+
+## NLP-PROJECTS / WORD SUGGESTION / readme
+Source: data/Readme/NLP-PROJECTS__WORD_SUGGESTION__readme.md
+
+Technologies:
+  - `textdistance` and `pandas`.
+  - pandas
+  - textdistance
+  - **Word Probability** ranking to deliver intelligent suggestions.
+
+Key Features:
+  - **Probabilistic Model**: Ranks suggestions based on their frequency in the training corpus (Moby Dick).
+  - **Edit Distance Algorithm**: Uses Levenshtein distance to find words similar to the input.
+  - **Top-N Suggestions**: Returns the top 5 most likely candidates for any given word.
+  - **Lightweight**: Pure Python implementation using `textdistance` and `pandas`.
+  - **Top-3 Accuracy**: **60.00%**
+
+Metrics/Results:
+  - 350 ms
+  - 3 Accuracy
+  - 1 Accuracy
+
+--------------------------------------------------------------------------------
+
+## NLP-PROJECTS / README
+Source: data/Readme/NLP-PROJECTS__README.md
+
+Links:
+  - https://github.com/your-username/NLP_PROJECTS.git
+
+Technologies:
+  - web-based suggestion features.
+  - NLP techniques to match skills, experience, and other parameters.
+  - n-gram models and user input history.
+  - Used
+  - techniques like TF-IDF or TextRank. Includes scripts for updating keyword cache.
+  - a BERT-based model trained on labeled SMS/email data.
+  - _BERT/**
+
+Key Features:
+  - **AUTOCOMPLETE/dev/**
+  - **KEYWORD_EXTRACTOR/**
+  - **RESUME_SCREENER/**
+  - **SPAM_DETECTION_USING_BERT/**
+  - **WORD_SUGGESTION/**
+
+--------------------------------------------------------------------------------
+
+## NLP-PROJECTS / RESUME SCREENER / readme
+Source: data/Readme/NLP-PROJECTS__RESUME_SCREENER__readme.md
+
+Technologies:
+  - matplotlib
+  - SCREENER.ipynb
+  - numpy and pandas
+  - pip install -r requirements.txt
+  - tfidf
+  - labelencoder
+
+Key Features:
+  - **Multi-Class Classification**: Categorizes resumes into 25+ distinct job roles (e.g., Data Science, Java Developer, DevOps).
+  - **Text Preprocessing**: specialized cleaning pipeline for resume text (URL removal, special character handling).
+  - **High Accuracy**: Optimized model configuration yielding 98% classification accuracy.
+  - **Java Developer** (15)
+  - **DevOps Engineer** (14)
+
+--------------------------------------------------------------------------------
+
+================================================================================
+OTHER PROJECTS
+================================================================================
+
+
+## SELF-STUDY / Readme
+Source: data/Readme/SELF-STUDY__Readme.md
+
+Links:
+  - https://github.com/zer-art/SELF-STUDY.git
+
+Technologies:
+  - on word embeddings and word2vec models.
+
+Key Features:
+  - **DEEP-LEARNING/**
+  - **ANN/**: Artificial Neural Networks notebooks covering digit classification, customer churn, dropout layers, gradient descent, loss functions, quantization, and more.
+  - **BERT/**: Notebooks on BERT (Bidirectional Encoder Representations from Transformers) for NLP tasks.
+  - **CNN/**: Convolutional Neural Networks notebooks including animal classification and data augmentation techniques.
+  - **pipeline/**: Notebooks demonstrating data pipeline creation and dataset caching.
+
+--------------------------------------------------------------------------------
+
+## IssueDesk bot / README
+Source: data/Readme/IssueDesk_bot__README.md
+
+Technologies:
+  - Cron
+  - tracker.py
+  - out linked PRs
+  - RULES
+  - Topics enabled)
+  - custom labels (e.g., 🔥 URGENT, 🌱 EASY)
+  - emoji labels
+  - your actual Telegram Topic IDs
+
+Key Features:
+  - **Multi-Organization Monitoring**: Track issues across multiple GitHub organizations
+  - **Rule-Based Filtering**: Define custom rules to filter and categorize issues
+  - **Telegram Notifications**: Send issue alerts to Telegram topics with emoji labels
+  - **Scheduled Checks**: Run periodic checks to detect newly created issues
+  - **Label Customization**: Organize notifications with custom labels (e.g., 🔥 URGENT, 🌱 EASY)
+
+--------------------------------------------------------------------------------
+
+## SELF-STUDY / learning / README
+Source: data/Readme/SELF-STUDY__learning__README.md
+
+Technologies:
+  - Used
+
+Key Features:
+  - Variables, data types
+  - Control flow (if-else, loops)
+  - Functions and modules
+  - File handling
+  - Classes and objects
+
+--------------------------------------------------------------------------------
+
+## zer-art / README
+Source: data/Readme/zer-art__README.md
+
+Links:
+  - https://github.com/zer-art
+  - https://github.com/zer-art/grammer
+  - https://github.com/zer-art/pneumonia-detection
+
+Technologies:
+  - **Languages:** Python, JavaScript, HTML, CSS, SQL
+  - Pandas** | Coursera | Apr 2025 |
+
+--------------------------------------------------------------------------------
+
+## Application-Projects / Junior Data Scientist – Trader Behavior Insights  / readme
+Source: data/Readme/Application-Projects__Junior Data Scientist – Trader Behavior Insights __readme.md
+
+Technologies:
+  - market sentiment.
+  - :
+  - all code for data loading, cleaning, visualization, and statistical analysis.
+
+Key Features:
+  - **data/**: Contains the raw datasets used for analysis.
+  - **notebook/EDA.ipynb**: Jupyter notebook with all code for data loading, cleaning, visualization, and statistical analysis.
+  - **readme.md**: Project documentation.
+  - **fear_greed_index.csv**: Contains daily market sentiment classifications (e.g., Fear, Greed, Extreme Fear, Extreme Greed).
+  - **historical_data.csv**: Contains trade-level data, including timestamps, account, coin, closed PnL, and trade size.
+
+--------------------------------------------------------------------------------
+
+## SELF-STUDY / javascript / Readme
+Source: data/Readme/SELF-STUDY__javascript__Readme.md
+
+Technologies:
+  - getElementById
+  - a heading and a paragraph. Links to `style.css` and `script.js`.
+  - Ques2.js
+  - script.js
+  - JavaScript:
+  - for...of
+  - DOM
+  - `for...in`.
+  - a graphical desktop environment.
+  - for...in
+
+Key Features:
+  - **index.html**: Basic HTML file with a heading and a paragraph. Links to `style.css` and `script.js`.
+  - **script.js**: Changes the content of the heading using JavaScript (`getElementById` and `innerHTML`).
+  - **style.css**: (Add your styles here if needed.)
+  - **for_loop.js**: Demonstrates the use of a `for` loop to calculate the sum of the first 10 natural numbers.
+  - **while_loop.js**: Uses a `while` loop for the same sum calculation.
+
+--------------------------------------------------------------------------------
+
+## SELF-STUDY / DEEP-LEARNING / README
+Source: data/Readme/SELF-STUDY__DEEP-LEARNING__README.md
+
+Links:
+  - https://github.com/your-username/DEEP-LEARNING.git
+
+Technologies:
+  - RNN variants including LSTM and GRU.
+  - CNNs along with data augmentation techniques. Includes a project on animal image classification.
+  - quantization techniques implemented for model size and performance improvements.
+
+Key Features:
+  - `.vscode/`
+  - `ANN/`
+  - `BERT/`
+  - `CNN/`
+  - `RNN/`
+
+--------------------------------------------------------------------------------
+
+## Application-Projects / Readme
+Source: data/Readme/Application-Projects__Readme.md
+
+Technologies:
+  - in their respective assignment folders.
+
+Key Features:
+  - Each assignment is organized in its own directory.
+  - Supporting files such as data, notebooks, and reports are included within their respective assignment folders.
+
+--------------------------------------------------------------------------------
+
+================================================================================
+PORTFOLIO
+================================================================================
+
+
+## portfolio / README
+Source: data/Readme/portfolio__README.md
+
+Links:
+  - https://github.com/zer-art
+
+Technologies:
+  - AOS library
+  - and expertise areas
+  - Python
+  - a local server:
+  - Live Server (VS Code extension)
+  - GitHub links
+  - validation
+  - Used
+  - index.html
+  - Tailwind CSS and DaisyUI components
+
+Key Features:
+  - **Responsive Design**: Fully responsive across all devices
+  - **Dark/Light Mode**: Toggle between CMYK (light) and Dark themes using DaisyUI
+  - **Interactive Animations**: Smooth animations using AOS library
+  - **Modern UI**: Built with Tailwind CSS and DaisyUI components
+  - **Contact Form**: Functional contact form with validation
+
+--------------------------------------------------------------------------------
