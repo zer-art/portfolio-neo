@@ -36,7 +36,13 @@ const ProjectCard = ({ project }) => (
         <h4 className="text-sm font-medium text-neutral-100 font-sans flex items-center gap-2 flex-wrap">
           {project.name}
           {project.github && (
-            <a href={project.github} target="_blank" rel="noopener noreferrer"
+            <a href={project.github} target="_blank" rel="noopener noreferrer" title="GitHub"
+              className="text-neutral-500 hover:text-neutral-300 transition-colors flex-shrink-0">
+              <ExternalLink size={11} />
+            </a>
+          )}
+          {project.url && (
+            <a href={project.url} target="_blank" rel="noopener noreferrer" title="Live Demo"
               className="text-neutral-500 hover:text-neutral-300 transition-colors flex-shrink-0">
               <ExternalLink size={11} />
             </a>
