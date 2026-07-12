@@ -142,6 +142,7 @@
         "name": "AIVOX (AI Interview Coach)",
         "mermaid": "graph TD\n    Client[User Browser / React Frontend] <-->|Video & Audio Streams| API[FastAPI Backend]\n    API -->|Process Frames| MediaPipe[MediaPipe Worker]\n    MediaPipe -.->|Visual Cues & Posture| API\n    API -->|Audio Chunks| Groq[Groq / Whisper API]\n    Groq -.->|Fast Transcription| API\n    API -->|Text & Context| Gemini[Google Gemini API]\n    Gemini -.->|Interview Evaluation| API\n    API -->|Save Reports & Metrics| DB[(Firestore Database)]\n    DB -.->|Fetch Dashboard Data| Client\n    classDef backend fill:#2c3e50,stroke:#34495e,stroke-width:2px,color:#fff;\n    classDef frontend fill:#2980b9,stroke:#2980b9,stroke-width:2px,color:#fff;\n    classDef ai fill:#8e44ad,stroke:#8e44ad,stroke-width:2px,color:#fff;\n    classDef db fill:#e67e22,stroke:#d35400,stroke-width:2px,color:#fff;\n    class API backend; class Client frontend; class MediaPipe,Groq,Gemini ai; class DB db;\n",
         "github": "https://github.com/zer-art/Academics/tree/main/Major-project",
+        "url": "https://academics-liart.vercel.app",
         "roles": [
           "ai_engineer"
         ],
