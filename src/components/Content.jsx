@@ -1,6 +1,7 @@
 import React from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { ExternalLink, GitPullRequest, Award, ChevronRight } from 'lucide-react';
+import Mermaid from './Mermaid';
 
 // ─── Shared markdown parser ───────────────────────────────────────────────────
 const parseMarkdown = (text) => {
@@ -52,6 +53,10 @@ const ProjectCard = ({ project }) => (
 
     {project.description && (
       <p className="text-xs text-neutral-400 font-sans leading-relaxed">{parseMarkdown(project.description)}</p>
+    )}
+
+    {project.mermaid && (
+      <Mermaid chart={project.mermaid} />
     )}
 
     {project.achievements?.length > 0 && (
