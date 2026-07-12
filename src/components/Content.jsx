@@ -42,7 +42,7 @@ const ProjectCard = ({ project }) => (
             </a>
           )}
           {project.url && (
-            <a href={project.url} target="_blank" rel="noopener noreferrer" title="Live Demo"
+            <a href={project.url} target="_blank" rel="noopener noreferrer" title="Live"
               className="text-neutral-500 hover:text-neutral-300 transition-colors flex-shrink-0">
               <ExternalLink size={11} />
             </a>
