@@ -1,5 +1,5 @@
-import React from 'react';
-import { Mail, Phone, MapPin, Github, Linkedin, ExternalLink, Download, BookOpen, Briefcase, Award, FolderGit2, GitPullRequest, ChevronRight } from 'lucide-react';
+import React, { useState } from 'react';
+import { Mail, Phone, MapPin, Github, Linkedin, ExternalLink, Download, BookOpen, Briefcase, Award, FolderGit2, GitPullRequest, ChevronRight, ChevronDown } from 'lucide-react';
 
 // Section nav config
 const NAV_PAGES = [
@@ -21,6 +21,7 @@ const NAV_PAGES = [
 ];
 
 const Sidebar = ({ profile, resumes, activeRole, activePage, setActiveRole, setActivePage }) => {
+  const [isResumesExpanded, setIsResumesExpanded] = useState(false);
 
   const formatRoleName = (key) => {
     if (key === 'master') return 'Master Profile';
@@ -109,7 +110,9 @@ const Sidebar = ({ profile, resumes, activeRole, activePage, setActiveRole, setA
       <div className="space-y-1.5">
         <p className="text-[10px] font-mono tracking-widest text-neutral-600 uppercase">Resume View</p>
         <nav className="flex flex-col gap-1">
-          {roles.map((role) => {
+          {/* Master Profile Always Visible */}
+          {(() => {
+            const role = 'master';
             const isActive = activeRole === role && activePage === 'home';
             return (
               <button
@@ -132,7 +135,49 @@ const Sidebar = ({ profile, resumes, activeRole, activePage, setActiveRole, setA
                 )}
               </button>
             );
-          })}
+          })()}
+
+          {/* Toggle for other filtered resumes */}
+          {Object.keys(resumes).length > 0 && (
+            <div className="flex flex-col gap-1 mt-1">
+              <button
+                onClick={() => setIsResumesExpanded(!isResumesExpanded)}
+                className="w-full text-left py-1.5 px-3 rounded-lg text-[10px] font-mono text-neutral-500 hover:text-neutral-300 hover:bg-neutral-950 border border-transparent transition-colors flex items-center gap-2"
+              >
+                {isResumesExpanded ? <ChevronDown size={14} /> : <ChevronRight size={14} />}
+                <span>Filtered Resumes</span>
+              </button>
+              
+              {isResumesExpanded && (
+                <div className="flex flex-col gap-1 pl-4 border-l border-neutral-900 ml-2 mt-1">
+                  {Object.keys(resumes).map((role) => {
+                    const isActive = activeRole === role && activePage === 'home';
+                    return (
+                      <button
+                        key={role}
+                        onClick={() => setActiveRole(role)}
+                        className={`w-full text-left py-1.5 px-3 rounded-lg text-[11px] font-mono transition-all duration-200 flex items-center justify-between group ${
+                          isActive
+                            ? 'bg-neutral-900 border border-neutral-800 text-neutral-100'
+                            : 'text-neutral-500 hover:text-neutral-300 hover:bg-neutral-950 border border-transparent'
+                        }`}
+                      >
+                        <span className="flex items-center gap-2">
+                          <span className={`w-1 h-1 rounded-full transition-all duration-300 ${
+                            isActive ? 'bg-neutral-200' : 'bg-transparent group-hover:bg-neutral-700'
+                          }`} />
+                          {formatRoleName(role)}
+                        </span>
+                        {isActive && (
+                          <span className="text-[9px] text-emerald-400 bg-emerald-500/10 px-1.5 py-0.5 rounded">Active</span>
+                        )}
+                      </button>
+                    );
+                  })}
+                </div>
+              )}
+            </div>
+          )}
         </nav>
       </div>
 
