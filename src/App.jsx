@@ -117,8 +117,25 @@ function App() {
   const previewProjects = useMemo(() => {
     const all = profile.projects || [];
     if (activeRole === 'master' || !filteredResumes[activeRole]) return all;
-    const allowed = filteredResumes[activeRole].projects || [];
-    return all.filter((p) => allowed.includes(p.name));
+    
+    const projectConfig = filteredResumes[activeRole].projects || [];
+    let allowed = [];
+    let overrides = {};
+    
+    if (Array.isArray(projectConfig)) {
+      allowed = projectConfig;
+    } else {
+      allowed = Object.keys(projectConfig);
+      overrides = projectConfig;
+    }
+    
+    return all.filter((p) => allowed.includes(p.name)).map((p) => {
+      const version = overrides[p.name] || 'default';
+      if (version !== 'default' && p.versions && p.versions[version]) {
+        return { ...p, ...p.versions[version] };
+      }
+      return p;
+    });
   }, [profile.projects, activeRole, filteredResumes]);
 
   const previewOS = useMemo(() => {
