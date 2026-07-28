@@ -13,19 +13,19 @@
       "show_projects": true
     },
     "custom_summaries": {
-      "data_analytics": "Data Analytics student (graduating 2026) with expertise in Python (Pandas, NumPy), SQL,  and Data Visualization. Seeking an internship to leverage skills in predictive modeling and automated reporting. Core Contributor to Google DeepMind and Kornia libraries. Proven ability to optimize data pipelines and reduce retrieval times by 95%.\n",
-      "ai_engineer": "Computer Science student specializing in Deep Learning, Differentiable Programming, and LLM Agents. Seeking an AI Engineering internship. Core Contributor to Google DeepMind (Optax, MuJoCo)  and Kornia libraries. Experienced in building low-latency AI agents (<100ms latency)  and optimizing production ML workflows.\n",
-      "ai_dev": "Final-year student specializing in AI/ML development, dataset preprocessing, and Generative AI solutions. Proven experience in cleaning/preprocessing datasets, performing EDA, and building/testing automated systems using Python (NumPy, Pandas, Scikit-learn, Matplotlib). Core contributor to Google DeepMind and Kornia libraries, leveraging Git/GitHub for version control to deliver robust production-ready code."
+      "data_analytics": "Data Analytics graduate (B.Sc. completed 2026) with expertise in Python (Pandas, NumPy), SQL,  and Data Visualization. Seeking full-time roles to leverage skills in predictive modeling and automated reporting. Core Contributor to Google DeepMind and Kornia libraries. Proven ability to optimize data pipelines and reduce retrieval times by 95%.\n",
+      "ai_engineer": "Computer Science graduate (B.Sc. completed 2026) specializing in Deep Learning, Differentiable Programming, and LLM Agents. Seeking AI Engineering roles. Core Contributor to Google DeepMind (Optax, MuJoCo)  and Kornia libraries. Experienced in building low-latency AI agents (<100ms latency)  and optimizing production ML workflows.\n",
+      "ai_dev": "Recent B.Sc. graduate (completed 2026) specializing in AI/ML development, dataset preprocessing, and Generative AI solutions. Proven experience in cleaning/preprocessing datasets, performing EDA, and building/testing automated systems using Python (NumPy, Pandas, Scikit-learn, Matplotlib). Core contributor to Google DeepMind and Kornia libraries, leveraging Git/GitHub for version control to deliver robust production-ready code."
     },
-    "summary": "Final-year Data Analytics student and core open-source contributor to Google DeepMind  (Optax, MuJoCo) and Kornia. Expert in building high-performance, low-latency AI applications  (<100ms) with a strong focus on Computer Vision, Differentiable Programming, and Large  Language Models (LLMs). Proven track record of optimizing data pipelines, engineering  scalable RAG architectures, and deploying end-to-end Machine Learning solutions using  Python, SQL, and FastAPI. Adept at translating complex raw datasets into actionable  strategic insights. Seeking entry-level AI Engineering or Data Analytics roles to drive  innovation and data-informed decision-making in high-impact environments.\n",
+    "summary": "Recent B.Sc. Data Analytics graduate (completed 2026) and core open-source contributor to Google DeepMind  (Optax, MuJoCo) and Kornia. Expert in building high-performance, low-latency AI applications  (<100ms) with a strong focus on Computer Vision, Differentiable Programming, and Large  Language Models (LLMs). Proven track record of optimizing data pipelines, engineering  scalable RAG architectures, and deploying end-to-end Machine Learning solutions using  Python, SQL, and FastAPI. Adept at translating complex raw datasets into actionable  strategic insights. Seeking entry-level AI Engineering or Data Analytics roles to drive  innovation and data-informed decision-making in high-impact environments.\n",
     "education": [
       {
         "institution": "DSEU Rajokri Campus",
         "location": "Delhi, India",
         "degree": "B.Sc Data Analytics",
         "field": "Information Technology",
-        "duration": "Jun 2023 - Present",
-        "cgpa": "8.5",
+        "duration": "Jun 2023 - 2026",
+        "cgpa": "8.8",
         "cuet": "84%",
         "cuet_percentile": "84% (Best 2 Subjects + 1 Language)",
         "coursework": [
@@ -641,10 +641,11 @@
     "PythonDev": {
       "summary_type": "custom",
       "summary_key": null,
-      "custom_summary_text": "Final-year B.Sc. Data Analytics student and Contributor to\n      Google DeepMind, Kornia, and Open Climate Fix. Expert in building low-latency\n      AI applications (<100ms) with a focus on Computer Vision, Differentiable Programming,\n      and Deep Learning. Recognized as a Regional Finalist in the Delhi Startup Yuva\n      Festival for RailFlow AI and winner of the DSEU Rajokri Campus Hackathon. Proven\n      track record of optimizing data pipelines and reducing report generation times\n      by 95% while deploying scalable, high-impact ML solutions.",
+      "custom_summary_text": "Recent B.Sc. Data Analytics graduate (completed 2026) and Contributor to\n      Google DeepMind, Kornia, and Open Climate Fix. Expert in building low-latency\n      AI applications (<100ms) with a focus on Computer Vision, Differentiable Programming,\n      and Deep Learning. Recognized as a Regional Finalist in the Delhi Startup Yuva\n      Festival for RailFlow AI and winner of the DSEU Rajokri Campus Hackathon. Proven\n      track record of optimizing data pipelines and reducing report generation times\n      by 95% while deploying scalable, high-impact ML solutions.",
       "projects": {
         "AIVOX (AI Interview Coach)": "default",
-        "Automated SQL Query & Reporting System": "default"
+        "Automated SQL Query & Reporting System": "default",
+        "Pneumonia Detection": "default"
       },
       "open_source_enabled": true,
       "open_source": [
@@ -745,8 +746,9 @@
       ]
     },
     "ai_engineer": {
-      "summary_type": "preset",
-      "summary_key": "ai_engineer",
+      "summary_type": "custom",
+      "summary_key": null,
+      "custom_summary_text": "Recent B.Sc. Data Analytics graduate (completed 2026) and Contributor to\n      Google DeepMind, Kornia, and Open Climate Fix. Expert in building low-latency\n      AI applications (<100ms) and LLM Agents with a focus on Computer Vision, Differentiable\n      Programming, and Deep Learning. Recognized as a Regional Finalist in the Delhi\n      Startup Yuva Festival for RailFlow AI and winner of the DSEU Rajokri Campus Hackathon.\n      Proven track record of engineering scalable RAG architectures and reducing latency\n      by 95% while deploying production-ready ML solutions.",
       "projects": {
         "AIVOX (AI Interview Coach)": "default",
         "News Research & Synthesis Agent": "default",
@@ -797,7 +799,7 @@
     "gs_operations": {
       "summary_type": "custom",
       "summary_key": null,
-      "custom_summary_text": "Data Analytics and AI Engineering student with a strong foundation in optimizing complex workflows, engineering robust data pipelines, and ensuring system efficiency. Proven ability to reduce process latency (e.g., accelerating report generation by 95% and reducing reporting latency to under 2.1 seconds) and automate manual analysis with high accuracy. Seeking the Operations Summer Analyst position at Goldman Sachs (Mumbai) to leverage analytical skills, technical proficiency, and a risk-mitigation mindset to ensure seamless transaction processing, accurate reporting, and continuous process reengineering.",
+      "custom_summary_text": "Recent Data Analytics and AI Engineering graduate (B.Sc. completed 2026) with a strong foundation in optimizing complex workflows, engineering robust data pipelines, and ensuring system efficiency. Proven ability to reduce process latency (e.g., accelerating report generation by 95% and reducing reporting latency to under 2.1 seconds) and automate manual analysis with high accuracy. Seeking Operations Analyst roles to leverage analytical skills, technical proficiency, and a risk-mitigation mindset to ensure seamless transaction processing, accurate reporting, and continuous process reengineering.",
       "projects": {
         "Automated SQL Query & Reporting System": "gs_operations",
         "News Research & Synthesis Agent": "gs_operations",
