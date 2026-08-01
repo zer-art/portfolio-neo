@@ -169,37 +169,36 @@ function App() {
   const allGroupedProjects = useMemo(() => groupProjects(profile.projects || []), [profile.projects]);
 
   return (
-    <div className="flex flex-col md:flex-row min-h-screen bg-[#030303] text-gray-100 selection:bg-neutral-800 selection:text-white relative overflow-x-hidden">
-      {/* Noise Overlay */}
-      <div className="fixed inset-0 pointer-events-none opacity-[0.02] z-50 bg-noise mix-blend-overlay" />
+    <div className="min-h-screen bg-[#0a0a0a] text-neutral-300 relative overflow-x-hidden flex justify-center p-4 md:p-8 lg:p-12 selection:bg-white/20 selection:text-white">
+      <div className="w-full max-w-7xl flex flex-col lg:flex-row gap-6 lg:gap-8 items-start">
+        <Sidebar
+          profile={profile}
+          resumes={filteredResumes}
+          activeRole={activeRole}
+          activePage={activePage}
+          setActiveRole={handleRoleChange}
+          setActivePage={handlePageChange}
+        />
 
-      <Sidebar
-        profile={profile}
-        resumes={filteredResumes}
-        activeRole={activeRole}
-        activePage={activePage}
-        setActiveRole={handleRoleChange}
-        setActivePage={handlePageChange}
-      />
-
-      <Content
-        profile={profile}
-        resumes={filteredResumes}
-        activeRole={activeRole}
-        activePage={activePage}
-        setActivePage={handlePageChange}
-        // Home preview data (truncated by role)
-        previewProjects={previewProjects}
-        previewOS={previewOS}
-        previewCerts={previewCerts}
-        previewSkills={previewSkills}
-        // Full data for dedicated pages (always full list, all categories)
-        allGroupedProjects={allGroupedProjects}
-        allOS={profile.open_source || []}
-        allCerts={profile.certifications || []}
-        allEducation={profile.education || []}
-        allExperience={profile.experience || []}
-      />
+        <Content
+          profile={profile}
+          resumes={filteredResumes}
+          activeRole={activeRole}
+          activePage={activePage}
+          setActivePage={handlePageChange}
+          // Home preview data (truncated by role)
+          previewProjects={previewProjects}
+          previewOS={previewOS}
+          previewCerts={previewCerts}
+          previewSkills={previewSkills}
+          // Full data for dedicated pages (always full list, all categories)
+          allGroupedProjects={allGroupedProjects}
+          allOS={profile.open_source || []}
+          allCerts={profile.certifications || []}
+          allEducation={profile.education || []}
+          allExperience={profile.experience || []}
+        />
+      </div>
     </div>
   );
 }

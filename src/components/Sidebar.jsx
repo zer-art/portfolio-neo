@@ -41,76 +41,69 @@ const Sidebar = ({ profile, resumes, activeRole, activePage, setActiveRole, setA
   const roles = ['master', ...Object.keys(resumes)];
 
   return (
-    <aside className="w-full md:w-80 lg:w-96 md:fixed md:top-0 md:left-0 md:h-screen p-5 md:p-7 border-b md:border-b-0 md:border-r border-neutral-900 flex flex-col gap-4 bg-[#030303] z-10 overflow-y-auto custom-scrollbar">
+    <aside className="bento-card w-full lg:w-[340px] lg:sticky lg:top-8 flex-shrink-0 flex flex-col gap-8 z-10 max-h-[calc(100vh-4rem)] overflow-y-auto custom-scrollbar">
 
       {/* Identity */}
-      <div className="space-y-2.5">
-        <div className="flex items-center gap-2.5">
-          <span className="w-2 h-2 rounded-full bg-emerald-500 animate-pulse" />
-          <span className="text-[10px] font-mono tracking-widest text-neutral-500 uppercase">Available for internships</span>
+      <div className="space-y-4">
+        <div className="flex items-center gap-2">
+          <span className="w-2.5 h-2.5 rounded-full bg-emerald-500 animate-pulse shadow-[0_0_8px_rgba(16,185,129,0.5)]" />
+          <span className="text-xs font-semibold tracking-wide text-neutral-400 uppercase">Available for hire</span>
         </div>
         <div>
-          <h1 className="text-xl font-semibold tracking-tight text-neutral-100 font-sans leading-tight">
+          <h1 className="text-3xl font-bold tracking-tight text-white mb-1">
             {profile.name}
           </h1>
-          <p className="text-[11px] font-mono tracking-wider text-neutral-500 mt-1.5 uppercase">
+          <p className="text-sm font-medium text-neutral-400">
             AI Engineer & Data Scientist
           </p>
         </div>
 
         {/* Contacts */}
-        <div className="space-y-1 text-[11px] font-mono">
-          <div className="flex items-center gap-2.5 text-neutral-400">
-            <MapPin size={12} className="text-neutral-600 flex-shrink-0" />
+        <div className="space-y-2 text-sm pt-2">
+          <div className="flex items-center gap-3 text-neutral-300">
+            <div className="w-8 h-8 rounded-full bg-white/5 flex items-center justify-center flex-shrink-0">
+              <MapPin size={14} className="text-neutral-400" />
+            </div>
             <span>{profile.location}</span>
           </div>
           {profile.email && (
             <a href={getFullUrl('email', profile.email)}
-              className="flex items-center gap-2.5 text-neutral-400 hover:text-neutral-200 transition-colors">
-              <Mail size={12} className="text-neutral-600 flex-shrink-0" />
+              className="flex items-center gap-3 text-neutral-300 hover:text-white transition-colors group">
+              <div className="w-8 h-8 rounded-full bg-white/5 flex items-center justify-center flex-shrink-0 group-hover:bg-white/10 transition-colors">
+                <Mail size={14} className="text-neutral-400 group-hover:text-white" />
+              </div>
               <span className="truncate">{profile.email}</span>
-            </a>
-          )}
-          {profile.phone && (
-            <a href={getFullUrl('phone', profile.phone)}
-              className="flex items-center gap-2.5 text-neutral-400 hover:text-neutral-200 transition-colors">
-              <Phone size={12} className="text-neutral-600 flex-shrink-0" />
-              <span>{profile.phone}</span>
             </a>
           )}
         </div>
 
         {/* Social Icons */}
-        <div className="flex items-center gap-4 text-neutral-500">
+        <div className="flex items-center gap-3 pt-2">
           {profile.github && (
             <a href={getFullUrl('github', profile.github)} target="_blank" rel="noopener noreferrer"
-              className="hover:text-neutral-200 transition-colors" title="GitHub">
-              <Github size={15} />
+              className="w-10 h-10 rounded-full bg-white/5 flex items-center justify-center hover:bg-white/10 hover:scale-105 transition-all text-neutral-400 hover:text-white" title="GitHub">
+              <Github size={18} />
             </a>
           )}
           {profile.linkedin && (
             <a href={getFullUrl('linkedin', profile.linkedin)} target="_blank" rel="noopener noreferrer"
-              className="hover:text-neutral-200 transition-colors" title="LinkedIn">
-              <Linkedin size={15} />
+              className="w-10 h-10 rounded-full bg-white/5 flex items-center justify-center hover:bg-white/10 hover:scale-105 transition-all text-neutral-400 hover:text-white" title="LinkedIn">
+              <Linkedin size={18} />
             </a>
           )}
           {profile.website && (
             <a href={getFullUrl('website', profile.website)} target="_blank" rel="noopener noreferrer"
-              className="hover:text-neutral-200 transition-colors" title="Website">
-              <ExternalLink size={15} />
+              className="w-10 h-10 rounded-full bg-white/5 flex items-center justify-center hover:bg-white/10 hover:scale-105 transition-all text-neutral-400 hover:text-white" title="Website">
+              <ExternalLink size={18} />
             </a>
           )}
         </div>
       </div>
 
-      {/* Divider */}
-      <div className="border-t border-neutral-900" />
-
       {/* Resume Filter Buttons */}
-      <div className="space-y-1.5">
-        <p className="text-[10px] font-mono tracking-widest text-neutral-600 uppercase">Resume View</p>
-        <nav className="flex flex-col gap-1">
-          {/* Master Profile Always Visible */}
+      <div className="space-y-3">
+        <p className="text-xs font-semibold tracking-wider text-neutral-500 uppercase">Resume View</p>
+        <nav className="flex flex-col gap-1.5">
           {(() => {
             const role = 'master';
             const isActive = activeRole === role && activePage === 'home';
@@ -118,58 +111,51 @@ const Sidebar = ({ profile, resumes, activeRole, activePage, setActiveRole, setA
               <button
                 key={role}
                 onClick={() => setActiveRole(role)}
-                className={`w-full text-left py-1.5 px-3 rounded-lg text-[11px] font-mono transition-all duration-200 flex items-center justify-between group ${
+                className={`w-full text-left py-2 px-3.5 rounded-xl text-sm font-medium transition-all duration-200 flex items-center justify-between group ${
                   isActive
-                    ? 'bg-neutral-900 border border-neutral-800 text-neutral-100'
-                    : 'text-neutral-500 hover:text-neutral-300 hover:bg-neutral-950 border border-transparent'
+                    ? 'bg-white text-black shadow-md'
+                    : 'text-neutral-400 hover:text-white hover:bg-white/5'
                 }`}
               >
-                <span className="flex items-center gap-2">
-                  <span className={`w-1 h-1 rounded-full transition-all duration-300 ${
-                    isActive ? 'bg-neutral-200' : 'bg-transparent group-hover:bg-neutral-700'
-                  }`} />
+                <span className="flex items-center gap-2.5">
                   {formatRoleName(role)}
                 </span>
                 {isActive && (
-                  <span className="text-[9px] text-emerald-400 bg-emerald-500/10 px-1.5 py-0.5 rounded">Active</span>
+                  <span className="text-[10px] font-bold uppercase tracking-wider bg-black/10 text-black/70 px-2 py-0.5 rounded-full">Active</span>
                 )}
               </button>
             );
           })()}
 
-          {/* Toggle for other filtered resumes */}
           {Object.keys(resumes).length > 0 && (
             <div className="flex flex-col gap-1 mt-1">
               <button
                 onClick={() => setIsResumesExpanded(!isResumesExpanded)}
-                className="w-full text-left py-1.5 px-3 rounded-lg text-[10px] font-mono text-neutral-500 hover:text-neutral-300 hover:bg-neutral-950 border border-transparent transition-colors flex items-center gap-2"
+                className="w-full text-left py-2 px-3.5 rounded-xl text-sm font-medium text-neutral-400 hover:text-white hover:bg-white/5 transition-colors flex items-center justify-between"
               >
-                {isResumesExpanded ? <ChevronDown size={14} /> : <ChevronRight size={14} />}
-                <span>Filtered Resumes</span>
+                <span className="flex items-center gap-2">
+                  <span>Filtered Resumes</span>
+                </span>
+                {isResumesExpanded ? <ChevronDown size={16} /> : <ChevronRight size={16} />}
               </button>
               
               {isResumesExpanded && (
-                <div className="flex flex-col gap-1 pl-4 border-l border-neutral-900 ml-2 mt-1">
+                <div className="flex flex-col gap-1.5 pl-3 border-l-2 border-white/5 ml-3 mt-1">
                   {Object.keys(resumes).map((role) => {
                     const isActive = activeRole === role && activePage === 'home';
                     return (
                       <button
                         key={role}
                         onClick={() => setActiveRole(role)}
-                        className={`w-full text-left py-1.5 px-3 rounded-lg text-[11px] font-mono transition-all duration-200 flex items-center justify-between group ${
+                        className={`w-full text-left py-1.5 px-3 rounded-xl text-sm font-medium transition-all duration-200 flex items-center justify-between group ${
                           isActive
-                            ? 'bg-neutral-900 border border-neutral-800 text-neutral-100'
-                            : 'text-neutral-500 hover:text-neutral-300 hover:bg-neutral-950 border border-transparent'
+                            ? 'bg-white text-black shadow-md'
+                            : 'text-neutral-400 hover:text-white hover:bg-white/5'
                         }`}
                       >
-                        <span className="flex items-center gap-2">
-                          <span className={`w-1 h-1 rounded-full transition-all duration-300 ${
-                            isActive ? 'bg-neutral-200' : 'bg-transparent group-hover:bg-neutral-700'
-                          }`} />
-                          {formatRoleName(role)}
-                        </span>
+                        {formatRoleName(role)}
                         {isActive && (
-                          <span className="text-[9px] text-emerald-400 bg-emerald-500/10 px-1.5 py-0.5 rounded">Active</span>
+                          <span className="text-[10px] font-bold uppercase tracking-wider bg-black/10 text-black/70 px-2 py-0.5 rounded-full">Active</span>
                         )}
                       </button>
                     );
@@ -181,44 +167,39 @@ const Sidebar = ({ profile, resumes, activeRole, activePage, setActiveRole, setA
         </nav>
       </div>
 
-      {/* Divider */}
-      <div className="border-t border-neutral-900" />
-
       {/* Section Navigation */}
-      <div className="space-y-1.5">
-        <p className="text-[10px] font-mono tracking-widest text-neutral-600 uppercase">Sections</p>
-        <nav className="flex flex-col gap-0.5">
+      <div className="space-y-3">
+        <p className="text-xs font-semibold tracking-wider text-neutral-500 uppercase">Navigation</p>
+        <nav className="flex flex-col gap-1.5">
           {NAV_PAGES.map(({ id, label, Icon, subsections }) => {
             const isActive = activePage === id;
             return (
               <div key={id}>
                 <button
                   onClick={() => setActivePage(id)}
-                  className={`w-full text-left py-1.5 px-3 rounded-lg text-[11px] font-mono transition-all duration-200 flex items-center gap-2.5 group ${
+                  className={`w-full text-left py-2.5 px-3.5 rounded-xl text-sm font-medium transition-all duration-200 flex items-center gap-3 group ${
                     isActive
-                      ? 'bg-neutral-900 border border-neutral-800 text-neutral-100'
-                      : 'text-neutral-500 hover:text-neutral-300 hover:bg-neutral-950 border border-transparent'
+                      ? 'bg-white/10 text-white'
+                      : 'text-neutral-400 hover:text-white hover:bg-white/5'
                   }`}
                 >
-                  <Icon size={13} className={isActive ? 'text-neutral-300' : 'text-neutral-600 group-hover:text-neutral-500'} />
+                  <Icon size={16} className={isActive ? 'text-white' : 'text-neutral-500 group-hover:text-white'} />
                   {label}
                 </button>
 
-                {/* Sub-categories (always visible for Projects) */}
                 {subsections && (
-                  <div className="ml-5 pl-3 border-l border-neutral-900 mt-0.5 mb-1 flex flex-col gap-0.5">
+                  <div className="ml-5 pl-4 border-l-2 border-white/5 mt-1 mb-2 flex flex-col gap-1">
                     {subsections.map(({ id: subId, label: subLabel }) => (
                       <button
                         key={subId}
                         onClick={() => {
                           setActivePage(id);
-                          // scroll to anchor after page renders
                           setTimeout(() => {
                             const el = document.getElementById(subId);
                             if (el) el.scrollIntoView({ behavior: 'smooth', block: 'start' });
                           }, 120);
                         }}
-                        className="w-full text-left py-1 px-2 rounded text-[10px] font-mono text-neutral-600 hover:text-neutral-300 transition-colors"
+                        className="w-full text-left py-1 px-2 rounded-lg text-xs font-medium text-neutral-500 hover:text-white transition-colors"
                       >
                         {subLabel}
                       </button>
@@ -231,22 +212,18 @@ const Sidebar = ({ profile, resumes, activeRole, activePage, setActiveRole, setA
         </nav>
       </div>
 
-      {/* Spacer to push footer down */}
       <div className="flex-1" />
 
-      {/* PDF Download + Footer */}
-      <div className="space-y-3 border-t border-neutral-900 pt-3">
+      {/* PDF Download */}
+      <div className="pt-2">
         <a
           href={activeRole !== 'master' ? `./public/${activeRole}_resume.pdf` : './public/Pawan_Parida_Resume.pdf'}
           download
-          className="flex items-center justify-center gap-2 w-full py-2.5 px-4 border border-neutral-800 hover:border-neutral-600 rounded-lg text-[11px] font-mono text-neutral-300 hover:text-neutral-100 transition-all bg-neutral-950 hover:bg-neutral-900"
+          className="flex items-center justify-center gap-2 w-full py-3 px-4 rounded-xl text-sm font-bold text-black bg-white hover:bg-neutral-200 transition-all shadow-lg shadow-white/10"
         >
-          <Download size={12} />
-          <span>Download {activeRole !== 'master' ? formatRoleName(activeRole) : ''} Resume PDF</span>
+          <Download size={16} />
+          <span>Download PDF</span>
         </a>
-        <p className="text-[10px] font-mono text-neutral-700">
-          &copy; {new Date().getFullYear()} Pawan Parida
-        </p>
       </div>
     </aside>
   );
