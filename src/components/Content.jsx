@@ -55,7 +55,7 @@ const HeroSection = ({ profile }) => (
       {/* Left Content */}
       <motion.div variants={fade} initial="hidden" animate="visible" className="space-y-6 z-10">
         <h3 className="text-emerald-400 font-bold tracking-[0.2em] text-sm md:text-base uppercase">
-          We Create Solutions For You
+          I Create Solutions For You
         </h3>
         <h1 className="text-5xl md:text-7xl lg:text-8xl font-black text-white leading-[0.95] tracking-tighter uppercase">
           {profile.name.split(' ')[0]} <br/> {profile.name.split(' ').slice(1).join(' ')}
@@ -71,17 +71,19 @@ const HeroSection = ({ profile }) => (
         </div>
       </motion.div>
 
-      {/* Right Content - Mockup floating stats and social placeholders */}
+      {/* Right Content - Robot image floating stats and social placeholders */}
       <motion.div variants={fade} initial="hidden" animate="visible" transition={{ delay: 0.2 }} className="relative h-full flex flex-col justify-center items-end hidden lg:flex">
         
-        {/* Placeholder for the portrait */}
-        <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[400px] h-[500px] bg-neutral-900/50 rounded-[4rem] border border-white/5 -z-10"></div>
+        {/* 3D Robot Image */}
+        <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[550px] h-[550px] -z-10">
+          <img src="/robot.png" alt="3D Robot" className="w-full h-full object-contain drop-shadow-[0_0_40px_rgba(52,211,153,0.3)] animate-pulse" />
+        </div>
         
         {/* Floating Stat Pill */}
-        <div className="absolute top-1/3 right-1/4 bg-[#111] border border-white/10 rounded-full px-6 py-3 flex items-center gap-4 shadow-2xl">
-          <div className="text-2xl font-black text-white">4.8</div>
+        <div className="absolute top-1/3 right-1/4 bg-[#111]/90 backdrop-blur-md border border-white/10 rounded-full px-6 py-3 flex items-center gap-4 shadow-2xl">
+          <div className="text-2xl font-black text-white">{profile.open_source?.length || '15+'}</div>
           <div className="text-xs text-neutral-400 leading-tight">
-            15+ Open Source<br/>Contributions
+            Open Source<br/>Contributions
           </div>
           <div className="flex -space-x-2">
             <div className="w-8 h-8 rounded-full border-2 border-[#111] bg-emerald-500"></div>
@@ -92,9 +94,12 @@ const HeroSection = ({ profile }) => (
 
         {/* Vertical Socials */}
         <div className="flex flex-col gap-4 absolute right-0 top-1/2 -translate-y-1/2">
-          {['X', 'In', 'Gh', 'Tw'].map((icon, i) => (
-            <a key={i} href="#" className="w-12 h-12 rounded-full border border-white/20 flex items-center justify-center text-white hover:bg-emerald-400 hover:border-emerald-400 hover:text-black transition-all font-bold text-xs">
-              {icon}
+          {[
+            { label: 'In', url: profile.contact?.linkedin || '#' },
+            { label: 'Gh', url: profile.contact?.github || '#' }
+          ].map((social, i) => (
+            <a key={i} href={social.url} target="_blank" rel="noopener noreferrer" className="w-12 h-12 rounded-full border border-white/20 flex items-center justify-center text-white hover:bg-emerald-400 hover:border-emerald-400 hover:text-black transition-all font-bold text-xs shadow-lg">
+              {social.label}
             </a>
           ))}
         </div>
@@ -128,14 +133,14 @@ const StatsRow = ({ profile }) => (
   </section>
 );
 
-const AboutSection = ({ summary }) => (
+const AboutSection = ({ summary, achievements }) => (
   <section className="py-24 max-w-7xl mx-auto px-6 md:px-12">
     <div className="agency-card p-8 md:p-16 grid grid-cols-1 lg:grid-cols-2 gap-16 items-center rounded-t-[3rem]">
       
       {/* Left Content */}
       <div className="space-y-8">
         <div>
-          <h3 className="text-emerald-400 font-bold tracking-[0.2em] text-sm uppercase mb-4">About Us</h3>
+          <h3 className="text-emerald-400 font-bold tracking-[0.2em] text-sm uppercase mb-4">About Me</h3>
           <h2 className="text-4xl md:text-5xl font-black text-white leading-tight">
             Are you looking for data-driven AI solutions? Let me help you!
           </h2>
@@ -145,6 +150,7 @@ const AboutSection = ({ summary }) => (
           {summary}
         </p>
 
+        {/* Core Expertise */}
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
           {[
             'Machine Learning & AI',
@@ -159,18 +165,26 @@ const AboutSection = ({ summary }) => (
           ))}
         </div>
 
-        <div className="pt-4">
-          <button className="btn-pill-outline group">
-            <span className="btn-pill-outline-text">More About Me</span>
-            <div className="btn-pill-outline-icon"><ArrowRight size={16} /></div>
-          </button>
-        </div>
+        {/* Achievements */}
+        {achievements && achievements.length > 0 && (
+          <div className="pt-4 space-y-4">
+            <h3 className="text-emerald-400 font-bold tracking-[0.2em] text-xs uppercase border-b border-white/10 pb-2">Key Achievements</h3>
+            <ul className="space-y-3">
+              {achievements.map((ach, i) => (
+                <li key={i} className="flex gap-3 text-neutral-300 items-start">
+                  <Award className="text-emerald-400 shrink-0 mt-0.5" size={16} />
+                  <span className="text-sm">{parseMarkdown(ach)}</span>
+                </li>
+              ))}
+            </ul>
+          </div>
+        )}
       </div>
 
       {/* Right Content - Mint Green Shape Placeholder */}
       <div className="relative h-[600px] w-full hidden lg:block">
         <div className="absolute inset-0 bg-emerald-400 rounded-t-full rounded-b-3xl overflow-hidden flex items-end justify-center">
-          {/* This acts as the placeholder for the person's photo as requested */}
+          {/* Placeholder for photo */}
           <div className="w-full h-1/3 bg-black/10 backdrop-blur-sm absolute bottom-0"></div>
         </div>
         {/* Floating Stat inside the shape */}
@@ -251,12 +265,14 @@ const HomePage = ({
   setActivePage,
 }) => {
   const summaryText = getSummary(profile, resumes, activeRole);
+  const isConcise = summaryText.split('.').slice(0, 3).join('.') + '.';
+  const allAchievements = profile.education?.flatMap(e => e.achievements || []) || [];
 
   return (
     <div className="flex flex-col w-full">
       <HeroSection profile={profile} />
       <StatsRow profile={profile} />
-      <AboutSection summary={summaryText} />
+      <AboutSection summary={isConcise} achievements={allAchievements} />
 
       {/* Featured Projects Section */}
       {previewProjects.length > 0 && (
@@ -273,6 +289,49 @@ const HomePage = ({
           </div>
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
             {previewProjects.slice(0, 4).map((p, i) => <ProjectCard key={i} project={p} />)}
+          </div>
+        </section>
+      )}
+
+      {/* Open Source Contributions Section */}
+      {previewOS.length > 0 && (
+        <section className="py-24 max-w-7xl mx-auto px-6 md:px-12 w-full border-t border-white/5">
+          <div className="flex flex-col md:flex-row md:items-end justify-between gap-6 mb-12">
+            <div>
+              <h3 className="text-emerald-400 font-bold tracking-[0.2em] text-sm uppercase mb-4">Community</h3>
+              <h2 className="text-4xl md:text-5xl font-black text-white leading-tight">Open Source</h2>
+            </div>
+            <button onClick={() => setActivePage('open-source')} className="btn-pill-outline group">
+              <span className="btn-pill-outline-text">View All Contributions</span>
+              <div className="btn-pill-outline-icon"><ArrowRight size={16} /></div>
+            </button>
+          </div>
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
+            {previewOS.slice(0, 4).map((c, i) => (
+              <div key={i} className="agency-card p-6 flex flex-col justify-between gap-4">
+                <div className="space-y-3 min-w-0">
+                  <div className="flex items-center gap-3 flex-wrap">
+                    <span className="px-3 py-1.5 rounded-lg bg-white/10 text-xs font-bold text-white flex items-center gap-2">
+                      <GitPullRequest size={14} /> {c.project}
+                    </span>
+                    {c.pr_number && <span className="text-sm font-semibold text-neutral-500">{c.pr_number}</span>}
+                  </div>
+                  <h3 className="text-lg font-bold text-white">
+                    {c.url ? (
+                      <a href={c.url} target="_blank" rel="noopener noreferrer" className="hover:text-emerald-400 transition-colors inline-flex items-center gap-2">
+                        {c.title}<ExternalLink size={14} className="text-neutral-500" />
+                      </a>
+                    ) : c.title}
+                  </h3>
+                </div>
+                <div className="flex items-center justify-between text-xs font-semibold pt-4 border-t border-white/10">
+                  {c.date && <span className="text-neutral-400">{c.date}</span>}
+                  {c.status && (
+                    <span className="text-emerald-400 font-bold uppercase tracking-widest">{c.status}</span>
+                  )}
+                </div>
+              </div>
+            ))}
           </div>
         </section>
       )}
@@ -358,6 +417,14 @@ const Content = ({
 
   const renderPage = () => {
     switch (activePage) {
+      case 'about':
+        const summaryText = getSummary(profile, resumes, activeRole);
+        const allAchievements = profile.education?.flatMap(e => e.achievements || []) || [];
+        return (
+          <div className="w-full">
+            <AboutSection summary={summaryText} achievements={allAchievements} />
+          </div>
+        );
       case 'projects':
         return <ProjectsPage groupedProjects={allGroupedProjects} />;
       case 'experience':
@@ -383,7 +450,7 @@ const Content = ({
     }
   };
 
-  const isFullPage = activePage !== 'home';
+  const isFullPage = activePage !== 'home' && activePage !== 'about';
 
   return (
     <div className="w-full flex-1 min-h-[calc(100vh-80px)]">
