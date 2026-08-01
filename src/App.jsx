@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useMemo } from 'react';
-import Sidebar from './components/Sidebar';
+import Navbar from './components/Navbar';
 import Content from './components/Content';
 import data from './data.json';
 
@@ -169,17 +169,16 @@ function App() {
   const allGroupedProjects = useMemo(() => groupProjects(profile.projects || []), [profile.projects]);
 
   return (
-    <div className="min-h-screen bg-[#0a0a0a] text-neutral-300 relative overflow-x-hidden flex justify-center p-4 md:p-8 lg:p-12 selection:bg-white/20 selection:text-white">
-      <div className="w-full max-w-7xl flex flex-col lg:flex-row gap-6 lg:gap-8 items-start">
-        <Sidebar
-          profile={profile}
-          resumes={filteredResumes}
-          activeRole={activeRole}
-          activePage={activePage}
-          setActiveRole={handleRoleChange}
-          setActivePage={handlePageChange}
-        />
+    <div className="min-h-screen bg-black text-neutral-300 relative overflow-x-hidden pt-20">
+      
+      {/* Top Navigation Bar */}
+      <Navbar 
+        activePage={activePage} 
+        setActivePage={handlePageChange} 
+      />
 
+      {/* Main Content Area */}
+      <main className="w-full">
         <Content
           profile={profile}
           resumes={filteredResumes}
@@ -198,7 +197,8 @@ function App() {
           allEducation={profile.education || []}
           allExperience={profile.experience || []}
         />
-      </div>
+      </main>
+
     </div>
   );
 }
