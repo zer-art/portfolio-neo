@@ -161,7 +161,7 @@
           "PyTorch",
           "Groq"
         ],
-        "diagram_image": "/diagrams/arch_aivox.png"
+        "diagram_image": "./diagrams/arch_aivox.png"
       },
       {
         "name": "News Research & Synthesis Agent",
@@ -195,7 +195,7 @@
             ]
           }
         },
-        "diagram_image": "/diagrams/arch_news_agent.png"
+        "diagram_image": "./diagrams/arch_news_agent.png"
       },
       {
         "name": "Resume Classification & Analytics System",
@@ -253,7 +253,7 @@
             ]
           }
         },
-        "diagram_image": "/diagrams/arch_sql_agent.png"
+        "diagram_image": "./diagrams/arch_sql_agent.png"
       },
       {
         "name": "Pneumonia Detection",
@@ -277,7 +277,7 @@
           "Data Augmentation",
           "Git/GitHub"
         ],
-        "diagram_image": "/diagrams/arch_pneumonia.png"
+        "diagram_image": "./diagrams/arch_pneumonia.png"
       },
       {
         "name": "Healthcare Chatbot",

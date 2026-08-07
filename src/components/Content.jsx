@@ -1,7 +1,9 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, lazy, Suspense } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { ExternalLink, GitPullRequest, Award, ChevronRight, ArrowRight, CheckCircle2, Briefcase, BookOpen, FolderGit2, Code, MapPin, Users, GitCommit } from 'lucide-react';
-import Spline from '@splinetool/react-spline';
+
+// Lazy-load Spline so it never blocks initial render
+const Spline = lazy(() => import('@splinetool/react-spline'));
 
 // ─── Shared markdown parser ───────────────────────────────────────────────────
 const parseMarkdown = (text) => {
@@ -148,9 +150,15 @@ const HeroSection = ({ profile }) => {
           </div>
         </div>
 
-        {/* 3D Spline Robot — fills the column */}
+        {/* 3D Spline Robot — lazy-loaded, shimmer until ready */}
         <div className="absolute inset-0 z-20">
-          <Spline scene="https://prod.spline.design/1kFkoefCa1rkofjO/scene.splinecode" />
+          <Suspense fallback={
+            <div className="w-full h-full flex items-center justify-center">
+              <div className="w-64 h-64 rounded-full bg-gradient-to-br from-emerald-900/30 to-black animate-pulse" />
+            </div>
+          }>
+            <Spline scene="https://prod.spline.design/1kFkoefCa1rkofjO/scene.splinecode" />
+          </Suspense>
         </div>
 
         {/* Watermark cover — fully covers the 'Built with Spline' badge */}
