@@ -57,7 +57,7 @@ export const groupProjects = (projectsList) => {
 };
 
 // Valid page identifiers
-const PAGES = ['home', 'education', 'experience', 'certifications', 'projects', 'open-source'];
+const PAGES = ['home', 'about', 'education', 'experience', 'certifications', 'projects', 'open-source'];
 
 function App() {
   const { profile, resumes } = data;
@@ -108,6 +108,10 @@ function App() {
   };
 
   const handlePageChange = (page) => {
+    // Nuke any mermaid orphan nodes before switching pages
+    document.querySelectorAll('[id^="mermaid-"]').forEach(el => {
+      if (el.parentNode === document.body) el.parentNode.removeChild(el);
+    });
     setActivePage(page);
     pushURL(activeRole, page);
     window.scrollTo({ top: 0, behavior: 'smooth' });

@@ -1,7 +1,7 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { ExternalLink, GitPullRequest, Award, ChevronRight, ArrowRight, CheckCircle2, Briefcase, BookOpen, FolderGit2, Code, MapPin } from 'lucide-react';
-import Mermaid from './Mermaid';
+import { ExternalLink, GitPullRequest, Award, ChevronRight, ArrowRight, CheckCircle2, Briefcase, BookOpen, FolderGit2, Code, MapPin, Users, GitCommit } from 'lucide-react';
+import Spline from '@splinetool/react-spline';
 
 // ─── Shared markdown parser ───────────────────────────────────────────────────
 const parseMarkdown = (text) => {
@@ -48,12 +48,25 @@ const fade = {
 // HOME PAGE COMPONENTS
 // ═════════════════════════════════════════════════════════════════════════════
 
-const HeroSection = ({ profile }) => (
-  <section className="relative min-h-[85vh] flex items-center justify-center pt-20 pb-12 overflow-hidden">
+const HeroSection = ({ profile }) => {
+  const [githubContribs, setGithubContribs] = useState('500+');
+
+  useEffect(() => {
+    fetch('https://github-contributions-api.jogruber.de/v4/zer-art?y=last')
+      .then(r => r.json())
+      .then(data => {
+        const total = data?.total?.lastYear;
+        if (total) setGithubContribs(`${total}+`);
+      })
+      .catch(() => {}); // silently keep fallback
+  }, []);
+
+  return (
+  <section className="relative min-h-[90vh] flex items-center justify-center pt-4 pb-12">
     <div className="max-w-7xl mx-auto px-6 md:px-12 w-full grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
       
       {/* Left Content */}
-      <motion.div variants={fade} initial="hidden" animate="visible" className="space-y-6 z-10">
+      <motion.div variants={fade} initial="hidden" animate="visible" className="space-y-6 relative z-10">
         <h3 className="text-emerald-400 font-bold tracking-[0.2em] text-sm md:text-base uppercase">
           I Create Solutions For You
         </h3>
@@ -64,39 +77,93 @@ const HeroSection = ({ profile }) => (
           {profile.summary.split('.')[0]}. Specialized in Data Analytics & AI Engineering.
         </p>
         <div className="pt-4 flex items-center gap-6">
-          <button className="btn-pill group">
+          <a href={`mailto:${profile.email}`} className="btn-pill group inline-flex">
             <span className="btn-pill-text">Contact Me</span>
             <div className="btn-pill-icon"><ArrowRight size={16} /></div>
-          </button>
+          </a>
         </div>
       </motion.div>
 
-      {/* Right Content - Robot image floating stats and social placeholders */}
-      <motion.div variants={fade} initial="hidden" animate="visible" transition={{ delay: 0.2 }} className="relative h-full flex flex-col justify-center items-end hidden lg:flex">
-        
-        {/* 3D Robot Image */}
-        <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[550px] h-[550px] -z-10">
-          <img src="/robot.png" alt="3D Robot" className="w-full h-full object-contain drop-shadow-[0_0_40px_rgba(52,211,153,0.3)] animate-pulse" />
-        </div>
-        
-        {/* Floating Stat Pill */}
-        <div className="absolute top-1/3 right-1/4 bg-[#111]/90 backdrop-blur-md border border-white/10 rounded-full px-6 py-3 flex items-center gap-4 shadow-2xl">
-          <div className="text-2xl font-black text-white">{profile.open_source?.length || '15+'}</div>
-          <div className="text-xs text-neutral-400 leading-tight">
-            Open Source<br/>Contributions
-          </div>
+      {/* Right Content - Spline Robot + Floating Stat Pills */}
+      <motion.div
+        variants={fade} initial="hidden" animate="visible" transition={{ delay: 0.2 }}
+        className="relative hidden lg:flex items-center justify-center"
+        style={{ height: '750px' }}
+      >
+        {/* ── Floating Stat Pills ── */}
+
+        {/* Open Source — just above robot, slightly left */}
+        <div
+          className="absolute z-30 float-a bg-[#111]/90 backdrop-blur-md border border-white/10 rounded-full px-5 py-2.5 flex items-center gap-3 shadow-2xl pointer-events-none"
+          style={{ bottom: 'calc(50% + 105px)', left: '8%' }}
+        >
+          <div className="text-xl font-black text-white">{profile.open_source?.length || '17'}</div>
+          <div className="text-xs text-neutral-400 leading-tight uppercase tracking-wider">Open Source<br/>Contributions</div>
           <div className="flex -space-x-2">
-            <div className="w-8 h-8 rounded-full border-2 border-[#111] bg-emerald-500"></div>
-            <div className="w-8 h-8 rounded-full border-2 border-[#111] bg-sky-500"></div>
-            <div className="w-8 h-8 rounded-full border-2 border-[#111] bg-indigo-500"></div>
+            <div className="w-6 h-6 rounded-full border-2 border-[#111] bg-emerald-500"></div>
+            <div className="w-6 h-6 rounded-full border-2 border-[#111] bg-sky-500"></div>
+            <div className="w-6 h-6 rounded-full border-2 border-[#111] bg-indigo-500"></div>
           </div>
         </div>
 
-        {/* Vertical Socials */}
-        <div className="flex flex-col gap-4 absolute right-0 top-1/2 -translate-y-1/2">
+        {/* Internships — top left */}
+        <div
+          className="absolute z-30 float-b bg-[#111]/90 backdrop-blur-md border border-white/10 rounded-full px-5 py-2.5 flex items-center gap-3 shadow-2xl pointer-events-none"
+          style={{ top: '8%', left: '5%' }}
+        >
+          <div className="w-9 h-9 rounded-full bg-white/10 flex items-center justify-center text-emerald-400 shrink-0">
+            <Users size={16} />
+          </div>
+          <div>
+            <div className="text-xl font-black text-white">2+</div>
+            <div className="text-xs text-neutral-500 uppercase tracking-wider">Internships</div>
+          </div>
+        </div>
+
+        {/* Projects — top right of robot */}
+        <div
+          className="absolute z-30 float-c bg-[#111]/90 backdrop-blur-md border border-white/10 rounded-full px-5 py-2.5 flex items-center gap-3 shadow-2xl pointer-events-none"
+          style={{ top: '12%', right: '14%' }}
+        >
+          <div className="w-9 h-9 rounded-full bg-white/10 flex items-center justify-center text-emerald-400 shrink-0">
+            <FolderGit2 size={16} />
+          </div>
+          <div>
+            <div className="text-xl font-black text-white">15+</div>
+            <div className="text-xs text-neutral-500 uppercase tracking-wider">Projects</div>
+          </div>
+        </div>
+
+        {/* GitHub Contributions (last year) — bottom left */}
+        <div
+          className="absolute z-30 float-d bg-[#111]/90 backdrop-blur-md border border-white/10 rounded-full px-5 py-2.5 flex items-center gap-3 shadow-2xl pointer-events-none"
+          style={{ bottom: '12%', left: '18%' }}
+        >
+          <div className="w-9 h-9 rounded-full bg-white/10 flex items-center justify-center text-emerald-400 shrink-0">
+            <GitCommit size={16} />
+          </div>
+          <div>
+            <div className="text-xl font-black text-white">{githubContribs}</div>
+            <div className="text-xs text-neutral-500 uppercase tracking-wider">GH Contribs</div>
+          </div>
+        </div>
+
+        {/* 3D Spline Robot — fills the column */}
+        <div className="absolute inset-0 z-20">
+          <Spline scene="https://prod.spline.design/1kFkoefCa1rkofjO/scene.splinecode" />
+        </div>
+
+        {/* Watermark cover — fully covers the 'Built with Spline' badge */}
+        <div
+          className="absolute bottom-0 right-0 z-30 pointer-events-none"
+          style={{ width: '230px', height: '55px', backgroundColor: '#000000' }}
+        />
+
+        {/* Vertical Socials — sits above robot */}
+        <div className="flex flex-col gap-4 absolute right-0 top-1/2 -translate-y-1/2 z-30">
           {[
-            { label: 'In', url: profile.contact?.linkedin || '#' },
-            { label: 'Gh', url: profile.contact?.github || '#' }
+            { label: 'In', url: profile.linkedin ? (profile.linkedin.startsWith('http') ? profile.linkedin : `https://${profile.linkedin}`) : '#' },
+            { label: 'Gh', url: profile.github ? (profile.github.startsWith('http') ? profile.github : `https://${profile.github}`) : '#' }
           ].map((social, i) => (
             <a key={i} href={social.url} target="_blank" rel="noopener noreferrer" className="w-12 h-12 rounded-full border border-white/20 flex items-center justify-center text-white hover:bg-emerald-400 hover:border-emerald-400 hover:text-black transition-all font-bold text-xs shadow-lg">
               {social.label}
@@ -106,32 +173,11 @@ const HeroSection = ({ profile }) => (
       </motion.div>
     </div>
   </section>
-);
+  );
+};
 
-const StatsRow = ({ profile }) => (
-  <section className="border-t border-b border-white/5 bg-[#050505]">
-    <div className="max-w-7xl mx-auto px-6 md:px-12 py-10 flex flex-wrap gap-10 justify-between items-center">
-      
-      {[
-        { num: '3+', label: 'Years Experience', icon: <Briefcase /> },
-        { num: profile.projects?.length || '10+', label: 'Successful Projects', icon: <FolderGit2 /> },
-        { num: profile.open_source?.length || '15+', label: 'Open Source PRs', icon: <GitPullRequest /> },
-        { num: profile.certifications?.length || '5+', label: 'Certifications', icon: <Award /> }
-      ].map((stat, i) => (
-        <div key={i} className="flex items-center gap-4 group">
-          <div className="w-14 h-14 rounded-full bg-white flex items-center justify-center text-black group-hover:bg-emerald-400 transition-colors">
-            {stat.icon}
-          </div>
-          <div>
-            <h4 className="text-3xl font-black text-white">{stat.num}</h4>
-            <p className="text-sm font-medium text-neutral-500 uppercase tracking-wider">{stat.label}</p>
-          </div>
-        </div>
-      ))}
-      
-    </div>
-  </section>
-);
+
+
 
 const AboutSection = ({ summary, achievements }) => (
   <section className="py-24 max-w-7xl mx-auto px-6 md:px-12">
@@ -189,8 +235,8 @@ const AboutSection = ({ summary, achievements }) => (
         </div>
         {/* Floating Stat inside the shape */}
         <div className="absolute top-1/4 -left-12 bg-[#111] border border-white/10 rounded-full px-6 py-4 flex items-center gap-3 shadow-2xl">
-          <h4 className="text-3xl font-black text-white">3+</h4>
-          <p className="text-xs text-neutral-400 uppercase tracking-widest font-medium leading-tight">Years Of<br/>Experience</p>
+          <h4 className="text-3xl font-black text-white">8.8</h4>
+          <p className="text-xs text-neutral-400 uppercase tracking-widest font-medium leading-tight">CGPA</p>
         </div>
       </div>
     </div>
@@ -231,9 +277,14 @@ const ProjectCard = ({ project }) => (
       <p className="text-neutral-400 leading-relaxed mb-6">{parseMarkdown(project.description)}</p>
     )}
 
-    {project.mermaid && (
-      <div className="bg-black/50 rounded-2xl p-4 border border-white/5 mb-6">
-        <Mermaid chart={project.mermaid} />
+    {project.diagram_image && (
+      <div className="rounded-2xl overflow-hidden border border-white/5 mb-6 bg-black">
+        <img
+          src={project.diagram_image}
+          alt={`${project.name} system architecture`}
+          className="w-full object-contain max-h-80 hover:scale-[1.02] transition-transform duration-500"
+          loading="lazy"
+        />
       </div>
     )}
 
@@ -271,7 +322,6 @@ const HomePage = ({
   return (
     <div className="flex flex-col w-full">
       <HeroSection profile={profile} />
-      <StatsRow profile={profile} />
       <AboutSection summary={isConcise} achievements={allAchievements} />
 
       {/* Featured Projects Section */}
@@ -401,6 +451,68 @@ const ExperiencePage = ({ experience }) => (
 );
 
 
+const statusColor = (status) => {
+  if (!status) return 'text-neutral-500';
+  const s = status.toLowerCase();
+  if (s === 'merged' || s === 'completed' || s === 'closed') return 'text-emerald-400';
+  if (s === 'open') return 'text-sky-400';
+  return 'text-neutral-400';
+};
+
+const OpenSourcePage = ({ contributions }) => (
+  <div className="space-y-6">
+    {contributions.map((c, i) => (
+      <div key={i} className="agency-card p-6 md:p-8 hover:bg-[#111] transition-all duration-300 group">
+        <div className="flex flex-col md:flex-row md:items-start md:justify-between gap-4">
+          {/* Left: project + title */}
+          <div className="space-y-2 min-w-0 flex-1">
+            <div className="flex items-center gap-3 flex-wrap">
+              <span className="inline-flex items-center gap-2 px-3 py-1 rounded-lg bg-emerald-400/10 border border-emerald-400/20 text-xs font-bold text-emerald-400">
+                <GitPullRequest size={13} />
+                {c.project}
+              </span>
+              {c.pr_number && (
+                <span className="text-xs font-mono font-semibold text-neutral-500 bg-white/5 px-2 py-1 rounded">
+                  {c.pr_number}
+                </span>
+              )}
+              {c.status && (
+                <span className={`text-xs font-bold uppercase tracking-widest ${statusColor(c.status)}`}>
+                  ● {c.status}
+                </span>
+              )}
+            </div>
+            <h3 className="text-lg md:text-xl font-bold text-white group-hover:text-emerald-400 transition-colors leading-snug">
+              {c.url ? (
+                <a href={c.url} target="_blank" rel="noopener noreferrer" className="hover:text-emerald-400 inline-flex items-start gap-2">
+                  {c.title}
+                  <ExternalLink size={14} className="text-neutral-500 mt-1 shrink-0" />
+                </a>
+              ) : c.title}
+            </h3>
+            {c.description && (
+              <p className="text-sm text-neutral-400 leading-relaxed">{c.description}</p>
+            )}
+          </div>
+
+          {/* Right: date + changes */}
+          <div className="flex flex-col items-end gap-2 shrink-0">
+            {c.date && (
+              <span className="text-xs text-neutral-500 font-medium">{c.date}</span>
+            )}
+            {c.changes && (
+              <span className="text-xs font-mono text-emerald-400/70 bg-emerald-400/5 px-2 py-1 rounded">{c.changes}</span>
+            )}
+            {c.comments && (
+              <span className="text-xs text-neutral-500">{c.comments} comments</span>
+            )}
+          </div>
+        </div>
+      </div>
+    ))}
+  </div>
+);
+
 const PAGE_TITLES = {
   education: 'Education',
   experience: 'Professional Experience',
@@ -432,8 +544,9 @@ const Content = ({
       // Fallback simple renders for others
       case 'education':
       case 'certifications':
-      case 'open-source':
         return <div className="agency-card p-12 text-center text-neutral-400">Content for {PAGE_TITLES[activePage]} migrating to new design...</div>;
+      case 'open-source':
+        return <OpenSourcePage contributions={allOS} />;
       default:
         return (
           <HomePage

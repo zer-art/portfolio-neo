@@ -1,69 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
+/* ─── Base Reset ─────────────────────────────────────────────────── */
 @layer base {
-  body {
-    @apply bg-black text-neutral-300 font-sans overflow-x-hidden selection:bg-emerald-400/30 selection:text-emerald-300;
+  *, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
   }
-  h1, h2, h3, h4, h5, h6 {
-    @apply text-white font-bold tracking-tight;
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    font-family: 'Inter', sans-serif;
+    background-color: #000000;
+    color: #d4d4d4;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    overflow-x: hidden;
+  }
+
+  ::selection {
+    background-color: #4ade80;
+    color: #000;
+  }
+
+  /* Custom Scrollbar */
+  ::-webkit-scrollbar {
+    width: 6px;
+  }
+  ::-webkit-scrollbar-track {
+    background: #0a0a0a;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #333;
+    border-radius: 3px;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: #4ade80;
   }
 }
 
+/* ─── Custom Component Classes ───────────────────────────────────── */
 @layer components {
-  /* Signature Pill Button */
+
+  /* Agency card — dark glass card */
+  .agency-card {
+    @apply bg-[#0d0d0d] border border-white/5 rounded-2xl transition-all duration-300;
+  }
+  .agency-card:hover {
+    @apply border-white/10 shadow-[0_0_40px_rgba(74,222,128,0.05)];
+  }
+
+  /* ── Pill Button (filled / primary) ── */
   .btn-pill {
-    @apply inline-flex items-center gap-2 px-1 py-1 rounded-full bg-emerald-400 hover:bg-emerald-300 text-black font-bold text-sm transition-all duration-300 shadow-[0_0_15px_rgba(52,211,153,0.3)] hover:shadow-[0_0_25px_rgba(52,211,153,0.5)];
+    @apply inline-flex items-center gap-0 bg-[#4ade80] text-black font-bold text-sm rounded-full
+           hover:bg-[#86efac] transition-all duration-300 overflow-hidden pl-6;
   }
   .btn-pill-text {
-    @apply pl-4 pr-1;
+    @apply pr-4 py-3;
   }
   .btn-pill-icon {
-    @apply w-8 h-8 rounded-full bg-black text-emerald-400 flex items-center justify-center shrink-0 transition-transform group-hover:rotate-45;
+    @apply w-10 h-10 rounded-full bg-black text-white flex items-center justify-center shrink-0
+           transition-transform duration-300 group-hover:rotate-45;
   }
-  
-  /* Outline Pill Button */
+
+  /* ── Pill Button (outline / secondary) ── */
   .btn-pill-outline {
-    @apply inline-flex items-center gap-2 px-1 py-1 rounded-full bg-transparent border border-emerald-400/50 hover:border-emerald-400 text-emerald-400 font-bold text-sm transition-all duration-300;
+    @apply inline-flex items-center gap-0 bg-transparent border border-white/20 text-white font-bold text-sm
+           rounded-full hover:border-white/40 transition-all duration-300 overflow-hidden pl-6;
   }
   .btn-pill-outline-text {
-    @apply pl-4 pr-1;
+    @apply pr-4 py-3;
   }
   .btn-pill-outline-icon {
-    @apply w-8 h-8 rounded-full bg-emerald-400 text-black flex items-center justify-center shrink-0 transition-transform group-hover:rotate-45;
+    @apply w-10 h-10 rounded-full bg-white/10 text-white flex items-center justify-center shrink-0
+           transition-transform duration-300 group-hover:rotate-45 group-hover:bg-[#4ade80] group-hover:text-black;
   }
 
-  /* Dark Card Container */
-  .agency-card {
-    @apply bg-[#0a0a0a] rounded-3xl border border-white/5;
+  /* ── Tag badges ── */
+  .tag-badge {
+    @apply px-3 py-1 rounded-full text-xs font-semibold bg-white/5 text-neutral-400
+           border border-white/10 hover:border-emerald-400/40 hover:text-emerald-400 transition-colors;
+  }
+
+  /* ── Section label ── */
+  .section-label {
+    @apply text-emerald-400 font-bold tracking-[0.2em] text-xs uppercase mb-4 block;
+  }
+
+  /* ── Section heading ── */
+  .section-heading {
+    @apply text-4xl md:text-5xl font-black text-white leading-tight;
+  }
+
+  /* ── Timeline line ── */
+  .timeline-line {
+    @apply absolute left-0 top-0 bottom-0 w-px bg-gradient-to-b from-emerald-400/50 via-emerald-400/10 to-transparent;
   }
 }
 
-/* Custom Scrollbar */
-.custom-scrollbar::-webkit-scrollbar {
-  width: 6px;
+/* ─── Global Utilities ───────────────────────────────────────────── */
+@layer utilities {
+  .text-gradient-green {
+    @apply bg-gradient-to-r from-emerald-400 to-teal-300 bg-clip-text text-transparent;
+  }
+  .glow-green {
+    box-shadow: 0 0 40px rgba(74, 222, 128, 0.15);
+  }
 }
 
-.custom-scrollbar::-webkit-scrollbar-track {
-  @apply bg-black;
+/* ─── Floating pill animations (Hero section stat badges) ────────── */
+@keyframes floatA {
+  0%, 100% { transform: translateY(0px); }
+  50%       { transform: translateY(-10px); }
+}
+@keyframes floatB {
+  0%, 100% { transform: translateY(0px); }
+  50%       { transform: translateY(-14px); }
+}
+@keyframes floatC {
+  0%, 100% { transform: translateY(0px); }
+  50%       { transform: translateY(-8px); }
+}
+@keyframes floatD {
+  0%, 100% { transform: translateY(0px); }
+  50%       { transform: translateY(-12px); }
 }
 
-.custom-scrollbar::-webkit-scrollbar-thumb {
-  @apply bg-emerald-500/20 rounded-full hover:bg-emerald-500/40;
-}
-
-/* Smooth Scrolling */
-html {
-  scroll-behavior: smooth;
-}
-
-/* Hide stray Mermaid measurement elements */
-body > [id^="dmermaid-"],
-body > svg[id^="mermaid-"] {
-  position: absolute !important;
-  top: -9999px !important;
-  left: -9999px !important;
-  opacity: 0 !important;
-  pointer-events: none !important;
-}
+.float-a { animation: floatA 4s ease-in-out infinite; }
+.float-b { animation: floatB 5s ease-in-out infinite 0.8s; }
+.float-c { animation: floatC 4.5s ease-in-out infinite 1.5s; }
+.float-d { animation: floatD 3.8s ease-in-out infinite 0.4s; }
