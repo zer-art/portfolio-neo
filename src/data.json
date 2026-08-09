@@ -198,31 +198,28 @@
         "diagram_image": "./diagrams/arch_news_agent.png"
       },
       {
-        "name": "Resume Classification & Analytics System",
+        "name": "Pneumonia Detection",
         "roles": [
-          "data_analytics",
           "ai_engineer"
         ],
-        "description": "Machine Learning classification and EDA pipeline for preprocessing, cleaning, and categorizing unstructured text datasets.\n",
+        "github": "https://github.com/zer-art/Computer-Vision-Projects/tree/pneumonia-detection-import/pneumonia-detection",
+        "description": "CNN-based medical diagnostic system for pneumonia detection from chest X-rays.\n",
         "achievements": [
-          "Preprocessed text datasets with **Pandas** & **NumPy**, achieving 98.45% accuracy across 25+ categories via **Scikit-learn**.",
-          "Performed EDA using **Matplotlib** to identify skill trends, saving 12+ hours/week of manual analysis."
+          "Trained and optimized a **CNN** on chest X-rays, achieving 91.3% validation accuracy and minimizing false negatives.",
+          "Deployed the final model via **FastAPI** for low-latency, real-time inference."
         ],
         "tags": [
-          "NLP",
-          "Machine Learning",
-          "TF-IDF"
+          "TensorFlow",
+          "CNN",
+          "FastAPI",
+          "Computer Vision",
+          "OpenCV",
+          "NumPy",
+          "Matplotlib",
+          "Data Augmentation",
+          "Git/GitHub"
         ],
-        "versions": {
-          "gs_operations": {
-            "name": "Unstructured Data Categorization Pipeline",
-            "description": "High-accuracy classification pipeline for categorizing unstructured text data.",
-            "achievements": [
-              "Engineered a high-accuracy classification pipeline to clean, preprocess, and categorize unstructured text data into 25+ distinct taxonomies using statistical modeling.",
-              "Automated exploratory data analysis (EDA) workflows to identify anomalies and underlying data trends, saving an estimated 12+ hours per week of manual review time."
-            ]
-          }
-        }
+        "diagram_image": "./diagrams/arch_pneumonia.png"
       },
       {
         "name": "Automated SQL Query & Reporting System",
@@ -256,28 +253,31 @@
         "diagram_image": "./diagrams/arch_sql_agent.png"
       },
       {
-        "name": "Pneumonia Detection",
+        "name": "Resume Classification & Analytics System",
         "roles": [
+          "data_analytics",
           "ai_engineer"
         ],
-        "github": "https://github.com/zer-art/Computer-Vision-Projects/tree/pneumonia-detection-import/pneumonia-detection",
-        "description": "CNN-based medical diagnostic system for pneumonia detection from chest X-rays.\n",
+        "description": "Machine Learning classification and EDA pipeline for preprocessing, cleaning, and categorizing unstructured text datasets.\n",
         "achievements": [
-          "Trained and optimized a **CNN** on chest X-rays, achieving 91.3% validation accuracy and minimizing false negatives.",
-          "Deployed the final model via **FastAPI** for low-latency, real-time inference."
+          "Preprocessed text datasets with **Pandas** & **NumPy**, achieving 98.45% accuracy across 25+ categories via **Scikit-learn**.",
+          "Performed EDA using **Matplotlib** to identify skill trends, saving 12+ hours/week of manual analysis."
         ],
         "tags": [
-          "TensorFlow",
-          "CNN",
-          "FastAPI",
-          "Computer Vision",
-          "OpenCV",
-          "NumPy",
-          "Matplotlib",
-          "Data Augmentation",
-          "Git/GitHub"
+          "NLP",
+          "Machine Learning",
+          "TF-IDF"
         ],
-        "diagram_image": "./diagrams/arch_pneumonia.png"
+        "versions": {
+          "gs_operations": {
+            "name": "Unstructured Data Categorization Pipeline",
+            "description": "High-accuracy classification pipeline for categorizing unstructured text data.",
+            "achievements": [
+              "Engineered a high-accuracy classification pipeline to clean, preprocess, and categorize unstructured text data into 25+ distinct taxonomies using statistical modeling.",
+              "Automated exploratory data analysis (EDA) workflows to identify anomalies and underlying data trends, saving an estimated 12+ hours per week of manual review time."
+            ]
+          }
+        }
       },
       {
         "name": "Healthcare Chatbot",

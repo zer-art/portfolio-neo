@@ -75,9 +75,6 @@ const HeroSection = ({ profile }) => {
         <h1 className="text-5xl md:text-7xl lg:text-8xl font-black text-white leading-[0.95] tracking-tighter uppercase">
           {profile.name.split(' ')[0]} <br/> {profile.name.split(' ').slice(1).join(' ')}
         </h1>
-        <p className="text-neutral-400 text-lg md:text-xl max-w-xl leading-relaxed">
-          {profile.summary.split('.')[0]}. Specialized in Data Analytics & AI Engineering.
-        </p>
         <div className="pt-4 flex items-center gap-6">
           <a href={`mailto:${profile.email}`} className="btn-pill group inline-flex">
             <span className="btn-pill-text">Contact Me</span>
