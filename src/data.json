@@ -13,12 +13,20 @@
       "show_projects": true
     },
     "custom_summaries": {
-      "data_analytics": "Data Analytics graduate (B.Sc. completed 2026) with expertise in Python (Pandas, NumPy), SQL,  and Data Visualization. Seeking full-time roles to leverage skills in predictive modeling and automated reporting. Core Contributor to Google DeepMind and Kornia libraries. Proven ability to optimize data pipelines and reduce retrieval times by 95%.\n",
-      "ai_engineer": "Computer Science graduate (B.Sc. completed 2026) specializing in Deep Learning, Differentiable Programming, and LLM Agents. Seeking AI Engineering roles. Core Contributor to Google DeepMind (Optax, MuJoCo)  and Kornia libraries. Experienced in building low-latency AI agents (<100ms latency)  and optimizing production ML workflows.\n",
-      "ai_dev": "Recent B.Sc. graduate (completed 2026) specializing in AI/ML development, dataset preprocessing, and Generative AI solutions. Proven experience in cleaning/preprocessing datasets, performing EDA, and building/testing automated systems using Python (NumPy, Pandas, Scikit-learn, Matplotlib). Core contributor to Google DeepMind and Kornia libraries, leveraging Git/GitHub for version control to deliver robust production-ready code."
+      "data_analytics": "B.Sc. Data Analytics graduate (2026), currently pursuing MCA in Software Engineering at USICT (2026-2028). Expert in Python (Pandas, NumPy), SQL, and Data Visualization. Seeking full-time roles to leverage skills in predictive modeling and automated reporting. Core Contributor to Google DeepMind and Kornia libraries. Proven ability to optimize data pipelines and reduce retrieval times by 95%.\n",
+      "ai_engineer": "B.Sc. Data Analytics graduate (2026), currently pursuing MCA in Software Engineering at USICT (2026-2028). Specializing in Deep Learning, Differentiable Programming, and LLM Agents. Seeking AI Engineering roles. Core Contributor to Google DeepMind (Optax, MuJoCo) and Kornia libraries. Experienced in building low-latency AI agents (<100ms latency) and optimizing production ML workflows.\n",
+      "ai_dev": "B.Sc. Data Analytics graduate (2026), currently pursuing MCA in Software Engineering at USICT (2026-2028). Specializing in AI/ML development, dataset preprocessing, and Generative AI solutions. Proven experience in cleaning/preprocessing datasets, performing EDA, and building/testing automated systems using Python (NumPy, Pandas, Scikit-learn, Matplotlib). Core contributor to Google DeepMind and Kornia libraries, leveraging Git/GitHub for version control to deliver robust production-ready code."
     },
-    "summary": "Recent B.Sc. Data Analytics graduate (completed 2026) and core open-source contributor to Google DeepMind  (Optax, MuJoCo) and Kornia. Expert in building high-performance, low-latency AI applications  (<100ms) with a strong focus on Computer Vision, Differentiable Programming, and Large  Language Models (LLMs). Proven track record of optimizing data pipelines, engineering  scalable RAG architectures, and deploying end-to-end Machine Learning solutions using  Python, SQL, and FastAPI. Adept at translating complex raw datasets into actionable  strategic insights. Seeking entry-level AI Engineering or Data Analytics roles to drive  innovation and data-informed decision-making in high-impact environments.\n",
+    "summary": "B.Sc. Data Analytics graduate (2026), currently pursuing MCA in Software Engineering at USICT (2026-2028), and core open-source contributor to Google DeepMind (Optax, MuJoCo) and Kornia. Expert in building high-performance, low-latency AI applications (<100ms) with a strong focus on Computer Vision, Differentiable Programming, and Large Language Models (LLMs). Proven track record of optimizing data pipelines, engineering scalable RAG architectures, and deploying end-to-end Machine Learning solutions using Python, SQL, and FastAPI. Adept at translating complex raw datasets into actionable strategic insights. Seeking AI Engineering or Data Analytics roles to drive innovation and data-informed decision-making in high-impact environments.\n",
     "education": [
+      {
+        "institution": "University School of Information, Communication & Technology (USICT)",
+        "location": "Delhi, India",
+        "degree": "MCA",
+        "field": "Computer Software Engineering",
+        "duration": "Aug 2026 - Sep 2028",
+        "description": "Enrolled in the two-year Master of Computer Applications program in Software Engineering, applying computing fundamentals to conceptualize advanced computing models and solve complex problems. Developing hands-on expertise with modern tools to design, implement, and evaluate systems for industry needs, with a focus on AI/ML, data analytics, software project management, and software architecture."
+      },
       {
         "institution": "DSEU Rajokri Campus",
         "location": "Delhi, India",
@@ -75,16 +83,14 @@
       "Programming_Languages": [
         "Python",
         "SQL",
+        "c",
         "C++",
-        "Javascript",
-        "JS",
+        "JavaScript",
         "Java",
-        "Html",
         "HTML",
-        "Css",
+        "CSS",
         "Typescript",
-        "tailwindcss",
-        "Tailwind"
+        "tailwindcss"
       ],
       "Web_Frameworks_and_APIs": [
         "FastAPI",
@@ -95,6 +101,7 @@
         "React.js",
         "React",
         "React Native",
+        "Bootstrap",
         "REST APIs"
       ],
       "Data_Science_and_Machine_Learning": [
@@ -105,7 +112,10 @@
         "PyTorch",
         "spaCy",
         "Scikit-learn",
-        "Differentiable Programming"
+        "Differentiable Programming",
+        "AI",
+        "ML",
+        "NLP"
       ],
       "Computer_Vision,NLP_and_LLMs": [
         "OpenCV",
@@ -119,12 +129,24 @@
       ],
       "DevTools": [
         "Docker",
+        "Kubernetes",
+        "Redis",
         "Git",
         "MySQL",
         "pixi",
         "n8n",
         "Azure",
         "Azure AI Foundry"
+      ],
+      "Software_Engineering_and_Infrastructure": [
+        "LLD in Java",
+        "System Design",
+        "OOPs",
+        "Agile",
+        "Scrum",
+        "DevOps",
+        "Networking",
+        "Cloud"
       ],
       "Data_Visualization_and_Analytics": [
         "Tableau",
@@ -140,6 +162,7 @@
     "projects": [
       {
         "name": "AIVOX (AI Interview Coach)",
+        "mermaid": "graph TD\n    Client[User Browser / React Frontend] <-->|Video & Audio Streams| API[FastAPI Backend]\n    API -->|Process Frames| MediaPipe[MediaPipe Worker]\n    MediaPipe -.->|Visual Cues & Posture| API\n    API -->|Audio Chunks| Groq[Groq / Whisper API]\n    Groq -.->|Fast Transcription| API\n    API -->|Text & Context| Gemini[Google Gemini API]\n    Gemini -.->|Interview Evaluation| API\n    API -->|Save Reports & Metrics| DB[(Firestore Database)]\n    DB -.->|Fetch Dashboard Data| Client\n    classDef backend fill:#2c3e50,stroke:#34495e,stroke-width:2px,color:#fff;\n    classDef frontend fill:#2980b9,stroke:#2980b9,stroke-width:2px,color:#fff;\n    classDef ai fill:#8e44ad,stroke:#8e44ad,stroke-width:2px,color:#fff;\n    classDef db fill:#e67e22,stroke:#d35400,stroke-width:2px,color:#fff;\n    class API backend; class Client frontend; class MediaPipe,Groq,Gemini ai; class DB db;\n",
         "github": "https://github.com/zer-art/Academics/tree/main/Major-project",
         "url": "https://academics-liart.vercel.app",
         "roles": [
@@ -160,11 +183,11 @@
           "OpenCV",
           "PyTorch",
           "Groq"
-        ],
-        "diagram_image": "./diagrams/arch_aivox.png"
+        ]
       },
       {
         "name": "News Research & Synthesis Agent",
+        "mermaid": "graph TD\n    UI[Streamlit User Interface] -->|User Research Query| Agent[LangChain Agent]\n    Agent -->|Search Web| Scraper[Web/News Fetcher]\n    Scraper -.->|Raw Documents| Agent\n    Agent -->|Chunking| Embeddings[HuggingFace Embeddings]\n    Embeddings -->|Store Vectors| VectorDB[(ChromaDB)]\n    Agent <-->|Retrieve Context| VectorDB\n    Agent -->|Prompt + Context| LLM[Gemini / OpenAI API]\n    LLM -.->|Synthesized Insights| Agent\n    Agent -->|Final Report| UI\n    classDef agent fill:#16a085,stroke:#16a085,color:#fff;\n    classDef llm fill:#8e44ad,stroke:#8e44ad,color:#fff;\n    classDef db fill:#f39c12,stroke:#f39c12,color:#fff;\n    class Agent agent; class Embeddings,LLM llm; class VectorDB db;\n",
         "github": "https://github.com/zer-art/LLM-Projects/tree/main/News-Research-Analysis",
         "roles": [
           "ai_engineer"
@@ -194,63 +217,7 @@
               "Optimized asynchronous backend workflows to accelerate data processing, reducing comprehensive report generation latency from multiple hours to under 2.1 seconds."
             ]
           }
-        },
-        "diagram_image": "./diagrams/arch_news_agent.png"
-      },
-      {
-        "name": "Pneumonia Detection",
-        "roles": [
-          "ai_engineer"
-        ],
-        "github": "https://github.com/zer-art/Computer-Vision-Projects/tree/pneumonia-detection-import/pneumonia-detection",
-        "description": "CNN-based medical diagnostic system for pneumonia detection from chest X-rays.\n",
-        "achievements": [
-          "Trained and optimized a **CNN** on chest X-rays, achieving 91.3% validation accuracy and minimizing false negatives.",
-          "Deployed the final model via **FastAPI** for low-latency, real-time inference."
-        ],
-        "tags": [
-          "TensorFlow",
-          "CNN",
-          "FastAPI",
-          "Computer Vision",
-          "OpenCV",
-          "NumPy",
-          "Matplotlib",
-          "Data Augmentation",
-          "Git/GitHub"
-        ],
-        "diagram_image": "./diagrams/arch_pneumonia.png"
-      },
-      {
-        "name": "Automated SQL Query & Reporting System",
-        "roles": [
-          "data_analytics"
-        ],
-        "github": "https://github.com/zer-art/LLM-Projects/tree/main/Mysql-database-chatbot",
-        "description": "Generative AI Natural Language to SQL engine and data reporting interface for instant data access.\n",
-        "achievements": [
-          "Engineered Text-to-SQL engine with **Gemini LLM**, achieving 91.2% accuracy across complex schemas.",
-          "Used **Streamlit** & **Pandas** to visualize reporting, reducing generation from 10 minutes to <1 second across 500+ queries."
-        ],
-        "tags": [
-          "streamlit",
-          "langchain-huggingface",
-          "PyMySQL",
-          "SQLAlchemy",
-          "sentence-transformers",
-          "chromadb"
-        ],
-        "versions": {
-          "gs_operations": {
-            "name": "Automated SQL Query & Reporting System",
-            "description": "Automated natural language-to-SQL reporting engine.",
-            "achievements": [
-              "Engineered an automated natural language-to-SQL reporting engine, eliminating manual query drafting and ensuring high-accuracy data retrieval across complex relational schemas.",
-              "Streamlined report generation workflows, successfully reducing data visualization and extraction latency from 10 minutes to under 1 second across 500+ daily queries."
-            ]
-          }
-        },
-        "diagram_image": "./diagrams/arch_sql_agent.png"
+        }
       },
       {
         "name": "Resume Classification & Analytics System",
@@ -278,6 +245,61 @@
             ]
           }
         }
+      },
+      {
+        "name": "Automated SQL Query & Reporting System",
+        "mermaid": "graph TD\n    UI[Streamlit Dashboard] -->|Natural Language Query| Agent[LangChain SQL Agent]\n    Agent <-->|Search Schema| VectorDB[(ChromaDB)]\n    Agent -->|Context + Query| LLM[Gemini LLM]\n    LLM -.->|Generated SQL| Agent\n    Agent -->|Execute| SQLDB[(MySQL Database)]\n    SQLDB -.->|Raw Data Results| Agent\n    Agent -->|Format| Pandas[Pandas Processing]\n    Pandas -->|Visualizations| UI\n    classDef core fill:#2980b9,color:#fff;\n    classDef db fill:#c0392b,color:#fff;\n    class UI,Pandas core; class VectorDB,SQLDB db;\n",
+        "roles": [
+          "data_analytics"
+        ],
+        "github": "https://github.com/zer-art/LLM-Projects/tree/main/Mysql-database-chatbot",
+        "description": "Generative AI Natural Language to SQL engine and data reporting interface for instant data access.\n",
+        "achievements": [
+          "Engineered Text-to-SQL engine with **Gemini LLM**, achieving 91.2% accuracy across complex schemas.",
+          "Used **Streamlit** & **Pandas** to visualize reporting, reducing generation from 10 minutes to <1 second across 500+ queries."
+        ],
+        "tags": [
+          "streamlit",
+          "langchain-huggingface",
+          "PyMySQL",
+          "SQLAlchemy",
+          "sentence-transformers",
+          "chromadb"
+        ],
+        "versions": {
+          "gs_operations": {
+            "name": "Automated SQL Query & Reporting System",
+            "description": "Automated natural language-to-SQL reporting engine.",
+            "achievements": [
+              "Engineered an automated natural language-to-SQL reporting engine, eliminating manual query drafting and ensuring high-accuracy data retrieval across complex relational schemas.",
+              "Streamlined report generation workflows, successfully reducing data visualization and extraction latency from 10 minutes to under 1 second across 500+ daily queries."
+            ]
+          }
+        }
+      },
+      {
+        "name": "Pneumonia Detection",
+        "mermaid": "graph LR\n    Client[Web/Mobile Client] -->|Upload X-Ray| API[FastAPI Server]\n    API -->|Raw Image| CV[OpenCV / NumPy]\n    CV -->|Resize & Normalize| Model((TensorFlow CNN))\n    Model -.->|91.3% Accuracy| API\n    API -->|Diagnostic Result| Client\n    classDef api fill:#2c3e50,color:#fff; classDef model fill:#27ae60,color:#fff;\n    class API api; class Model model;\n",
+        "roles": [
+          "ai_engineer"
+        ],
+        "github": "https://github.com/zer-art/Computer-Vision-Projects/tree/pneumonia-detection-import/pneumonia-detection",
+        "description": "CNN-based medical diagnostic system for pneumonia detection from chest X-rays.\n",
+        "achievements": [
+          "Trained and optimized a **CNN** on chest X-rays, achieving 91.3% validation accuracy and minimizing false negatives.",
+          "Deployed the final model via **FastAPI** for low-latency, real-time inference."
+        ],
+        "tags": [
+          "TensorFlow",
+          "CNN",
+          "FastAPI",
+          "Computer Vision",
+          "OpenCV",
+          "NumPy",
+          "Matplotlib",
+          "Data Augmentation",
+          "Git/GitHub"
+        ]
       },
       {
         "name": "Healthcare Chatbot",
@@ -641,7 +663,7 @@
     "PythonDev": {
       "summary_type": "custom",
       "summary_key": null,
-      "custom_summary_text": "Recent B.Sc. Data Analytics graduate (completed 2026) and Contributor to\n      Google DeepMind, Kornia, and Open Climate Fix. Expert in building low-latency\n      AI applications (<100ms) with a focus on Computer Vision, Differentiable Programming,\n      and Deep Learning. Recognized as a Regional Finalist in the Delhi Startup Yuva\n      Festival for RailFlow AI and winner of the DSEU Rajokri Campus Hackathon. Proven\n      track record of optimizing data pipelines and reducing report generation times\n      by 95% while deploying scalable, high-impact ML solutions.",
+      "custom_summary_text": "B.Sc. Data Analytics graduate (2026), currently pursuing MCA in Software Engineering at USICT (2026-2028), and Contributor to Google DeepMind, Kornia, and Open Climate Fix. Expert in building low-latency AI applications (<100ms) with a focus on Computer Vision, Differentiable Programming, and Deep Learning. Recognized as a Regional Finalist in the Delhi Startup Yuva Festival for RailFlow AI and winner of the DSEU Rajokri Campus Hackathon. Proven track record of optimizing data pipelines and reducing report generation times by 95% while deploying scalable, high-impact ML solutions.",
       "projects": {
         "AIVOX (AI Interview Coach)": "default",
         "Automated SQL Query & Reporting System": "default",
@@ -653,7 +675,7 @@
         "Clarify difference between kl_divergence and convex_kl_divergence"
       ],
       "skills": [
-        "Css",
+        "CSS",
         "deepface",
         "Differentiable Programming",
         "Django",
@@ -662,8 +684,8 @@
         "FastAPI",
         "Flask",
         "Git",
-        "Html",
-        "Javascript",
+        "HTML",
+        "JavaScript",
         "Keras",
         "Kornia",
         "LangChain",
@@ -686,8 +708,13 @@
         "spaCy",
         "Streamlit",
         "TensorFlow",
+        "Typescript",
         "n8n",
-        "tailwindcss"
+        "tailwindcss",
+        "OOPs",
+        "System Design",
+        "Agile",
+        "DevOps"
       ],
       "certifications": [
         "Data Science",
@@ -713,10 +740,10 @@
       "skills": [
         "Python",
         "SQL",
-        "JS",
+        "JavaScript",
         "Java",
         "HTML",
-        "Tailwind",
+        "tailwindcss",
         "NumPy",
         "Pandas",
         "Scikit-learn",
@@ -736,7 +763,9 @@
         "TensorFlow",
         "Docker",
         "Git",
-        "n8n"
+        "n8n",
+        "OOPs",
+        "Agile"
       ],
       "certifications": [
         "Data Science",
@@ -748,7 +777,7 @@
     "ai_engineer": {
       "summary_type": "custom",
       "summary_key": null,
-      "custom_summary_text": "Recent B.Sc. Data Analytics graduate (completed 2026) and Contributor to\n      Google DeepMind, Kornia, and Open Climate Fix. Expert in building low-latency\n      AI applications (<100ms) and LLM Agents with a focus on Computer Vision, Differentiable\n      Programming, and Deep Learning. Recognized as a Regional Finalist in the Delhi\n      Startup Yuva Festival for RailFlow AI and winner of the DSEU Rajokri Campus Hackathon.\n      Proven track record of engineering scalable RAG architectures and reducing latency\n      by 95% while deploying production-ready ML solutions.",
+      "custom_summary_text": "B.Sc. Data Analytics graduate (2026), currently pursuing MCA in Software Engineering at USICT (2026-2028), and Contributor to Google DeepMind, Kornia, and Open Climate Fix. Expert in building low-latency AI applications (<100ms) and LLM Agents with a focus on Computer Vision, Differentiable Programming, and Deep Learning. Recognized as a Regional Finalist in the Delhi Startup Yuva Festival for RailFlow AI and winner of the DSEU Rajokri Campus Hackathon. Proven track record of engineering scalable RAG architectures and reducing latency by 95% while deploying production-ready ML solutions.",
       "projects": {
         "AIVOX (AI Interview Coach)": "default",
         "News Research & Synthesis Agent": "default",
@@ -763,7 +792,7 @@
       "skills": [
         "Python",
         "SQL",
-        "Javascript",
+        "JavaScript",
         "Java",
         "Typescript",
         "FastAPI",
@@ -786,7 +815,13 @@
         "Git",
         "Docker",
         "Azure",
-        "Azure AI Foundry"
+        "Azure AI Foundry",
+        "LLD in Java",
+        "System Design",
+        "OOPs",
+        "Agile",
+        "DevOps",
+        "Cloud"
       ],
       "certifications": [
         "Data Science",
@@ -799,7 +834,7 @@
     "gs_operations": {
       "summary_type": "custom",
       "summary_key": null,
-      "custom_summary_text": "Recent Data Analytics and AI Engineering graduate (B.Sc. completed 2026) with a strong foundation in optimizing complex workflows, engineering robust data pipelines, and ensuring system efficiency. Proven ability to reduce process latency (e.g., accelerating report generation by 95% and reducing reporting latency to under 2.1 seconds) and automate manual analysis with high accuracy. Seeking Operations Analyst roles to leverage analytical skills, technical proficiency, and a risk-mitigation mindset to ensure seamless transaction processing, accurate reporting, and continuous process reengineering.",
+      "custom_summary_text": "B.Sc. Data Analytics graduate (2026), currently pursuing MCA in Software Engineering at USICT (2026-2028), with a strong foundation in optimizing complex workflows, engineering robust data pipelines, and ensuring system efficiency. Proven ability to reduce process latency (e.g., accelerating report generation by 95% and reducing reporting latency to under 2.1 seconds) and automate manual analysis with high accuracy. Seeking Operations Analyst roles to leverage analytical skills, technical proficiency, and a risk-mitigation mindset to ensure seamless transaction processing, accurate reporting, and continuous process reengineering.",
       "projects": {
         "Automated SQL Query & Reporting System": "gs_operations",
         "News Research & Synthesis Agent": "gs_operations",
@@ -819,7 +854,9 @@
         "Tableau",
         "Git",
         "Streamlit",
-        "Matplotlib"
+        "Matplotlib",
+        "Agile",
+        "Scrum"
       ],
       "certifications": [
         "Data Science",
